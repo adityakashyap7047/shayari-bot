@@ -1,0 +1,167 @@
+{
+  "shayaris": [
+    {
+      "id": 1,
+      "lines": [
+        "Jo kabhi bin bole sab samajh jaate the,",
+        "Aaj unhe apni baat samjhana bhi ek bojh lagta hai."
+      ],
+      "theme": "rishte (relationships)"
+    },
+    {
+      "id": 2,
+      "lines": [
+        "Log badalte hain toh dard utna nahi hota,",
+        "Jitna unke badalne ka tareeka tod deta hai."
+      ],
+      "theme": "dhokha (betrayal)"
+    },
+    {
+      "id": 3,
+      "lines": [
+        "Pehle roz ki aadat the jo humari,",
+        "Aaj wo ek mulaqaat ke liye bhi waqt maangte hain."
+      ],
+      "theme": "badlav (change)"
+    },
+    {
+      "id": 4,
+      "lines": [
+        "Kisi ko toot kar chahne se behtar tha,",
+        "Hum thode se chalak hote toh shayad bachtay rehte."
+      ],
+      "theme": "pyaar (love)"
+    },
+    {
+      "id": 5,
+      "lines": [
+        "Jinhe apna maana tha wahi gair nikle,",
+        "Ab kisi aur se wafa ki ummeed kya hi karein."
+      ],
+      "theme": "bharosa (trust)"
+    },
+    {
+      "id": 6,
+      "lines": [
+        "Narazgi toh apno se hoti hai,",
+        "Par jab apne hi anjaan ban jaayein toh khamoshi hi sahi."
+      ],
+      "theme": "narazgi (resentment)"
+    },
+    {
+      "id": 7,
+      "lines": [
+        "Rishte badal jaate hain bina kisi aahat ke,",
+        "Aur hum wahin khade purani yaadein gin-te reh jaate hain."
+      ],
+      "theme": "yaadein (memories)"
+    },
+    {
+      "id": 8,
+      "lines": [
+        "Sabse bada dhokha tab milta hai,",
+        "Jab fark padna use band hota hai jiske bina aapka guzara nahi tha."
+      ],
+      "theme": "dhokha (betrayal)"
+    },
+    {
+      "id": 9,
+      "lines": [
+        "Wafadari ki baatein sab karte hain,",
+        "Par nibhane ki baari aaye toh sabse pehle pichhe hat-te hain."
+      ],
+      "theme": "wafa (loyalty)"
+    },
+    {
+      "id": 10,
+      "lines": [
+        "Kal tak jo har baat bataya karte the,",
+        "Aaj unke baare me dusron se pata chalta hai."
+      ],
+      "theme": "rishte (relationships)"
+    },
+    {
+      "id": 11,
+      "lines": [
+        "Kuch log paas hokar bhi itne door ho jaate hain,",
+        "Ki unki aawaaz bhi ab parayi lagti hai."
+      ],
+      "theme": "doori (distance)"
+    },
+    {
+      "id": 12,
+      "lines": [
+        "Badal gaye hain wo jinke badalne ka kabhi khayal bhi nahi tha,",
+        "Zindagi ne har ek galatfhemi door kar di."
+      ],
+      "theme": "badlav (change)"
+    },
+    {
+      "id": 13,
+      "lines": [
+        "Ab toh unka badla hua roop dekh kar darr lagta hai,",
+        "Kya yeh wahi hain jin par kabhi behadd bharosa tha?"
+      ],
+      "theme": "bharosa (trust)"
+    },
+    {
+      "id": 14,
+      "lines": [
+        "Apno se mile zakhm bohot gehre hote hain,",
+        "Bhar toh jaate hain par nishaan kabhi nahi jaate."
+      ],
+      "theme": "dard (pain)"
+    },
+    {
+      "id": 15,
+      "lines": [
+        "Rishta tootne par itna dard nahi hota,",
+        "Jitna rishte me reh kar akelepan ka ahsaas hota hai."
+      ],
+      "theme": "tanhaai (loneliness)"
+    },
+    {
+      "id": 16,
+      "lines": [
+        "Humne toh sirf wafa ki thi unse,",
+        "Par unhone humari saadgi ko bewakoofi samajh liya."
+      ],
+      "theme": "wafa (loyalty)"
+    },
+    {
+      "id": 17,
+      "lines": [
+        "Pehle wo hume khone se darte the,",
+        "Ab humare hone na hone se unhe koi fark nahi padta."
+      ],
+      "theme": "udaasi (sadness)"
+    },
+    {
+      "id": 18,
+      "lines": [
+        "Zaroorat thi jab sabse zyada unki,",
+        "Tab hi unhone apna asli chehra dikhaya."
+      ],
+      "theme": "dhokha (betrayal)"
+    },
+    {
+      "id": 19,
+      "lines": [
+        "Baatein wahi hain par wo baat nahi rahi,",
+        "Apne toh hain par wo purani mehak nahi rahi."
+      ],
+      "theme": "yaadein (memories)"
+    },
+    {
+      "id": 20,
+      "lines": [
+        "Wajah toh bohot thi unke paas rukh badalne ki,",
+        "Par hum toh bas unke ek ishare par tikaav dhoondte rahe."
+      ],
+      "theme": "intezaar (waiting)"
+    }
+  ],
+  "used_ids": [
+    8
+  ]
+}

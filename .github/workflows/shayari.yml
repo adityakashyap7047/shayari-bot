@@ -1,0 +1,48 @@
+name: Shayari Reel Automation
+on:
+  schedule:
+    # Har 3 ghante run hoga automatically
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+    # Manual bhi trigger kar sakte ho GitHub se
+
+jobs:
+  generate-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y imagemagick ffmpeg
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Setup credentials
+        run: |
+          echo "${{ secrets.CLIENT_SECRETS }}" > client_secrets.json
+          echo "${{ secrets.YOUTUBE_TOKEN }}" > token.json
+          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
+
+      - name: Copy background music
+        run: |
+          mkdir -p bg_music
+          # bg_music files should be committed to the repo
+          # or you can download from a URL here
+
+      - name: Generate and Upload Reel
+        run: python main.py --once
+
+      - name: Save logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: automation-logs-${{ github.run_number }}
+          path: |
+            automation.log
+            output/
+          retention-days: 7

@@ -1,0 +1,24 @@
+# Ignore API keys and tokens
+.env
+token.json
+client_secrets.json
+
+# Output videos
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Shayari history
+shayari_history.json
+
+# IDE
+.vscode/
+.idea/
