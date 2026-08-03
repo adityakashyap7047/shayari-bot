@@ -35,9 +35,15 @@ BG_COLOR = (0, 0, 0)         # pure black
 
 # Font — Hinglish uses Roman script so any standard font works.
 # You can place a custom .ttf in fonts/ and update the path below.
-# Default: uses system Arial font (available on all Windows PCs)
-SHAYARI_FONT = os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", "arialbd.ttf")
-WATERMARK_FONT = os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", "arial.ttf")
+# Auto-detect OS: Windows uses Arial, Linux (GitHub Actions) uses DejaVu Sans
+import platform
+if platform.system() == "Windows":
+    SHAYARI_FONT = os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", "arialbd.ttf")
+    WATERMARK_FONT = os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", "arial.ttf")
+else:
+    # Linux (Ubuntu / GitHub Actions) — DejaVu Sans is pre-installed
+    SHAYARI_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+    WATERMARK_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
 # ============================================================
 #  SHAYARI GENERATION
