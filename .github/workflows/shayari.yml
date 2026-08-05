@@ -23,9 +23,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Setup credentials
+        env:
+          CLIENT_SECRETS: ${{ secrets.CLIENT_SECRETS }}
+          YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
         run: |
-          echo "${{ secrets.CLIENT_SECRETS }}" > client_secrets.json
-          echo "${{ secrets.YOUTUBE_TOKEN }}" > token.json
+          printenv CLIENT_SECRETS > client_secrets.json
+          printenv YOUTUBE_TOKEN > token.json
           echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
 
       - name: Copy background music
