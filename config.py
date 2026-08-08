@@ -5,11 +5,12 @@ import os
 # ============================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 BG_MUSIC_DIR = os.path.join(BASE_DIR, "bg_music")
+BG_IMAGES_DIR = os.path.join(BASE_DIR, "backgrounds")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 FONTS_DIR = os.path.join(BASE_DIR, "fonts")
 
 # Create directories if they don't exist
-for d in [BG_MUSIC_DIR, OUTPUT_DIR, FONTS_DIR]:
+for d in [BG_MUSIC_DIR, BG_IMAGES_DIR, OUTPUT_DIR, FONTS_DIR]:
     os.makedirs(d, exist_ok=True)
 
 # ============================================================
@@ -31,19 +32,13 @@ WATERMARK_TEXT = "@shyariofficial-k2q"
 SHAYARI_FONT_SIZE = 62       # main shayari text
 WATERMARK_FONT_SIZE = 32
 TEXT_COLOR = "white"
-BG_COLOR = (0, 0, 0)         # pure black
+BG_COLOR = (0, 0, 0)         # pure black (fallback if no background image)
+BG_OVERLAY_OPACITY = 0.3     # dark overlay on background image for text readability
 
-# Font — Hinglish uses Roman script so any standard font works.
-# You can place a custom .ttf in fonts/ and update the path below.
-# Auto-detect OS: Windows uses Arial, Linux (GitHub Actions) uses DejaVu Sans
-import platform
-if platform.system() == "Windows":
-    SHAYARI_FONT = os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", "arialbd.ttf")
-    WATERMARK_FONT = os.path.join(os.environ.get("WINDIR", r"C:\Windows"), "Fonts", "arial.ttf")
-else:
-    # Linux (Ubuntu / GitHub Actions) — DejaVu Sans is pre-installed
-    SHAYARI_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-    WATERMARK_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+# Font — Noto Sans Devanagari supports Hindi/Devanagari text.
+# Bundled in fonts/ so it works on both Windows and Linux (GitHub Actions).
+SHAYARI_FONT = os.path.join(FONTS_DIR, "NotoSansDevanagari.ttf")
+WATERMARK_FONT = os.path.join(FONTS_DIR, "NotoSansDevanagari.ttf")
 
 # ============================================================
 #  SHAYARI GENERATION

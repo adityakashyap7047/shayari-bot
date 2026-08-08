@@ -3,7 +3,7 @@ Video Creator — generates a shayari reel video with MoviePy.
 
 Format:
   * 1080x1920 (9:16 vertical - YouTube Shorts)
-  * Black background
+  * Background image from backgrounds/ folder (or black fallback)
   * Shayari lines pop up one by one with fade-in
   * Watermark @shyariofficial-k2q at the bottom
   * Background music from bg_music/ folder
@@ -18,6 +18,7 @@ from datetime import datetime
 
 from moviepy import (
     ColorClip,
+    ImageClip,
     TextClip,
     CompositeVideoClip,
     AudioFileClip,
@@ -42,6 +43,22 @@ def _pick_bg_music() -> str | None:
 
     chosen = random.choice(files)
     print(f"  🎵 Using music: {os.path.basename(chosen)}")
+    return chosen
+
+
+def _pick_bg_image() -> str | None:
+    """Randomly pick a background image from the backgrounds/ folder."""
+    patterns = ["*.jpg", "*.jpeg", "*.png", "*.webp"]
+    files = []
+    for pattern in patterns:
+        files.extend(glob.glob(os.path.join(config.BG_IMAGES_DIR, pattern)))
+
+    if not files:
+        print("  ⚠ No background images found — using black background.")
+        return None
+
+    chosen = random.choice(files)
+    print(f"  🖼 Using background: {os.path.basename(chosen)}")
     return chosen
 
 
@@ -81,11 +98,30 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
 
     print(f"  🎬 Creating video: {total_duration}s, {config.VIDEO_WIDTH}x{config.VIDEO_HEIGHT}")
 
-    # ── 1. Black background ──────────────────────────────────
-    bg_clip = ColorClip(
-        size=(config.VIDEO_WIDTH, config.VIDEO_HEIGHT),
-        color=config.BG_COLOR,
-    ).with_duration(total_duration)
+    # ── 1. Background (image or solid black fallback) ─────────
+    bg_image_path = _pick_bg_image()
+    if bg_image_path:
+        bg_clip = (
+            ImageClip(bg_image_path)
+            .resized((config.VIDEO_WIDTH, config.VIDEO_HEIGHT))
+            .with_duration(total_duration)
+        )
+        # Semi-transparent dark overlay so white text stays readable
+        overlay = (
+            ColorClip(
+                size=(config.VIDEO_WIDTH, config.VIDEO_HEIGHT),
+                color=(0, 0, 0),
+            )
+            .with_duration(total_duration)
+            .with_opacity(config.BG_OVERLAY_OPACITY)
+        )
+        bg_layers = [bg_clip, overlay]
+    else:
+        bg_clip = ColorClip(
+            size=(config.VIDEO_WIDTH, config.VIDEO_HEIGHT),
+            color=config.BG_COLOR,
+        ).with_duration(total_duration)
+        bg_layers = [bg_clip]
 
     # ── 2. Shayari text lines (pop up one by one) ────────────
     font = _get_font(config.SHAYARI_FONT)
@@ -136,7 +172,7 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
 
     # ── 4. Compose video ─────────────────────────────────────
     video = CompositeVideoClip(
-        [bg_clip] + text_clips + [watermark],
+        bg_layers + text_clips + [watermark],
         size=(config.VIDEO_WIDTH, config.VIDEO_HEIGHT),
     )
 
