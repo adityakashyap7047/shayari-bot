@@ -4,9 +4,9 @@ Video Creator — generates a shayari reel video with MoviePy.
 Format:
   * 1080x1920 (9:16 vertical - YouTube Shorts)
   * Background image from backgrounds/ folder (or black fallback)
-  * Shayari lines pop up one by one with fade-in
+  * Shayari text displayed statically (all lines visible from start)
   * Watermark @shyariofficial-k2q at the bottom
-  * Background music from bg_music/ folder
+  * ElevenLabs voiceover (primary audio) + background music (low volume)
 """
 
 from __future__ import annotations
@@ -21,11 +21,11 @@ from moviepy import (
     ImageClip,
     TextClip,
     CompositeVideoClip,
+    CompositeAudioClip,
     AudioFileClip,
     concatenate_audioclips,
 )
 from moviepy.audio.fx import AudioFadeIn, AudioFadeOut
-from moviepy.video.fx import FadeIn, FadeOut
 
 import config
 
@@ -70,7 +70,11 @@ def _get_font(font_path: str, fallback: str = "Arial") -> str:
     return fallback
 
 
-def create_reel(shayari_lines: list[str], output_filename: str | None = None) -> str:
+def create_reel(
+    shayari_lines: list[str],
+    voiceover_path: str | None = None,
+    output_filename: str | None = None,
+) -> str:
     """
     Create a shayari reel video.
 
@@ -78,6 +82,9 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
     ----------
     shayari_lines : list[str]
         The lines of shayari to display (typically 4 lines).
+    voiceover_path : str, optional
+        Path to the TTS voiceover audio file. If provided, video duration
+        matches the voiceover and bg music volume is reduced.
     output_filename : str, optional
         Custom filename. If None, auto-generates with timestamp.
 
@@ -92,11 +99,22 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
     output_path = os.path.join(config.OUTPUT_DIR, output_filename)
     os.makedirs(config.OUTPUT_DIR, exist_ok=True)
 
-    num_lines = len(shayari_lines)
-    total_duration = config.LINE_DISPLAY_TIME * num_lines + 4  # +4s for intro/outro padding
+    # Determine video duration — voiceover drives it when available
+    voiceover_clip = None
+    if voiceover_path and os.path.exists(voiceover_path):
+        voiceover_clip = AudioFileClip(voiceover_path)
+        # Add 3s padding (1.5s before + 1.5s after voiceover)
+        total_duration = voiceover_clip.duration + 3.0
+        print(f"  🎙 Voiceover duration: {voiceover_clip.duration:.1f}s")
+    else:
+        num_lines = len(shayari_lines)
+        total_duration = config.LINE_DISPLAY_TIME * num_lines + 4
+
     total_duration = min(total_duration, 58)  # keep under 60s for Shorts
 
-    print(f"  🎬 Creating video: {total_duration}s, {config.VIDEO_WIDTH}x{config.VIDEO_HEIGHT}")
+    print(f"  🎬 Creating video: {total_duration:.1f}s, {config.VIDEO_WIDTH}x{config.VIDEO_HEIGHT}")
+
+    num_lines = len(shayari_lines)
 
     # ── 1. Background (image or solid black fallback) ─────────
     bg_image_path = _pick_bg_image()
@@ -123,13 +141,11 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
         ).with_duration(total_duration)
         bg_layers = [bg_clip]
 
-    # ── 2. Shayari text lines (pop up one by one) ────────────
+    # ── 2. Shayari text lines (static — all visible from start) ─
     font = _get_font(config.SHAYARI_FONT)
     text_clips = []
 
     for i, line in enumerate(shayari_lines):
-        start_time = 1.5 + (i * config.LINE_DISPLAY_TIME)  # 1.5s initial pause
-
         txt = TextClip(
             text=line,
             font=font,
@@ -140,18 +156,13 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
             method="caption",
         )
 
-        # Position: stack lines vertically centered
-        # Calculate Y position — center the block of text
+        # Position: stack lines vertically, shifted UP from center
         block_height = num_lines * 120  # approximate height per line
-        y_start = (config.VIDEO_HEIGHT - block_height) // 2
+        y_start = (config.VIDEO_HEIGHT - block_height) // 2 - 250  # shifted 250px UP
         y_pos = y_start + (i * 120)
 
         txt = txt.with_position(("center", y_pos))
-        txt = txt.with_start(start_time)
-        txt = txt.with_duration(total_duration - start_time)
-
-        # Fade-in effect for each line
-        txt = txt.with_effects([FadeIn(config.FADE_DURATION)])
+        txt = txt.with_duration(total_duration)
 
         text_clips.append(txt)
 
@@ -168,7 +179,6 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
     )
     watermark = watermark.with_position(("center", config.VIDEO_HEIGHT - 120))
     watermark = watermark.with_duration(total_duration)
-    watermark = watermark.with_effects([FadeIn(2.0)])
 
     # ── 4. Compose video ─────────────────────────────────────
     video = CompositeVideoClip(
@@ -176,25 +186,49 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
         size=(config.VIDEO_WIDTH, config.VIDEO_HEIGHT),
     )
 
-    # ── 5. Background music ──────────────────────────────────
+    # ── 5. Audio: voiceover + background music ────────────────
+    audio_layers = []
+    music_clip = None
+
+    # Voiceover (primary audio)
+    if voiceover_clip:
+        # Start voiceover 1.5s into the video for a natural feel
+        vo = voiceover_clip.with_start(1.5)
+        if config.VOICEOVER_VOLUME != 1.0:
+            vo = vo.with_volume_scaled(config.VOICEOVER_VOLUME)
+        audio_layers.append(vo)
+
+    # Background music
     music_path = _pick_bg_music()
     if music_path:
-        audio = AudioFileClip(music_path)
+        music_clip = AudioFileClip(music_path)
 
-        # Loop audio if shorter than video
-        if audio.duration < total_duration:
-            loops_needed = int(total_duration / audio.duration) + 1
-            audio = concatenate_audioclips([audio] * loops_needed)
+        # Loop music if shorter than video
+        if music_clip.duration < total_duration:
+            loops_needed = int(total_duration / music_clip.duration) + 1
+            music_clip = concatenate_audioclips([music_clip] * loops_needed)
 
-        audio = audio.subclipped(0, total_duration)
+        music_clip = music_clip.subclipped(0, total_duration)
 
         # Apply fade in/out
-        audio = audio.with_effects([
+        music_clip = music_clip.with_effects([
             AudioFadeIn(config.MUSIC_FADE_IN),
             AudioFadeOut(config.MUSIC_FADE_OUT),
         ])
 
-        video = video.with_audio(audio)
+        # Lower bg music volume when voiceover is present
+        if voiceover_clip:
+            music_clip = music_clip.with_volume_scaled(config.BG_MUSIC_VOLUME_WITH_VO)
+
+        audio_layers.append(music_clip)
+
+    # Mix all audio layers
+    if audio_layers:
+        if len(audio_layers) == 1:
+            final_audio = audio_layers[0]
+        else:
+            final_audio = CompositeAudioClip(audio_layers)
+        video = video.with_audio(final_audio)
 
     # ── 6. Render ────────────────────────────────────────────
     print(f"  ⏳ Rendering video to: {output_path}")
@@ -210,8 +244,10 @@ def create_reel(shayari_lines: list[str], output_filename: str | None = None) ->
 
     # Clean up
     video.close()
-    if music_path:
-        audio.close()
+    if voiceover_clip:
+        voiceover_clip.close()
+    if music_clip:
+        music_clip.close()
 
     print(f"  ✅ Video saved: {output_path}")
     return output_path

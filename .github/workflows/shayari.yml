@@ -30,6 +30,7 @@ jobs:
           printenv CLIENT_SECRETS > client_secrets.json
           printenv YOUTUBE_TOKEN > token.json
           echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
+          echo "ELEVENLABS_API_KEY=${{ secrets.ELEVENLABS_API_KEY }}" >> .env
 
       - name: Copy background music
         run: |

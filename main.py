@@ -74,16 +74,20 @@ Examples:
     if args.generate_only:
         print("\n[MODE] Generate-Only (no upload)\n")
         from shayari_generator import generate_shayari
+        from tts_generator import generate_voiceover
         from video_creator import create_reel
 
         shayari = generate_shayari(theme=args.theme)
-        video_path = create_reel(shayari["lines"])
+        voiceover_path = generate_voiceover(shayari["lines"])
+        video_path = create_reel(shayari["lines"], voiceover_path=voiceover_path)
 
         print(f"\n{'='*50}")
         print(f"[OK] Video generated successfully!")
         print(f"  File : {video_path}")
         print(f"  Title: {shayari['title']}")
         print(f"  Theme: {shayari['theme']}")
+        if voiceover_path:
+            print(f"  Voice: {voiceover_path}")
         print(f"{'='*50}\n")
         return
 

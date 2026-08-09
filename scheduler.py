@@ -10,6 +10,7 @@ from apscheduler.triggers.interval import IntervalTrigger
 
 import config
 from shayari_generator import generate_shayari
+from tts_generator import generate_voiceover
 from video_creator import create_reel
 from youtube_uploader import upload_video
 
@@ -51,9 +52,17 @@ def run_pipeline(upload: bool = True) -> dict:
         for line in shayari["lines"]:
             logger.info(f"   → {line}")
 
+        # ── Step 1.5: Generate Voiceover ───────────────────
+        logger.info("🎙 Step 1.5/3: Generating voiceover...")
+        voiceover_path = generate_voiceover(shayari["lines"])
+        if voiceover_path:
+            logger.info(f"   Voiceover: {voiceover_path}")
+        else:
+            logger.info("   Voiceover: skipped (TTS disabled or failed)")
+
         # ── Step 2: Create Video ─────────────────────────────
         logger.info("🎬 Step 2/3: Creating reel video…")
-        video_path = create_reel(shayari["lines"])
+        video_path = create_reel(shayari["lines"], voiceover_path=voiceover_path)
         logger.info(f"   Video: {video_path}")
 
         # ── Step 3: Upload to YouTube ────────────────────────

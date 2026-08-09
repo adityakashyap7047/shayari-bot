@@ -74,6 +74,15 @@ YOUTUBE_DEFAULT_TAGS = [
 ]
 
 # ============================================================
+#  ELEVENLABS TTS (Voiceover)
+# ============================================================
+TTS_ENABLED = False                         # Voiceover disabled — reels use bg music only
+ELEVENLABS_VOICE_ID = "3AMU7jXQuQa3oRvRqUmb"  # Voice from ElevenLabs library
+ELEVENLABS_MODEL_ID = "eleven_multilingual_v2"  # Hindi/multilingual support
+VOICEOVER_VOLUME = 1.0                      # Voiceover audio volume (1.0 = full)
+BG_MUSIC_VOLUME_WITH_VO = 0.15              # Background music volume when voiceover is present
+
+# ============================================================
 #  SCHEDULER
 # ============================================================
 SCHEDULE_INTERVAL_HOURS = 3   # upload every N hours
