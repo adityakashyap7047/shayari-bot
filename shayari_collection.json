@@ -3,1682 +3,1082 @@
     {
       "id": 1,
       "lines": [
-        "Kabhi Socha Na Tha..!",
-        "Itna Tanha Ho Jaunga..!",
-        "Jin Par Marta Tha..!",
-        "Unse Door Ho Jaunga..!",
-        "Khud Se Ladkar..!",
-        "Khud Ko Kho Dunga..!",
-        "Ishq Ki Raahon Mein..!",
-        "Bas Main Hi Ro Dunga..!"
+        "Tere Jaane Ke Baad Bhi..!",
+        "Darwaza Khula Rakhta Hoon..!",
+        "Kaash Tu Laut Aaye Kabhi..!"
       ],
-      "theme": "tanhaai"
+      "theme": "judaai"
     },
     {
       "id": 2,
       "lines": [
-        "Waqt Ne Sab Badal Diya..!",
-        "Apno Ne Hi Jalaya Hai..!",
-        "Jinke Liye Jeete The..!",
-        "Unhi Ne Rula Diya Hai..!",
-        "Khamoshi Mein Dard Hai..!",
-        "Lafzon Mein Kya Rakha Hai..!",
-        "Jise Apna Samjha Tha..!",
-        "Usne Hi Dhokha Diya Hai..!"
-      ],
-      "theme": "dhokha"
-    },
-    {
-      "id": 3,
-      "lines": [
-        "Teri Yaad Aati Hai..!",
-        "Har Pal Har Ghadi..!",
-        "Aankhein Bhar Aati Hain..!",
-        "Jab Hoti Hai Tanhaayi..!",
-        "Dil Kehta Hai Ruk Ja..!",
-        "Par Waqt Nahi Rukta..!",
-        "Teri Ek Jhalak Ke Bina..!",
-        "Ye Dil Ab Nahi Dhadakta..!"
-      ],
-      "theme": "yaadein"
-    },
-    {
-      "id": 4,
-      "lines": [
-        "Mohabbat Ki Thi Humne..!",
-        "Bewafaai Mili Humein..!",
-        "Jaan Tak De Dete Hum..!",
-        "Par Judaai Mili Humein..!",
-        "Khwaab The Jo Ankhon Mein..!",
-        "Wo Sab Bikhar Gaye..!",
-        "Jinhe Dil Se Chaaha Tha..!",
-        "Wo Sab Badal Gaye..!"
-      ],
-      "theme": "pyaar"
-    },
-    {
-      "id": 5,
-      "lines": [
-        "Toot Gaya Dil Mera..!",
-        "Jud Nahi Sakta Ab..!",
-        "Bhul Gayi Duniya Mujhe..!",
-        "Uth Nahi Sakta Ab..!",
-        "Har Raat Rota Hoon..!",
-        "Par Koi Sunta Nahi..!",
-        "Ye Zindagi Bhi Ab..!",
-        "Apni Lagti Nahi..!"
+        "Dil Toota Toh Awaaz Nahi Aayi..!",
+        "Bas Andar Hi Andar..!",
+        "Sab Kuch Bikhar Gaya..!"
       ],
       "theme": "tanhaai"
     },
     {
-      "id": 6,
+      "id": 3,
       "lines": [
-        "Rishte Nibhana Seekho..!",
-        "Todna Koi Baat Nahi..!",
-        "Dil Dukhana Aasan Hai..!",
-        "Jodna Koi Baat Nahi..!",
-        "Bharosa Ek Baar Toota..!",
-        "Toh Phir Laut Ke Nahi Aata..!",
-        "Apna Banakar Chhod Dena..!",
-        "Ye Koi Insaaf Nahi..!"
+        "Maa Ka Phone Uthane Se Darta Hoon..!",
+        "Kyunki Wo Poochti Hai — Khush Ho Na..?",
+        "Aur Jhooth Bolte Bolte Thak Gaya Hoon..!"
       ],
-      "theme": "rishte"
+      "theme": "maa"
     },
     {
-      "id": 7,
+      "id": 4,
       "lines": [
-        "Unki Har Baat Maan Li..!",
-        "Apni Koi Suni Nahi..!",
-        "Unke Liye Sab Kiya..!",
-        "Par Wafa Mili Nahi..!",
-        "Aansuon Mein Doobe The..!",
-        "Par Muskaraaye Hum..!",
-        "Duniya Ke Liye Haste Rahe..!",
-        "Andar Se Toot Gaye Hum..!"
-      ],
-      "theme": "wafa"
-    },
-    {
-      "id": 8,
-      "lines": [
-        "Raatein Lambi Hoti Hain..!",
-        "Jab Koi Yaad Aata Hai..!",
-        "Takiye Ko Seene Se Lagaakar..!",
-        "Dil Bas Ro Jaata Hai..!",
-        "Neend Aankhon Se Gayi Hai..!",
-        "Jab Se Tu Door Hua..!",
-        "Har Sapna Mera Ab..!",
-        "Bas Ek Afsana Hua..!"
-      ],
-      "theme": "raat ke khayal"
-    },
-    {
-      "id": 9,
-      "lines": [
-        "Tere Bina Ji Raha Hoon..!",
-        "Par Ye Jeena Kahan Hai..!",
-        "Saans Toh Chal Rahi Hai..!",
-        "Par Ye Dil Kahan Hai..!",
-        "Tujhe Bhulana Chaaha Tha..!",
-        "Par Bhul Na Paaya Main..!",
-        "Ishq Tera Chhod Kar..!",
-        "Kahin Ka Na Raha Main..!"
-      ],
-      "theme": "pyaar"
-    },
-    {
-      "id": 10,
-      "lines": [
-        "Jinhe Apna Banaya Tha..!",
-        "Wahi Ajnabi Ho Gaye..!",
-        "Jinse Mohabbat Ki Thi..!",
-        "Wahi Sabse Bure Nikle..!",
-        "Ab Kisi Par Bharosa..!",
-        "Karne Ka Dil Nahi Karta..!",
-        "Har Chehra Dekhkar Ab..!",
-        "Ye Dil Bas Dar Jaata Hai..!"
-      ],
-      "theme": "bharosa"
-    },
-    {
-      "id": 11,
-      "lines": [
-        "Chand Bhi Akela Hai..!",
-        "Taaron Mein Ghira Hua..!",
-        "Bilkul Meri Tarah..!",
-        "Yaadon Mein Ghira Hua..!",
-        "Raat Ka Andhera Bhi..!",
-        "Ab Apna Lagta Hai..!",
-        "Ujaale Se Zyada..!",
-        "Ye Andhera Sachcha Lagta Hai..!"
-      ],
-      "theme": "raat ke khayal"
-    },
-    {
-      "id": 12,
-      "lines": [
-        "Dard Itna Gehra Hai..!",
-        "Ki Aansu Bhi Tham Gaye..!",
-        "Rona Bhi Bhul Gaye Hum..!",
-        "Jab Apne Hi Badal Gaye..!",
-        "Khamoshi Ab Saathi Hai..!",
-        "Lafz Bekaar Ho Gaye..!",
-        "Jo Dil Mein Rehte The..!",
-        "Wo Aaj Paraye Ho Gaye..!"
-      ],
-      "theme": "badlav"
-    },
-    {
-      "id": 13,
-      "lines": [
-        "Ek Waqt Tha Jab..!",
-        "Tum Meri Duniya The..!",
-        "Aaj Wahi Tum Ho..!",
-        "Jo Sabse Ajnabi Ho..!",
         "Kitna Ajeeb Hai Na..!",
-        "Rishton Ka Ye Safar..!",
-        "Apne Hi Ban Jaate Hain..!",
-        "Sabse Bade Hamsafar Nahi..!"
-      ],
-      "theme": "rishte"
-    },
-    {
-      "id": 14,
-      "lines": [
-        "Sapne Dikhaaye Tumne..!",
-        "Aur Toda Bhi Tumne..!",
-        "Dil Ko Apna Banaya..!",
-        "Aur Chhoda Bhi Tumne..!",
-        "Humne Toh Bas Chaaha..!",
-        "Tumne Rulaya Humein..!",
-        "Mohabbat Ka Waada Karke..!",
-        "Akela Chhod Diya Tumne..!"
-      ],
-      "theme": "dhokha"
-    },
-    {
-      "id": 15,
-      "lines": [
-        "Zindagi Ek Sazaa Hai..!",
-        "Jab Se Tu Door Hua..!",
-        "Har Din Ek Imtihaan Hai..!",
-        "Har Raat Ek Sitam Hua..!",
-        "Muskaraana Chhod Diya..!",
-        "Jab Se Tujhe Khoya Hai..!",
-        "Jeena Toh Door Ki Baat..!",
-        "Saans Lena Bhi Roya Hai..!"
-      ],
-      "theme": "judaai"
-    },
-    {
-      "id": 16,
-      "lines": [
-        "Humne Wafa Ki Thi..!",
-        "Toh Bewafa Hum Nikle..!",
-        "Sachcha Pyaar Diya Tha..!",
-        "Toh Bewakoof Hum Nikle..!",
-        "Duniya Ne Kya Sikhaya..!",
-        "Ki Acha Insaan Mat Bano..!",
-        "Seedhe Logon Ko Yahan..!",
-        "Sabse Pehle Toda Jaata Hai..!"
-      ],
-      "theme": "wafa"
-    },
-    {
-      "id": 17,
-      "lines": [
-        "Tere Jaane Ke Baad..!",
-        "Ye Shehar Bhi Soona Hai..!",
-        "Har Gali Har Raasta..!",
-        "Ab Veeraan Sa Lagta Hai..!",
-        "Jahan Bhi Nazar Jaaye..!",
-        "Teri Yaad Mil Jaaye..!",
-        "Is Bheed Mein Bhi Ab..!",
-        "Tanhaai Mil Jaaye..!"
-      ],
-      "theme": "judaai"
-    },
-    {
-      "id": 18,
-      "lines": [
-        "Zaroorat Thi Jab Sabse..!",
-        "Zyada Unki Humein..!",
-        "Tab Hi Unhone Dikha Diya..!",
-        "Asli Chehra Apna..!",
-        "Mohabbat Ki Aad Mein..!",
-        "Kitna Kuch Chhupa Tha..!",
-        "Jise Apna Samjha Tha..!",
-        "Wo Toh Paraya Nikla..!"
-      ],
-      "theme": "dhokha"
-    },
-    {
-      "id": 19,
-      "lines": [
-        "Yaadein Wahi Hain..!",
-        "Par Wo Jazbaat Nahi Rahe..!",
-        "Baatein Wahi Hain..!",
-        "Par Wo Ehsaas Nahi Rahe..!",
-        "Chehra Wahi Hai..!",
-        "Par Wo Muskaan Nahi Rahi..!",
-        "Rishta Wahi Hai..!",
-        "Par Wo Pehchaan Nahi Rahi..!"
+        "Log Chale Jaate Hain..!",
+        "Par Unki Jagah Hamesha Khaali Rehti Hai..!"
       ],
       "theme": "yaadein"
     },
     {
-      "id": 20,
+      "id": 5,
       "lines": [
-        "Intezaar Mein Guzri Hai..!",
-        "Har Ek Raat Humari..!",
-        "Ek Ishare Par Tike The..!",
-        "Ye Thi Wafa Humari..!",
-        "Tumne Toh Mod Liya..!",
-        "Muh Bina Kuch Kahe..!",
-        "Hum Aaj Bhi Khade Hain..!",
-        "Usi Raah Par Tumhare..!"
+        "Woh Kehte Hain — Bhool Jaao Humein..!",
+        "Kaash Itna Aasaan Hota..!",
+        "Toh Dil Kyun Diya Tha..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 6,
+      "lines": [
+        "Tumhari Aakhri Message Aaj Bhi..!",
+        "Phone Mein Save Hai..!",
+        "Roz Padhta Hoon — Roz Tootta Hoon..!"
+      ],
+      "theme": "yaadein"
+    },
+    {
+      "id": 7,
+      "lines": [
+        "Sab Kehte Hain — Strong Raho..!",
+        "Par Koi Nahi Poochta..!",
+        "Kitna Dard Seh Rahe Ho..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 8,
+      "lines": [
+        "Tumne Toh Naya Safar Shuru Kar Diya..!",
+        "Hum Aaj Bhi Usi Station Par..!",
+        "Tumhara Intezaar Kar Rahe Hain..!"
       ],
       "theme": "intezaar"
     },
     {
-      "id": 21,
+      "id": 9,
       "lines": [
-        "Mohabbat Thi Isliye..!",
-        "Tumhe Jaane Diya Humne..!",
-        "Ghamand Hota Agar..!",
-        "Kabhi Jaane Na Dete..!",
-        "Tumhari Khushi Ke Liye..!",
-        "Apna Dard Chhupaaya..!",
-        "Ishq Tha Ye Humara..!",
-        "Duniya Ne Kya Jaana..!"
+        "Ek Din Achanak Se..!",
+        "Sab Theek Ho Jaayega..!",
+        "Ye Jhooth Roz Khud Se Bolta Hoon..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 10,
+      "lines": [
+        "Sabse Gehra Dard Wo Hai..!",
+        "Jo Dikhta Nahi Kisi Ko..!",
+        "Par Har Saans Mein Mehsoos Hota Hai..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 11,
+      "lines": [
+        "Baarish Aati Hai Toh Yaad Aata Hai..!",
+        "Wo Mera Haath Thaam Ke..!",
+        "Kaha Karta Tha — Kabhi Nahi Chhodunga..!"
+      ],
+      "theme": "yaadein"
+    },
+    {
+      "id": 12,
+      "lines": [
+        "Tumse Milne Ka Ab Koi Bahana Nahi..!",
+        "Par Tumhari Gali Se Guzarna..!",
+        "Aaj Bhi Nahi Chhoda Humne..!"
       ],
       "theme": "pyaar"
+    },
+    {
+      "id": 13,
+      "lines": [
+        "Itna Pyaar Mat Karo Kisi Se..!",
+        "Ki Jab Wo Jaaye..!",
+        "Toh Saans Lena Bhi Mushkil Ho Jaaye..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 14,
+      "lines": [
+        "Tere Bina Ye Kamra..!",
+        "Kitna Bada Lagta Hai..!",
+        "Aur Main Kitna Chhota..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 15,
+      "lines": [
+        "Wo Kehta Tha — Main Hoon Na..!",
+        "Aaj Dekho..!",
+        "Na Wo Hai Na Uska Wo Waada..!"
+      ],
+      "theme": "dhokha"
+    },
+    {
+      "id": 16,
+      "lines": [
+        "Raat Ko Takiye Se Lipat Ke..!",
+        "Sochta Hoon — Kaash Ye Tum Hote..!",
+        "Phir Yaad Aata Hai — Tum Toh Gaye..!"
+      ],
+      "theme": "raat ke khayal"
+    },
+    {
+      "id": 17,
+      "lines": [
+        "Tumhe Bhulane Ki Koshish Mein..!",
+        "Itna Yaad Kar Liya..!",
+        "Ki Ab Bhulana Naamumkin Ho Gaya..!"
+      ],
+      "theme": "yaadein"
+    },
+    {
+      "id": 18,
+      "lines": [
+        "Koi Pooche — Kya Kho Diya Tumne..?",
+        "Toh Main Kya Kahoon..!",
+        "Khud Ko Kho Diya Kisi Ke Liye..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 19,
+      "lines": [
+        "Roz Subah Uthta Hoon..!",
+        "Ek Umeed Ke Saath..!",
+        "Ki Aaj Ka Din Itna Dard Na De..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 20,
+      "lines": [
+        "Tumhari Photo Dekh Ke..!",
+        "Muskuraata Hoon Pehle..!",
+        "Phir Yaad Aata Hai — Ab Mere Nahi Ho Tum..!"
+      ],
+      "theme": "yaadein"
+    },
+    {
+      "id": 21,
+      "lines": [
+        "Zindagi Mein Sabse Bada Dard..!",
+        "Wo Nahi Jo Koi De..!",
+        "Wo Hai Jo Apno Se Mile..!"
+      ],
+      "theme": "rishte"
     },
     {
       "id": 22,
       "lines": [
-        "Dil Tumhara Tha..!",
-        "Mohabbat Bhi Tumhari Thi..!",
-        "Khushiyaan Tumhari Theen..!",
-        "Hansi Bhi Tumhari Thi..!",
-        "Par Jab Se Gaye Tum..!",
-        "Sab Kuch Chheen Gaya..!",
-        "Akelapan Jo Mila Hai..!",
-        "Wo Hamesha Ka Ho Gaya..!"
+        "Maa Poochti Hai — Beta Rota Kyun Hai..?",
+        "Main Kehta Hoon — Aankhon Mein Kuch Gira..!",
+        "Asal Mein Dil Gira Hai Maa..!"
       ],
-      "theme": "pyaar"
+      "theme": "maa"
     },
     {
       "id": 23,
       "lines": [
-        "Ishq Kya Hota Hai..!",
-        "Ye Hume Maloom Na Tha..!",
-        "Dard Kya Hota Hai..!",
-        "Ye Bhi Maloom Na Tha..!",
-        "Tum Mile Toh Samjhe..!",
-        "Mohabbat Kya Hoti Hai..!",
-        "Tum Gaye Toh Jaana..!",
-        "Barbadi Kya Hoti Hai..!"
+        "Tumne Hath Chhoda Toh Samjha..!",
+        "Duniya Haath Se Chali Gayi..!",
+        "Kyunki Tum Hi Duniya The Meri..!"
       ],
       "theme": "pyaar"
     },
     {
       "id": 24,
       "lines": [
-        "Tumne Toh Waqt Guzaara..!",
-        "Humse Bas Yun Hi..!",
-        "Hum Bewakoof Samjhe..!",
-        "Ye Mohabbat Hai Sachi..!",
-        "Apni Duniya Samjha..!",
-        "Hum Tumhe Khaamkhaah..!",
-        "Tum Toh Nikle Yahan..!",
-        "Bas Ek Raah Guzar..!"
+        "Sabse Zyada Dard Tab Hota Hai..!",
+        "Jab Saamne Wala Jaan Ke Bhi..!",
+        "Anjaan Ban Jaaye..!"
       ],
-      "theme": "pyaar"
+      "theme": "dhokha"
     },
     {
       "id": 25,
       "lines": [
-        "Ajeeb Si Mohabbat Thi..!",
-        "Tumhari Humari..!",
-        "Pehle Apna Banaya..!",
-        "Phir Paraya Kar Diya..!",
-        "Ajnabi Se Rishta Tha..!",
-        "Apna Banaya Tumne..!",
-        "Phir Apne Se Zyada..!",
-        "Ajnabi Bana Diya Tumne..!"
+        "Kaash Koi Reset Button Hota..!",
+        "Dil Ke Liye..!",
+        "Toh Tujhe Kabhi Yaad Hi Na Karta..!"
       ],
-      "theme": "pyaar"
+      "theme": "yaadein"
     },
     {
       "id": 26,
       "lines": [
-        "Bina Wajah Haste The..!",
-        "Jab Tum Paas Hote The..!",
-        "Bina Wajah Rote Hain..!",
-        "Jab Se Tum Door Ho..!",
-        "Muskaan Ab Dhundni Padti..!",
-        "Wajah Bhi Dhundni Padti..!",
-        "Tere Bina Khushiyan..!",
-        "Ab Manani Padti Hain..!"
+        "Akele Mein Rona..!",
+        "Aadat Ban Gayi Hai..!",
+        "Aur Sabke Saamne Hasna — Majboori..!"
       ],
-      "theme": "pyaar"
+      "theme": "tanhaai"
     },
     {
       "id": 27,
       "lines": [
-        "Kisi Par Dil Lagaaya..!",
-        "Toh Dhokha Mila Humein..!",
-        "Har Baar Sachcha Pyaar..!",
-        "Diya Par Toota Mila Humein..!",
-        "Kis Kis Ko Yaad Rakhein..!",
-        "Kitne Bewafa Mile..!",
-        "Har Ek Ne Chhoda Hume..!",
-        "Koi Sachcha Na Mile..!"
+        "Ek Zamana Tha — Tumhare Bina..!",
+        "Ek Pal Bhi Mushkil Tha..!",
+        "Ab Poori Zindagi Guzaar Raha Hoon Tumhare Bina..!"
       ],
-      "theme": "pyaar"
+      "theme": "judaai"
     },
     {
       "id": 28,
       "lines": [
-        "Kaash Tum Samajh Paate..!",
-        "Mere Dil Ka Dard..!",
-        "Kaash Tum Dekh Paate..!",
-        "Meri Aankhon Ki Nami..!",
-        "Toh Yun Bewajah..!",
-        "Hume Tanha Na Chodte..!",
-        "Meri Khamoshi Ko Sunkar..!",
-        "Yun Anjaan Na Hote..!"
+        "Tumhari Awaaz Sunn Ke..!",
+        "Dil Ruk Jaata Tha..!",
+        "Ab Wo Khamoshi Hai Jo Dil Tod Deti Hai..!"
       ],
       "theme": "pyaar"
     },
     {
       "id": 29,
       "lines": [
-        "Tum Muskuraate Hue..!",
-        "Bahut Ache Lagte The..!",
-        "Tumhari Hansi Ke Liye..!",
-        "Hum Kuch Bhi Kar Dete..!",
-        "Isliye Rote Hue Bhi..!",
-        "Tumhe Alvida Keh Diya..!",
-        "Tumhari Khushi Ke Liye..!",
-        "Apna Dard Seh Liya..!"
+        "Toot Ke Bikhar Gaya Hoon..!",
+        "Is Qadar..!",
+        "Ki Ab Tukde Bhi Nahi Milte Jodne Ko..!"
       ],
-      "theme": "pyaar"
+      "theme": "dard"
     },
     {
       "id": 30,
       "lines": [
-        "Tere Bina Ye Dil..!",
-        "Dhadakta Toh Hai Abhi..!",
-        "Par Sirf Saans Ke Liye..!",
-        "Khushi Ke Liye Nahi..!",
-        "Zinda Toh Hoon Main..!",
-        "Par Jeeta Kahan Hoon..!",
-        "Tere Bina Is Duniya Mein..!",
-        "Bas Guzarta Jaa Raha Hoon..!"
+        "Mohabbat Mein Haar Gayi..!",
+        "Ye Zindagi..!",
+        "Ab Saans Bhi Bojh Lagti Hai..!"
       ],
       "theme": "pyaar"
     },
     {
       "id": 31,
       "lines": [
-        "Kitna Bhi Khayal Rakho..!",
-        "Kisi Ka Kam Lagta Hai..!",
-        "Jitna Dil Se Chaaho..!",
-        "Utna Hi Tham Jaata Hai..!",
-        "Apna Hi Koi Badal Jaaye..!",
-        "Toh Sab Toot Jaata Hai..!",
-        "Bharose Ka Sheesh Mahal..!",
-        "Ek Pal Mein Bikhar Jaata Hai..!"
+        "Tumhari Ek Muskaan Ke Liye..!",
+        "Apni Saari Khushiyaan De Di..!",
+        "Ab Na Tum Ho Na Khushiyaan..!"
       ],
       "theme": "pyaar"
     },
     {
       "id": 32,
       "lines": [
-        "Ek Tarfa Mohabbat Ka..!",
-        "Dard Bhi Ajeeb Hai..!",
-        "Takleef Apni Hoti Hai..!",
-        "Galti Bhi Kisi Ki Nahi..!",
-        "Na Koi Sunega Tumhe..!",
-        "Na Koi Samjhega..!",
-        "Bas Khaamosh Rehkar..!",
-        "Dil Hi Dil Mein Jalega..!"
+        "Sabse Bura Ehsaas Wo Hai..!",
+        "Jab Tum Kisi Aur Ke Saath..!",
+        "Waisi Hi Hassi Hasso..!"
       ],
-      "theme": "pyaar"
+      "theme": "dhokha"
     },
     {
       "id": 33,
       "lines": [
-        "Naam Tera Hi Rahega..!",
-        "Meri Har Saans Mein..!",
-        "Yaad Teri Hi Rahegi..!",
-        "Meri Har Raat Mein..!",
-        "Chahe Tu Bhula De Mujhe..!",
-        "Ya Yaad Rakhe Tu..!",
-        "Meri Mohabbat Ka Saaya..!",
-        "Hamesha Tere Paas Rahega..!"
+        "Neend Ab Aati Nahi..!",
+        "Kyunki Sapno Mein Bhi..!",
+        "Bas Tum Hi Aate Ho..!"
       ],
-      "theme": "pyaar"
+      "theme": "raat ke khayal"
     },
     {
       "id": 34,
       "lines": [
-        "Tumhari Khushi Ke Liye..!",
-        "Door Hue The Tumse..!",
-        "Mohabbat Mein Kami Nahi..!",
-        "Kismat Mein Kami Thi..!",
-        "Dil Se Chaaha Tha Tumhe..!",
-        "Par Paaya Nahi Tumhe..!",
-        "Apni Kismat Ka Maara..!",
-        "Khud Ko Hi Khoya Humne..!"
+        "Mohabbat Ka Matlab Samjha..!",
+        "Jab Tumne Chhoda..!",
+        "Khush Rehna — Ye Kehkar Chale Gaye..!"
       ],
-      "theme": "pyaar"
+      "theme": "judaai"
     },
     {
       "id": 35,
       "lines": [
-        "Chaaha Tha Tumhe..!",
-        "Jaan Se Bhi Zyada..!",
-        "Maanga Tha Tumhe..!",
-        "Duaaon Mein Har Raat..!",
-        "Par Tum Toh Nikle..!",
-        "Bas Ek Sapna Adhoora..!",
-        "Jise Ankhon Ne Dekha..!",
-        "Par Haathon Ne Na Chhua..!"
+        "Meri Diary Ke Har Page Par..!",
+        "Sirf Tera Naam Hai..!",
+        "Aur Aansuon Ke Nishaan..!"
       ],
-      "theme": "pyaar"
+      "theme": "yaadein"
     },
     {
       "id": 36,
       "lines": [
-        "Kabhi Fursat Ho Toh..!",
-        "Sochna Zaroor Ek Baar..!",
-        "Ek Beparwah Sa Insaan..!",
-        "Tumhari Itni Parwah Kyun Karta Tha..!",
-        "Jise Duniya Sangdil Kehti..!",
-        "Wo Tumhare Liye Pighal Jaata Tha..!",
-        "Bina Kuch Maange Hi..!",
-        "Sab Kuch De Jaata Tha..!"
+        "Tum Kehte Ho — Move On Karo..!",
+        "Par Batao..!",
+        "Dil Se Kaise Nikaloon Tumhe..!"
       ],
       "theme": "pyaar"
     },
     {
       "id": 37,
       "lines": [
-        "Mohabbat Mein Haarna..!",
-        "Bura Nahi Lagta..!",
-        "Bura Tab Lagta Hai..!",
-        "Jab Apna Hi Hara De..!",
-        "Jinke Liye Ladhe The..!",
-        "Duniya Se Hum..!",
-        "Wahi Hamare Khilaf..!",
-        "Khade Ho Gaye Aaj..!"
+        "Teri Yaad Ka Zeher..!",
+        "Dheere Dheere Maar Raha Hai..!",
+        "Aur Main Peete Jaa Raha Hoon..!"
       ],
-      "theme": "pyaar"
+      "theme": "yaadein"
     },
     {
       "id": 38,
       "lines": [
-        "Hum Toh Unke Liye..!",
-        "Ek Mamuli Insaan The..!",
-        "Unki Nazron Mein Humari..!",
-        "Koi Pehchaan Na Thi..!",
-        "Par Unke Bina Humari..!",
-        "Duniya Adhoori Thi..!",
-        "Wo Humare Liye Sab Kuch..!",
-        "Aur Hum Unke Liye Kuch Nahi..!"
+        "Woh Kehte The — Hamesha Rahunga..!",
+        "Hamesha Ka Matlab Samjha..!",
+        "Jab Ek Din Bhi Na Rahe..!"
       ],
-      "theme": "pyaar"
+      "theme": "dhokha"
     },
     {
       "id": 39,
       "lines": [
-        "Wo Chale Gaye Hume..!",
-        "Akela Chhodkar Yahan..!",
-        "Unki Yaadein Par..!",
-        "Aaj Bhi Yahin Hain..!",
-        "Har Gali Mein Unka..!",
-        "Aks Dikhayi Deta Hai..!",
-        "Wo Nahi Hain Par..!",
-        "Unka Ehsaas Rehta Hai..!"
+        "Tum Chale Gaye — Ye Theek Hai..!",
+        "Par Jaate Jaate..!",
+        "Meri Hassi Bhi Le Gaye..!"
       ],
-      "theme": "pyaar"
+      "theme": "judaai"
     },
     {
       "id": 40,
       "lines": [
-        "Kitni Ajeeb Baat Hai..!",
-        "Tum Ab Mere Nahi Ho..!",
-        "Phir Bhi Ye Dil..!",
-        "Bas Tumhe Hi Yaad Karta Hai..!",
-        "Tumhe Bhulana Chaaha Tha..!",
-        "Par Bhul Na Paaya Main..!",
-        "Tumhari Yaadon Ka Qaidee..!",
-        "Ban Kar Reh Gaya Main..!"
+        "Raat Bhar Jaag Ke..!",
+        "Tumse Baat Karta Tha..!",
+        "Ab Raat Bhar Jaag Ke — Rota Hoon..!"
       ],
-      "theme": "pyaar"
+      "theme": "raat ke khayal"
     },
     {
       "id": 41,
       "lines": [
-        "Bohot Chhupaya Humne..!",
-        "Is Duniya Se Apna Dard..!",
-        "Par Meri Aankhon Ne..!",
-        "Sab Bayan Kar Diya..!",
-        "Lab Pe Muskaan Thi..!",
-        "Par Dil Mein Toofaan Tha..!",
-        "Duniya Ko Dikhaya Sukoon..!",
-        "Par Andar Shamshaan Tha..!"
+        "Kitni Tanhaayi Hai..!",
+        "Bheed Mein Bhi..!",
+        "Koi Apna Nazar Nahi Aata..!"
       ],
-      "theme": "judaai"
+      "theme": "tanhaai"
     },
     {
       "id": 42,
       "lines": [
-        "Ab Koi Ummeed Nahi..!",
-        "Tere Laut Ke Aane Ki..!",
-        "Phir Bhi Ye Nazrein..!",
-        "Door Par Tik Jaati Hain..!",
-        "Jaanta Hoon Tu Nahi Aayega..!",
-        "Phir Bhi Intezaar Hai..!",
-        "Bewakoof Hai Ye Dil..!",
-        "Jo Abhi Bhi Tumhara Hai..!"
+        "Tumne Pucha — Tum Theek Ho..?",
+        "Main Bola — Haan..!",
+        "Aur Ankhon Se Do Aansu Gir Gaye..!"
       ],
-      "theme": "judaai"
+      "theme": "dard"
     },
     {
       "id": 43,
       "lines": [
-        "Faasle Aise Bhi Honge..!",
-        "Ye Kabhi Socha Na Tha..!",
-        "Saamne Baitha Tha Wo..!",
-        "Par Wo Mera Na Tha..!",
-        "Nazrein Milti Theen..!",
-        "Par Baat Na Hoti Thi..!",
-        "Dil Paas Tha Uska..!",
-        "Par Dhadkan Door Thi..!"
+        "Dil Mein Ek Kona Hai..!",
+        "Jahan Sirf Tum Rehte Ho..!",
+        "Aur Wahan Se Nikalna Tumne Bhi Chhod Diya..!"
       ],
-      "theme": "judaai"
+      "theme": "pyaar"
     },
     {
       "id": 44,
       "lines": [
-        "Chupchap Guzar Jaate Hain..!",
-        "Wo Ab Raaston Se..!",
-        "Jo Kabhi Meri Aahat Par..!",
-        "Ruk Jaaya Karte The..!",
-        "Pehchaan Bhi Mitaa Di..!",
-        "Unhone Ek Pal Mein..!",
-        "Jinke Liye Hum Jeete The..!",
-        "Wo Ab Jaante Hi Nahi..!"
+        "Sabse Bada Dard Ye Hai..!",
+        "Ki Sab Kuch Yaad Hai..!",
+        "Par Kuch Bhi Waapas Nahi Aa Sakta..!"
       ],
-      "theme": "judaai"
+      "theme": "yaadein"
     },
     {
       "id": 45,
       "lines": [
-        "Dooriyon Se Hi Pata Chala..!",
-        "Kaun Kitna Qareeb Tha..!",
-        "Jab Zaroorat Padhi..!",
-        "Toh Koi Paas Na Tha..!",
-        "Rishton Ka Sacch Tab Saamne..!",
-        "Aata Hai Jab..!",
-        "Mushkil Ki Ghadi Mein..!",
-        "Koi Saath Na Ho..!"
+        "Ek Waqt Tha — Teri Baat Ke Bina..!",
+        "Neend Nahi Aati Thi..!",
+        "Ab Teri Yaad Ke Bina — Neend Hi Nahi Aati..!"
       ],
-      "theme": "judaai"
+      "theme": "raat ke khayal"
     },
     {
       "id": 46,
       "lines": [
-        "Jab Apna Hi Koi..!",
-        "Chhod Kar Chala Jaaye..!",
-        "Poori Duniya Par Se..!",
-        "Bharosa Uth Jaata Hai..!",
-        "Kisi Par Bhi Yakeen..!",
-        "Ab Hota Hi Nahi..!",
-        "Har Chehra Dekhkar..!",
-        "Bas Darr Lagta Hai..!"
+        "Tumhe Khokar Samjha..!",
+        "Ki Kuch Logo Ka Jaana..!",
+        "Poori Duniya Kho Dene Jaisa Hota Hai..!"
       ],
       "theme": "judaai"
     },
     {
       "id": 47,
       "lines": [
-        "Bichhad Kar Tumse..!",
-        "Bas Itna Seekha Hai..!",
-        "Mohabbat Jitni Gehri..!",
-        "Zakhm Utna Bada Hota Hai..!",
-        "Jitna Dil Se Chaaho..!",
-        "Utni Takleef Milti Hai..!",
-        "Sachchi Mohabbat Ka Sila..!",
-        "Aksar Judaai Hoti Hai..!"
+        "Wo Meri Zindagi Ka..!",
+        "Sabse Khoobsurat Hissa The..!",
+        "Ab Wo Hissa Khaali Hai — Hamesha Ke Liye..!"
       ],
-      "theme": "judaai"
+      "theme": "yaadein"
     },
     {
       "id": 48,
       "lines": [
-        "Ab Koi Shikayat Nahi..!",
-        "Tumse Mujhe..!",
-        "Galti Tumhari Nahi..!",
-        "Meri Umeedein Galat Thin..!",
-        "Tumse Zyada Toh..!",
-        "Khud Se Naraz Hoon..!",
-        "Ki Jaankar Bhi..!",
-        "Andha Bharosa Kiya..!"
+        "Har Gana Ab Tera Lagta Hai..!",
+        "Har Baarish Teri Yaad Laati Hai..!",
+        "Har Khushi Mein Teri Kami Mehsoos Hoti Hai..!"
       ],
-      "theme": "judaai"
+      "theme": "yaadein"
     },
     {
       "id": 49,
       "lines": [
-        "Tumse Door Jaana..!",
-        "Meri Marzi Nahi Thi..!",
-        "Tumhare Liye Hi..!",
-        "Tumhe Chhodna Pada..!",
-        "Meri Mohabbat Ka..!",
-        "Ye Aakhri Tohfa Tha..!",
-        "Tumhari Khushi Ke Liye..!",
-        "Khud Ka Dil Toda Humne..!"
+        "Kaash Dil Bhi..!",
+        "Dimaag Ki Tarah Sochta..!",
+        "Toh Tumse Kabhi Mohabbat Na Karta..!"
       ],
-      "theme": "judaai"
+      "theme": "pyaar"
     },
     {
       "id": 50,
       "lines": [
-        "Na Jaane Kaisi Dushmani..!",
-        "Thi Kismat Ki Humse..!",
-        "Jisse Bhi Dil Lagaya..!",
-        "Wahi Door Ho Gaya..!",
-        "Pyaar Kiya Toh Dhokha..!",
-        "Wafa Ki Toh Judaai..!",
-        "Har Mod Par Mili Humein..!",
-        "Bas Tanhaayi Hi Tanhaayi..!"
+        "Mere Liye Tum Sab Kuch The..!",
+        "Tumhare Liye Main..!",
+        "Bas Ek Aur Option Tha..!"
       ],
-      "theme": "judaai"
+      "theme": "dhokha"
     },
     {
       "id": 51,
       "lines": [
-        "Raaste Alag Ho Gaye..!",
-        "Toh Kya Hua Humein..!",
-        "Manzil Toh Aaj Bhi..!",
-        "Bas Tum Hi Ho..!",
-        "Kismat Ne Chheen Liya..!",
-        "Tumhe Humse..!",
-        "Par Dil Se Mitaa Na Paayegi..!",
-        "Tumhari Yaad Kabhi..!"
+        "Wo Chala Gaya Mujhse..!",
+        "Bin Kuch Kahe..!",
+        "Aur Main Uske Alfaaz Dhundhta Raha..!"
       ],
       "theme": "judaai"
     },
     {
       "id": 52,
       "lines": [
-        "Khamoshi Bohot Kuch..!",
-        "Kehti Hai Agar Suno..!",
-        "Kaan Lagakar Nahi..!",
-        "Dil Lagakar Suno..!",
-        "Bin Bole Jo Kehti Hai..!",
-        "Wo Baat Aur Hoti Hai..!",
-        "Khamoshi Ki Cheekhein..!",
-        "Sabse Buland Hoti Hain..!"
+        "Log Kehte Hain — Waqt Sab Bhula Deta Hai..!",
+        "Par Waqt Ne Toh..!",
+        "Sirf Dard Aur Badha Diya..!"
       ],
-      "theme": "judaai"
+      "theme": "dard"
     },
     {
       "id": 53,
       "lines": [
-        "Har Khushi Mein Ab..!",
-        "Ek Udaasi Chhupa Hoti Hai..!",
-        "Hansi Ke Peeche Bhi..!",
-        "Ek Aansoo Chhupa Hota Hai..!",
-        "Jab Se Tum Door Gaye..!",
-        "Ye Dil Bas Rota Hai..!",
-        "Khushiyon Ka Mausam Bhi..!",
-        "Ab Sulagta Rehta Hai..!"
+        "Tumse Mohabbat Ka Natija..!",
+        "Ye Nikla..!",
+        "Ki Ab Khud Se Bhi Mohabbat Nahi Rahi..!"
       ],
-      "theme": "judaai"
+      "theme": "pyaar"
     },
     {
       "id": 54,
       "lines": [
-        "Alvida Kehte Waqt..!",
-        "Wo Muskura Diye..!",
-        "Aur Hum Unki Khushi Mein..!",
-        "Ro Bhi Na Sake..!",
-        "Unke Jaane Ka Gham..!",
-        "Seene Mein Daba Liya..!",
-        "Unki Aakhri Muskaan Par..!",
-        "Apna Dard Bhula Diya..!"
+        "Ek Pal Mein Bikhar Gaya..!",
+        "Wo Rishta Jo Sadiyon Ka Lagta Tha..!",
+        "Pata Chala — Sirf Zaroorat Thi Mohabbat Nahi..!"
       ],
-      "theme": "judaai"
+      "theme": "dhokha"
     },
     {
       "id": 55,
       "lines": [
-        "Tum Chale Gaye Lekin..!",
-        "Khushboo Aaj Bhi Hai..!",
-        "Yaadein Chali Gayin Lekin..!",
-        "Teri Boo Aaj Bhi Hai..!",
-        "Is Veeraan Dil Mein..!",
-        "Teri Yaad Hi Kaafi Hai..!",
-        "Tu Nahi Hai Par..!",
-        "Tera Ehsaas Kaafi Hai..!"
+        "Tumhari Tasveer Dekhta Hoon..!",
+        "Aur Phone Lock Kar Deta Hoon..!",
+        "Kyunki Zyada Dekhoon Toh Toot Jaaonga..!"
       ],
-      "theme": "judaai"
+      "theme": "yaadein"
     },
     {
       "id": 56,
       "lines": [
-        "Faasle Toh Sirf..!",
-        "Jismani Hain Humse..!",
-        "Dil Toh Aaj Bhi..!",
-        "Tumhare Paas Hi Hai..!",
-        "Dur Hain Hum Magar..!",
-        "Dhadkan Wahi Hai..!",
-        "Tum Bhool Gaye Shayad..!",
-        "Par Meri Mohabbat Wahi Hai..!"
+        "Muskurana Chhod Diya..!",
+        "Jab Se Pata Chala..!",
+        "Ki Meri Muskaan Kisi Ke Kaam Ki Nahi..!"
       ],
-      "theme": "judaai"
+      "theme": "tanhaai"
     },
     {
       "id": 57,
       "lines": [
-        "Bohot Dard Hota Hai..!",
-        "Jab Koi Apna..!",
-        "Achanak Se Ajnabi..!",
-        "Ban Jaata Hai..!",
-        "Kal Tak Jo Apna Tha..!",
-        "Aaj Jaanta Hi Nahi..!",
-        "Is Se Bada Zakhm..!",
-        "Koi Aur Nahi Hota..!"
+        "Dard Itna Hai Ki..!",
+        "Aansu Bhi Thak Gaye..!",
+        "Ab Toh Khamoshi Hi Roti Hai Mere Andar..!"
       ],
-      "theme": "judaai"
+      "theme": "dard"
     },
     {
       "id": 58,
       "lines": [
-        "Raaton Ki Neend Bhi..!",
-        "Chheen Li Yaadon Ne..!",
-        "Sukoon Ka Ek Pal Bhi..!",
-        "Na Rehne Diya Yaadon Ne..!",
-        "Tum Kehte Ho Hum..!",
-        "Tumhe Yaad Nahi Karte..!",
-        "Kaash Dekh Paate Tum..!",
-        "Kitna Tadapte Hain Hum..!"
+        "Tumhare Jaane Ka Gham Nahi..!",
+        "Gham Is Baat Ka Hai..!",
+        "Ki Tum Jaankar Bhi Gaye..!"
       ],
-      "theme": "judaai"
+      "theme": "dhokha"
     },
     {
       "id": 59,
       "lines": [
-        "Kaash Wo Waqt..!",
-        "Wahin Tham Jaata..!",
-        "Jab Tum Mere Paas The..!",
-        "Aur Sab Kuch Behtar Tha..!",
-        "Wo Haseen Lamhe..!",
-        "Laut Ke Nahi Aayenge..!",
-        "Bas Yaadon Mein Hi..!",
-        "Zinda Reh Jaayenge..!"
+        "Ek Din Aisa Aayega..!",
+        "Jab Main Nahi Rahunga..!",
+        "Tab Samjhoge — Kya Kho Diya Tumne..!"
       ],
-      "theme": "judaai"
+      "theme": "dard"
     },
     {
       "id": 60,
       "lines": [
-        "Tere Jaane Ke Baad..!",
-        "Ye Shehar Veeraan Hai..!",
-        "Har Chehra Anjaana..!",
-        "Har Koi Ajnabi Hai..!",
-        "Jahan Dekhoon Wahan..!",
-        "Bas Sunaapan Dikhta Hai..!",
-        "Tere Bina Ye Duniya..!",
-        "Ek Registan Lagti Hai..!"
+        "Baba Ki Dukaan Par..!",
+        "Baith Ke Roya Tha Us Din..!",
+        "Jab Pata Chala — Mehnat Bhi Naakaam Ho Sakti Hai..!"
       ],
-      "theme": "judaai"
+      "theme": "zindagi"
     },
     {
       "id": 61,
       "lines": [
-        "Zakhm Itne Diye Tumne..!",
-        "Ki Dard Mehsoos Nahi Hota..!",
-        "Dil Aisa Toota Hai..!",
-        "Ki Koi Apna Nahi Lagta..!",
-        "Itna Tod Diya Humein..!",
-        "Ki Jud Nahi Sakte..!",
-        "Ab Toh Aansu Bhi..!",
-        "Girna Bhool Gaye..!"
+        "Wo Last Seen Dekh Ke..!",
+        "Dil Dhadakta Tha Kabhi..!",
+        "Ab Last Seen Dekh Ke — Dil Tootta Hai..!"
       ],
-      "theme": "dhokha"
+      "theme": "pyaar"
     },
     {
       "id": 62,
       "lines": [
-        "Jhoothe Waade Diye Tumne..!",
-        "Jhoothi Kasmein Khayin..!",
-        "Aur Hum Bewakoof..!",
-        "Aankh Moondkar Maan Gaye..!",
-        "Tumhari Har Baat Par..!",
-        "Yakeen Kar Liya Humne..!",
-        "Apni Tabahi Ka Rasta..!",
-        "Khud Hi Chun Liya Humne..!"
+        "Tumhare Saath Bitaaye Lamhe..!",
+        "Ab Zakhm Ban Gaye Hain..!",
+        "Jo Har Khushi Mein Dard De Jaate Hain..!"
       ],
-      "theme": "dhokha"
+      "theme": "yaadein"
     },
     {
       "id": 63,
       "lines": [
-        "Jis Par Sabse Zyada..!",
-        "Bharosa Tha Humara..!",
-        "Usi Ne Sabse Bada..!",
-        "Dhokha Diya Humein..!",
-        "Apnon Se Mile Zakhm..!",
-        "Zyada Gehre Hote Hain..!",
-        "Kyunki Unse Humne..!",
-        "Kabhi Umeed Na Ki Thi..!"
+        "Main Toot Gaya Hoon..!",
+        "Par Awaaz Nahi Aayi..!",
+        "Kyunki Dil Sheeshe Ka Tha — Patthar Ka Nahi..!"
       ],
-      "theme": "dhokha"
+      "theme": "dard"
     },
     {
       "id": 64,
       "lines": [
-        "Mohabbat Mein Bewafai Ka..!",
-        "Zehar Ghol Diya Tumne..!",
-        "Hasta Hua Dil Mera..!",
-        "Tadpa Kar Tod Diya Tumne..!",
-        "Itna Toh Haq Tha Humara..!",
-        "Ki Wajah Bata Dete..!",
-        "Yun Chupke Se Chhodkar..!",
-        "Kambakht Kuch Toh Keh Dete..!"
+        "Tumhe Khokar Seekha..!",
+        "Ki Kuch Cheezein..!",
+        "Wapas Nahi Aatiin — Chahe Kitna Bhi Tadpo..!"
       ],
-      "theme": "dhokha"
+      "theme": "judaai"
     },
     {
       "id": 65,
       "lines": [
-        "Kabhi Socha Na Tha..!",
-        "Ki Tum Bhi Badal Jaoge..!",
-        "Duniya Ki Tarah Tum Bhi..!",
-        "Muh Mod Loge..!",
-        "Tumse Ye Umeed Nahi Thi..!",
-        "Ye Yakeen Na Tha..!",
-        "Ki Jise Apna Samjha..!",
-        "Wo Itna Bewafa Hoga..!"
+        "Apni Hi Shaadi Ka Card Dekhkar..!",
+        "Maa Ro Padi..!",
+        "Kyunki Uski Beti Ab Paraayi Ho Jaayegi..!"
       ],
-      "theme": "dhokha"
+      "theme": "maa"
     },
     {
       "id": 66,
       "lines": [
-        "Khel Acha Khela Tumne..!",
-        "Mere Dil Ke Saath..!",
-        "Jeet Tumhari Hui..!",
-        "Haar Meri Mohabbat Ki..!",
-        "Tumne Toh Khel Samjha..!",
-        "Is Rishte Ko..!",
-        "Humne Toh Dil Se..!",
-        "Poori Zindagi Laga Di..!"
+        "Tere Chale Jaane Se..!",
+        "Mera Ghar Nahi Toota..!",
+        "Par Ghar Mein Rehne Wala Insaan Toot Gaya..!"
       ],
-      "theme": "dhokha"
+      "theme": "judaai"
     },
     {
       "id": 67,
       "lines": [
-        "Chehre Badal Gaye..!",
-        "Insaan Badal Gaye..!",
-        "Waqt Ke Saath Saath..!",
-        "Iraade Badal Gaye..!",
-        "Jinhe Pehchaante The..!",
-        "Wo Anjaan Ho Gaye..!",
-        "Rishton Ke Rang Sab..!",
-        "Berang Ho Gaye..!"
+        "Itna Dard Diya Tumne..!",
+        "Ki Ab Dard Bhi..!",
+        "Apna Sa Lagta Hai..!"
       ],
-      "theme": "dhokha"
+      "theme": "dard"
     },
     {
       "id": 68,
       "lines": [
-        "Kitna Aasaan Tha..!",
-        "Tumhare Liye Alvida Kehna..!",
-        "Kitna Mushkil Hai..!",
-        "Mere Liye Akele Rehna..!",
-        "Tum Toh Chal Diye..!",
-        "Bina Peeche Dekhe..!",
-        "Hum Aaj Bhi Khade Hain..!",
-        "Usi Jagah Tere Intezaar Mein..!"
+        "Tumse Baat Karne Ko..!",
+        "Dil Tadapta Hai Roz..!",
+        "Par Number Dial Karne Ki Himmat Nahi Hoti..!"
       ],
-      "theme": "dhokha"
+      "theme": "pyaar"
     },
     {
       "id": 69,
       "lines": [
-        "Ab Kisi Par Bharosa..!",
-        "Karna Mushkil Hai..!",
-        "Sachcha Pyaar Ab..!",
-        "Baar Baar Nahi Milta..!",
-        "Ek Baar Jo Toota..!",
-        "Ye Dil Phir Juda Nahi..!",
-        "Ab Toh Khud Se Bhi..!",
-        "Yakeen Uthh Gaya Hai..!"
+        "Maa Kehti Hai — Kamyaab Bano Beta..!",
+        "Par Wo Nahi Jaanti..!",
+        "Ki Beta Andar Se Toot Chuka Hai..!"
       ],
-      "theme": "dhokha"
+      "theme": "maa"
     },
     {
       "id": 70,
       "lines": [
-        "Sheeshe Ka Dil Tha..!",
-        "Patthar Maarkar Tod Diya..!",
-        "Beech Raah Mein Laakar..!",
-        "Akela Chhod Diya..!",
-        "Tukde Tukde Kar Diya..!",
-        "Is Dil Ko Tumne..!",
-        "Phir Bhi Har Tukde Mein..!",
-        "Bas Tumhi Basay Ho..!"
+        "Zindagi Mein Kuch Log..!",
+        "Aise Chale Jaate Hain..!",
+        "Ki Unki Jagah Koi Le Hi Nahi Sakta..!"
       ],
-      "theme": "dhokha"
+      "theme": "judaai"
     },
     {
       "id": 71,
       "lines": [
-        "Tumhari Baaton Mein..!",
-        "Jo Mithaas Thi Kabhi..!",
-        "Wo Darasal Ek..!",
-        "Meetha Zehar Tha..!",
-        "Pyaar Ki Aad Mein..!",
-        "Tumne Jaal Bichhaaya..!",
-        "Aur Hum Seedhe Dil..!",
-        "Fasste Chale Gaye..!"
+        "Mohabbat Tab Samjhi..!",
+        "Jab Wo Kisi Aur Ki Ho Gayi..!",
+        "Aur Main Dekhta Raha — Khamosh..!"
       ],
-      "theme": "dhokha"
+      "theme": "pyaar"
     },
     {
       "id": 72,
       "lines": [
-        "Badal Jaate Hain Wo Log..!",
-        "Waqt Ki Tarah..!",
-        "Jinhe Had Se Zyada..!",
-        "Pyaar Diya Jaata Hai..!",
-        "Jitna Dil Se Chaaho..!",
-        "Utna Hi Tham Jaaye..!",
-        "Mohabbat Ki Qadr..!",
-        "Har Kisiko Nahi Hoti..!"
+        "Bohot Mehnat Ki Zindagi Mein..!",
+        "Sab Paaya Bhi..!",
+        "Par Jise Chahta Tha — Wo Nahi Mila..!"
       ],
-      "theme": "dhokha"
+      "theme": "zindagi"
     },
     {
       "id": 73,
       "lines": [
-        "Dil Todne Ke Liye..!",
-        "Shukriya Tumhe..!",
-        "Kam Se Kam Ab Hum..!",
-        "Kisi Par Nirbhar Nahi..!",
-        "Tumne Todkar Humein..!",
-        "Mazboot Bana Diya..!",
-        "Ab Toh Dard Bhi..!",
-        "Apna Sa Lagta Hai..!"
+        "Har Raat Ek Hi Sawaal..!",
+        "Khud Se Poochta Hoon..!",
+        "Kya Galat Kiya Tha Maine..?"
       ],
-      "theme": "dhokha"
+      "theme": "raat ke khayal"
     },
     {
       "id": 74,
       "lines": [
-        "Bewafai Ki Bhi..!",
-        "Hadd Hoti Hai Koi..!",
-        "Tumne Toh Humari..!",
-        "Wafadaari Ka Mazaak Banaya..!",
-        "Sachcha Pyaar Diya Tha..!",
-        "Tumne Thukra Diya..!",
-        "Humari Mohabbat Ko..!",
-        "Paon Mein Kuchal Diya..!"
+        "Rishte Nibhana Aata Tha Mujhe..!",
+        "Par Logo Ne Sikhaya..!",
+        "Ki Nibhaane Se Zyada Todna Aasaan Hai..!"
       ],
-      "theme": "dhokha"
+      "theme": "rishte"
     },
     {
       "id": 75,
       "lines": [
-        "Bharosa Ek Baar Toota..!",
-        "Toh Phir Jud Nahi Paata..!",
-        "Chahe Insaan Kitna Bhi..!",
-        "Maafi Maang Le..!",
-        "Rishta Phir Wahi Nahi Rehta..!",
-        "Jo Pehle Tha..!",
-        "Daraar Jo Pad Gayi..!",
-        "Wo Kabhi Nahi Bharti..!"
+        "Wo Kehta Tha — Tum Special Ho..!",
+        "Baad Mein Pata Chala..!",
+        "Ye Line Sabko Bolta Tha..!"
       ],
       "theme": "dhokha"
     },
     {
       "id": 76,
       "lines": [
-        "Tum Toh Badal Gaye..!",
-        "Apni Suvidha Ke Hisaab Se..!",
-        "Hum Aaj Bhi Khade Hain..!",
-        "Tumhari Yaad Mein..!",
-        "Tumne Toh Bhula Diya..!",
-        "Sab Kuch Ek Pal Mein..!",
-        "Hum Abhi Bhi Jeete Hain..!",
-        "Usi Guzre Kal Mein..!"
+        "Bheed Mein Khada Hoon..!",
+        "Par Tanha Hoon..!",
+        "Kyunki Jise Chahta Tha Wo Is Bheed Mein Nahi..!"
       ],
-      "theme": "dhokha"
+      "theme": "tanhaai"
     },
     {
       "id": 77,
       "lines": [
-        "Dard Is Baat Ka Nahi..!",
-        "Ki Tum Kisi Aur Ke Ho..!",
-        "Dard Is Baat Ka Hai..!",
-        "Ki Jhoothi Umeedein Din..!",
-        "Agar Sach Keh Dete..!",
-        "Toh Itna Dard Na Hota..!",
-        "Jhooth Ke Sahaare..!",
-        "Ye Rishta Na Toota Hota..!"
+        "Tumhari Khushi Ke Liye..!",
+        "Apna Dard Chhupaya..!",
+        "Aur Tum Samjhe — Mujhe Fark Hi Nahi Padta..!"
       ],
-      "theme": "dhokha"
+      "theme": "pyaar"
     },
     {
       "id": 78,
       "lines": [
-        "Sach Hi Kaha Hai..!",
-        "Kisine Ek Baar..!",
-        "Zaroorat Khatam Toh..!",
-        "Rishte Bhi Khatam..!",
-        "Jab Tak Kaam Tha..!",
-        "Tab Tak Apna Tha..!",
-        "Kaam Nikla Toh Humein..!",
-        "Paraya Kar Diya..!"
+        "Kisi Ne Pucha — Tumhara Sapna Kya Hai..?",
+        "Main Bola — Ek Ghar..!",
+        "Jahan Koi Mera Intezaar Kare..!"
       ],
-      "theme": "dhokha"
+      "theme": "tanhaai"
     },
     {
       "id": 79,
       "lines": [
-        "Ab Tumhe Fark Nahi..!",
-        "Padta Humare Rone Se..!",
-        "Tum Toh Aage Badh Gaye..!",
-        "Naye Logon Ke Saath..!",
-        "Humari Jagah Kisi Aur Ne..!",
-        "Le Li Tumhare Dil Mein..!",
-        "Aur Hum Yahin Reh Gaye..!",
-        "Purani Yaadon Ke Saath..!"
+        "Tumne Chhoda Toh Theek Hai..!",
+        "Par Itna Bata Do..!",
+        "Meri Galti Kya Thi..?"
       ],
-      "theme": "dhokha"
+      "theme": "judaai"
     },
     {
       "id": 80,
       "lines": [
-        "Humari Wafadaari Ko..!",
-        "Tumne Majboori Samjha..!",
-        "Khud Ko Begunah..!",
-        "Sabit Kar Diya Tumne..!",
-        "Duniya Ke Saamne..!",
-        "Hum Galat Nikle..!",
-        "Tumhari Bewafai Ka Izhaar..!",
-        "Koi Kar Na Saka..!"
+        "Aankhon Mein Pani Hai..!",
+        "Par Girne Nahi Deta..!",
+        "Kyunki Agar Gira Toh Sambhalne Wala Koi Nahi..!"
       ],
-      "theme": "dhokha"
+      "theme": "tanhaai"
     },
     {
       "id": 81,
       "lines": [
-        "Ye Raatein Bohot..!",
-        "Lambi Lagti Hain..!",
-        "Jab Teri Yaadein..!",
-        "Dil Par Dastak Deti Hain..!",
-        "Neend Bhi Ab..!",
-        "Saathi Nahi Rahi..!",
-        "Bas Tere Khayalon Mein..!",
-        "Raat Kat-ti Hai..!"
+        "Jis Din Tu Mili Thi..!",
+        "Us Din Ke Baad Se..!",
+        "Har Din Tera Intezaar Karta Raha..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "intezaar"
     },
     {
       "id": 82,
       "lines": [
-        "Sab So Jaate Hain..!",
-        "Apni Khushiyon Ke Saath..!",
-        "Hum Apni Puraani..!",
-        "Yaadein Seene Se Lagaate Hain..!",
-        "Raat Ka Har Pal..!",
-        "Teri Yaad Deta Hai..!",
-        "Ye Tanha Dil Bas..!",
-        "Teri Baatein Kehta Hai..!"
+        "Sachcha Pyaar Wo Hota Hai..!",
+        "Jisme Tum Toot Jaao..!",
+        "Par Saamne Waala Na Jaane..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "pyaar"
     },
     {
       "id": 83,
       "lines": [
-        "Aaj Phir Teri Yaad Ne..!",
-        "Rula Diya Humein..!",
-        "Sote Hue Dil Ko..!",
-        "Phir Se Jaga Diya..!",
-        "Itna Bhi Na Sata..!",
-        "Ae Mere Maazi..!",
-        "Tooti Hui Yaadein..!",
-        "Kyun Laut Ke Aati Hain..!"
+        "Ek Rishta Tha Jo..!",
+        "Duniya Se Chhupaaya Tha..!",
+        "Ab Wo Rishta Hi Duniya Se Chhup Gaya..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "rishte"
     },
     {
       "id": 84,
       "lines": [
-        "Raaton Ki Khamoshi..!",
-        "Bohot Kuch Kehti Hai..!",
-        "Jab Koi Apna Bas..!",
-        "Yaadon Mein Reh Jaata Hai..!",
-        "Andhera Apna Lagta Hai..!",
-        "Ujaala Paraya..!",
-        "Raat Ko Hi Samjhata Hai..!",
-        "Ye Dil Ka Maara..!"
+        "Gareebi Se Ladna Aasaan Tha..!",
+        "Par Apno Ki Bewafai Se..!",
+        "Ladna Seekha Hi Nahi..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "zindagi"
     },
     {
       "id": 85,
       "lines": [
-        "Tumhari Puraani Baatein..!",
-        "Padh Kar Muskaan Aati Hai..!",
-        "Phir Apni Bebasi Par..!",
-        "Aansu Baha Deta Hoon..!",
-        "Wo Din Yaad Aate Hain..!",
-        "Jab Sab Acha Tha..!",
-        "Ab Toh Bas Yaadon Ka..!",
-        "Sahara Reh Gaya Hai..!"
+        "Sapne Dekhe The Saath Ke..!",
+        "Par Kismat Ne..!",
+        "Akele Jeena Sikha Diya..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "judaai"
     },
     {
       "id": 86,
       "lines": [
-        "Andhera Hi Acha Hai..!",
-        "Is Ujaale Se..!",
-        "Kam Se Kam Mere Aansoo..!",
-        "Kisi Ko Dikhte Nahi..!",
-        "Raat Ka Saaya Hi..!",
-        "Ab Apna Lagta Hai..!",
-        "Kyunki Andhera Hi..!",
-        "Mera Dard Samjhata Hai..!"
+        "Dost Kehte Hain — Bhool Ja Usse..!",
+        "Par Wo Nahi Samjhte..!",
+        "Ki Dil Ko Command Nahi De Sakte..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "pyaar"
     },
     {
       "id": 87,
       "lines": [
-        "Kitni Raatein Guzaari Hain..!",
-        "Jaag Jaag Kar Humne..!",
-        "Sirf Tumhare Ek Sandesh..!",
-        "Ke Intezaar Mein..!",
-        "Aankhein Thak Gayi Hain..!",
-        "Raah Dekhte Dekhte..!",
-        "Par Ye Dil Nahi Maanta..!",
-        "Har Raat Intezaar Karta Hai..!"
+        "Ek Zamana Tha..!",
+        "Jab Tum Mere The..!",
+        "Ab Wo Zamana Bhi Gaya — Aur Tum Bhi..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "judaai"
     },
     {
       "id": 88,
       "lines": [
-        "Tumhari Yaadein Bhi..!",
-        "Tumhari Tarah Hain..!",
-        "Bina Bataaye Aa Jaati Hain..!",
-        "Rulakar Chali Jaati Hain..!",
-        "Na Bulaya Na Maanga..!",
-        "Par Chali Aati Hain..!",
-        "Ye Yaadein Bhi Na..!",
-        "Chain Se Jeene Deti Hain..!"
+        "Phone Ki Screen Par..!",
+        "Typing Dikhta Hai Tumhara..!",
+        "Phir Gayab — Jaise Tum Zindagi Se Gaye..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "pyaar"
     },
     {
       "id": 89,
       "lines": [
-        "Ye Chand Bhi Aaj..!",
-        "Akela Lagta Hai..!",
-        "Bilkul Meri Tarah..!",
-        "Is Aasmaan Mein..!",
-        "Taare Toh Hain Par..!",
-        "Koi Apna Nahi..!",
-        "Bheed Mein Bhi Hum..!",
-        "Akele Hain Yahan..!"
+        "Tumne Kaha — Time Chahiye..!",
+        "Main Ruka..!",
+        "Par Tumne Time Kisi Aur Ko De Diya..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "dhokha"
     },
     {
       "id": 90,
       "lines": [
-        "Sapno Mein Hi Sahi..!",
-        "Tum Aaj Bhi Aate Ho..!",
-        "Par Subah Aankh Khulte Hi..!",
-        "Phir Tanha Chhod Jaate Ho..!",
-        "Kaash Ye Sapne..!",
-        "Kabhi Tootte Nahi..!",
-        "Kyunki Haqeeqat Mein..!",
-        "Tum Ab Milte Nahi..!"
+        "Main Wahi Hoon..!",
+        "Jise Tum Pyaar Karte The..!",
+        "Phir Kya Badal Gaya — Main Ya Tum..?"
       ],
-      "theme": "raat ke khayal"
+      "theme": "pyaar"
     },
     {
       "id": 91,
       "lines": [
-        "Neend Ab Aankhon Mein..!",
-        "Aati Hi Nahi..!",
-        "Tumhari Yaadein Dil Se..!",
-        "Jaati Hi Nahi..!",
-        "Raat Bhar Karwatein..!",
-        "Badalte Rehte Hain..!",
-        "Tere Bin Ye Raatein..!",
-        "Guzarti Hi Nahi..!"
+        "Dil Tod Ke Chale Gaye..!",
+        "Aur Hum Dil Jodne Baithe..!",
+        "Jo Kabhi Jud Hi Nahi Sakta..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "dard"
     },
     {
       "id": 92,
       "lines": [
-        "Khamosh Raat Hai..!",
-        "Udaas Dil Hai..!",
-        "Teri Yaad Hai Bas..!",
-        "Aur Kuch Nahi..!",
-        "Zindagi Mein Tumhare Baad..!",
-        "Kuch Bacha Hi Nahi..!",
-        "Bas Ek Khamoshi Hai..!",
-        "Aur Tanhaayi Hai..!"
+        "Kisi Ke Jaane Ka Dard..!",
+        "Tab Samajh Aata Hai..!",
+        "Jab Unki Jagah Hamesha Khaali Rahe..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "judaai"
     },
     {
       "id": 93,
       "lines": [
-        "Takiye Ko Bhigokar Sona..!",
-        "Ab Aadat Ban Gayi Hai..!",
-        "Tere Bina Ye Zindagi..!",
-        "Ek Sazaa Ban Gayi Hai..!",
-        "Har Raat Rona Likha Hai..!",
-        "Is Kismat Mein..!",
-        "Tere Bina Jeena..!",
-        "Ab Mushkil Ban Gaya Hai..!"
+        "Main Theek Hoon — Ye Kehna..!",
+        "Sabse Bada Jhooth Hai..!",
+        "Jo Roz Bolta Hoon Muskurate Hue..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "tanhaai"
     },
     {
       "id": 94,
       "lines": [
-        "Guzra Hua Waqt..!",
-        "Bohot Yaad Aata Hai..!",
-        "Jab Tum Qareeb The..!",
-        "Sab Kuch Theek Tha..!",
-        "Wo Puraane Din Ab..!",
-        "Laut Ke Nahi Aayenge..!",
-        "Bas Yaadon Ke Sahare..!",
-        "Hum Jeete Jaayenge..!"
+        "Baba Ne Poori Umar..!",
+        "Mehnat Ki — Bas Itna Chahte The..!",
+        "Ki Beta Kabhi Rona Na Pade..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "maa"
     },
     {
       "id": 95,
       "lines": [
-        "Har Raat Ek Hi Sawaal..!",
-        "Aata Hai Zehan Mein..!",
-        "Kya Tumhe Bhi Kabhi..!",
-        "Meri Yaad Aati Hai..!",
-        "Ya Bas Hum Hi Hain..!",
-        "Jo Tadapte Rehte Hain..!",
-        "Tumhari Ek Jhalak Ke Liye..!",
-        "Tarapte Rehte Hain..!"
+        "Tumhari Ek Call Ka..!",
+        "Intezaar Tha..!",
+        "Par Tumne Wo Number Hi Block Kar Diya..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "dhokha"
     },
     {
       "id": 96,
       "lines": [
-        "Wo Tasveerein Aaj Bhi..!",
-        "Mehfooz Hain Mere Paas..!",
-        "Jinme Tum Mera Haath..!",
-        "Thaamkar Muskura Rahe The..!",
-        "Wo Lamhe Ab Sirf..!",
-        "Tasveeron Mein Qaid Hain..!",
-        "Par Unki Roshni Se..!",
-        "Ye Dil Aaj Bhi Jalta Hai..!"
+        "Kuch Dard Itne Gehre Hote Hain..!",
+        "Ki Aansu Bhi Nahi Nikalte..!",
+        "Bas Andar Hi Andar Jalte Rehte Hain..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "dard"
     },
     {
       "id": 97,
       "lines": [
-        "Yaadon Ka Saagar..!",
-        "Umad Aata Hai Raat Mein..!",
-        "Hum Doob Jaate Hain..!",
-        "Tere Khayalon Mein..!",
-        "Na Sahil Milta Hai..!",
-        "Na Kinaara Dikhta Hai..!",
-        "Teri Yaadon Ka Samandar..!",
-        "Bas Gehrata Jaata Hai..!"
+        "Tere Bina Ye Shaam..!",
+        "Bohot Lambi Lagti Hai..!",
+        "Aur Raat — Wo Toh Khatam Hi Nahi Hoti..!"
       ],
       "theme": "raat ke khayal"
     },
     {
       "id": 98,
       "lines": [
-        "Kitna Aasaan Hota Na..!",
-        "Agar Yaadein Bhi Mit Jaatin..!",
-        "Kaash Is Takleef Se..!",
-        "Hum Aaj Azaad Hote..!",
-        "Par Yaadein Toh Wahi Hain..!",
-        "Jo Peechha Nahi Chhodti..!",
-        "Chahe Kitna Bhi Bhagao..!",
-        "Saath Nahi Chhodti..!"
+        "Tumse Mohabbat Ki Sazaa Ye Mili..!",
+        "Ki Ab Kisi Se Bhi..!",
+        "Mohabbat Nahi Hoti..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "pyaar"
     },
     {
       "id": 99,
       "lines": [
-        "Raaton Ko Uth Uthkar..!",
-        "Rona Koi Humse Pooche..!",
-        "Mohabbat Ka Sachcha Dard..!",
-        "Koi Humse Pooche..!",
-        "Duniya Toh Jaagti Hai..!",
-        "Subah Ke Ujaale Mein..!",
-        "Hum Jaagti Raaton Mein..!",
-        "Dard Sehte Rehte Hain..!"
+        "Tumhari Puraani Chat Padh Ke..!",
+        "Roya Tha Aaj..!",
+        "Kitne Khoobsurat The Wo Din..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "yaadein"
     },
     {
       "id": 100,
       "lines": [
-        "Khamoshi Bolti Hai..!",
-        "Aur Hum Sunte Hain..!",
-        "Andhere Mein Baithkar..!",
-        "Teri Yaadein Chunte Hain..!",
-        "Raat Ka Har Lamha..!",
-        "Tera Naam Leti Hai..!",
-        "Ye Tanha Dil Bas..!",
-        "Tujhse Hi Kehta Hai..!"
+        "Ek Aakhri Baar Milna Chahta Hoon..!",
+        "Bas Itna Kehne..!",
+        "Ki Tum Sahi The — Galti Meri Thi..!"
       ],
-      "theme": "raat ke khayal"
+      "theme": "pyaar"
     },
     {
       "id": 101,
       "lines": [
-        "Bheed Mein Bhi..!",
-        "Akela Mehsoos Karta Hoon..!",
-        "Jab Se Tumse Baat..!",
-        "Hona Band Hui Hai..!",
-        "Hazaaron Log Hain..!",
-        "Par Koi Apna Nahi..!",
-        "Tumhare Jaane Se..!",
-        "Sab Kuch Soona Hua..!"
+        "Gaon Chhoda Tha..!",
+        "Sapno Ke Liye..!",
+        "Par Shehar Ne Sapne Tod Diye..!"
       ],
-      "theme": "tanhaai"
+      "theme": "zindagi"
     },
     {
       "id": 102,
       "lines": [
-        "Hasna Chhod Diya Hai..!",
-        "Humne Logon Ke Liye..!",
-        "Jhoothi Muskaan Sajaa Li..!",
-        "Dard Chhupane Ke Liye..!",
-        "Andar Se Toote Hain..!",
-        "Bahar Se Haste Hain..!",
-        "Duniya Ko Dikhane Ko..!",
-        "Zinda Rehte Hain..!"
+        "Tumne Kaha — Friends Rahenge..!",
+        "Par Dosti Mein Bhi..!",
+        "Wo Pyaar Waali Baat Kahan..!"
       ],
-      "theme": "tanhaai"
+      "theme": "pyaar"
     },
     {
       "id": 103,
       "lines": [
-        "Zindagi Toh Chal Rahi Hai..!",
-        "Apni Raftaar Se..!",
-        "Par Dil Wahin Ruk Gaya..!",
-        "Jahan Tumne Chhoda Tha..!",
-        "Waqt Aage Badh Gaya..!",
-        "Par Hum Nahi Badhe..!",
-        "Usi Mod Par Khade Hain..!",
-        "Jahan Tum Chhod Gaye..!"
+        "Akela Baitha Sochta Hoon..!",
+        "Kahan Galat Ho Gaya Sab..!",
+        "Phir Yaad Aata Hai — Galat Toh Kuch Hua Hi Nahi Tha..!"
       ],
       "theme": "tanhaai"
     },
     {
       "id": 104,
       "lines": [
-        "Ab Kisi Naye Insaan Se..!",
-        "Milne Ka Dil Nahi Karta..!",
-        "Dar Lagta Hai Ki Wo Bhi..!",
-        "Tumhari Tarah Chhod Na Jaaye..!",
-        "Ek Baar Jo Dil Toota..!",
-        "Toh Phir Jodne Ka Mann Nahi..!",
-        "Ab Kisi Ko Apna Banana..!",
-        "Mumkin Hi Nahi..!"
+        "Maa Ka Chehra Yaad Aata Hai..!",
+        "Jab Bhi Akela Padta Hoon..!",
+        "Kyunki Sirf Uska Pyaar Sachcha Tha..!"
       ],
-      "theme": "tanhaai"
+      "theme": "maa"
     },
     {
       "id": 105,
       "lines": [
-        "Tootkar Bikhra Hoon..!",
-        "Is Qadar Main..!",
-        "Khud Ko Jodna Ab..!",
-        "Naamumkin Lagta Hai..!",
-        "Tukde Tukde Hain Hum..!",
-        "Koi Joddne Waala Nahi..!",
-        "Is Tooti Zindagi Ka..!",
-        "Koi Sahara Nahi..!"
+        "Sab Rishte Tootte Gaye..!",
+        "Ek Ek Karke..!",
+        "Ab Akela Hoon — Par Aadat Ho Gayi Hai..!"
       ],
-      "theme": "tanhaai"
+      "theme": "rishte"
     },
     {
       "id": 106,
       "lines": [
-        "Dard Chhupana Seekh Liya..!",
-        "Humne Duniya Se..!",
-        "Chehre Par Muskaan Sajana..!",
-        "Seekh Liya Humne..!",
-        "Andar Ka Toofaan..!",
-        "Koi Nahi Jaanta..!",
-        "Bahar Ka Sukoon..!",
-        "Sab Dekhte Hain..!"
+        "Jab Sab Chhod Ke Chale Gaye..!",
+        "Tab Samjha..!",
+        "Ki Insaan Apne Liye Hi Kaafi Hai..!"
       ],
-      "theme": "tanhaai"
+      "theme": "zindagi"
     },
     {
       "id": 107,
       "lines": [
-        "Log Poochte Hain..!",
-        "Itne Chup Kyun Rehte Ho..!",
-        "Ab Unhe Kya Batayein..!",
-        "Ki Andar Kitna Toofaan Hai..!",
-        "Baatein Karne Ka Mann..!",
-        "Ab Rehta Hi Nahi..!",
-        "Kyunki Jo Sunna Tha..!",
-        "Wo Koi Hai Hi Nahi..!"
+        "Tumhari Last Seen Dekh Ke..!",
+        "Dil Mein Dard Hota Hai..!",
+        "Ki Online Ho — Par Mere Liye Nahi..!"
       ],
-      "theme": "tanhaai"
+      "theme": "pyaar"
     },
     {
       "id": 108,
       "lines": [
-        "Zindagi Mein Kuch Mod..!",
-        "Aise Bhi Aate Hain..!",
-        "Jahan Chahkar Bhi Insaan..!",
-        "Muskura Nahi Paata..!",
-        "Hansi Bhi Ab..!",
-        "Majboori Ban Gayi Hai..!",
-        "Aur Rona Bhi..!",
-        "Aadat Ban Gayi Hai..!"
+        "Zindagi Ne Sikhaya..!",
+        "Ki Har Muskuraata Chehra..!",
+        "Khush Nahi Hota..!"
       ],
-      "theme": "tanhaai"
+      "theme": "zindagi"
     },
     {
       "id": 109,
       "lines": [
-        "Akele Chalna Seekh Liya..!",
-        "Humne Is Duniya Mein..!",
-        "Kyunki Saath Chalne Waale..!",
-        "Aksar Raah Badal Lete Hain..!",
-        "Ab Na Kisi Ka Saath..!",
-        "Chahiye Humein..!",
-        "Apni Tanhaayi Hi..!",
-        "Kaafi Hai Humein..!"
+        "Tumhe Bhulana Chaaha..!",
+        "Par Har Mod Par..!",
+        "Tumhari Yaad Khadi Mili..!"
       ],
-      "theme": "tanhaai"
+      "theme": "yaadein"
     },
     {
       "id": 110,
       "lines": [
-        "Ab Kisi Se Koi..!",
-        "Ummeed Nahi Rakhta..!",
-        "Kyunki Ummeedein Hi..!",
-        "Dard Ki Wajah Banti Hain..!",
-        "Jitna Zyada Chaaho..!",
-        "Utna Zyada Tootte Ho..!",
-        "Isliye Ab Humne..!",
-        "Chahna Hi Chhod Diya..!"
+        "Jab Dard Zyada Hota Hai..!",
+        "Toh Aansu Nahi Aate..!",
+        "Bas Sab Kuch Suna Suna Lagta Hai..!"
       ],
-      "theme": "tanhaai"
+      "theme": "dard"
     },
     {
       "id": 111,
       "lines": [
-        "Ye Dil Ab Khaali..!",
-        "Khaali Sa Lagta Hai..!",
-        "Jaise Ismein Ab Koi..!",
-        "Armaan Hi Na Bacha Ho..!",
-        "Na Koi Khwaab Hai..!",
-        "Na Koi Tamanna..!",
-        "Bas Ek Sunaapan Hai..!",
-        "Aur Kuch Nahi..!"
+        "Ek Waqt Tha — Tumhare Bina..!",
+        "Khana Nahi Khata Tha..!",
+        "Ab Tumhare Bina — Jeena Seekh Raha Hoon..!"
       ],
-      "theme": "tanhaai"
+      "theme": "judaai"
     },
     {
       "id": 112,
       "lines": [
-        "Rone Se Dard..!",
-        "Kam Nahi Hota..!",
-        "Par Dil Ka Bojh..!",
-        "Thoda Halka Ho Jaata Hai..!",
-        "Aansu Bhi Kabhi Kabhi..!",
-        "Dawai Ka Kaam Karte Hain..!",
-        "Jo Baat Lab Na Kahein..!",
-        "Wo Aankhein Keh Jaati Hain..!"
+        "Tumne Kaha — Main Badal Gayi..!",
+        "Par Sochna..!",
+        "Kisne Badla Tha Mujhe..!"
       ],
-      "theme": "tanhaai"
+      "theme": "dhokha"
     },
     {
       "id": 113,
       "lines": [
-        "Zindagi Ne Bohot Kuch..!",
-        "Sikhaya Humein..!",
-        "Par Tumhare Bina Jeena..!",
-        "Nahi Sikhaya..!",
-        "Sab Kuch Seekha Humne..!",
-        "Is Duniya Se..!",
-        "Par Tujhe Bhulana..!",
-        "Na Aaya Humse..!"
+        "Khamoshi Se Behtar..!",
+        "Koi Jawab Nahi..!",
+        "Jab Poochne Waala Hi Apna Na Ho..!"
       ],
       "theme": "tanhaai"
     },
     {
       "id": 114,
       "lines": [
-        "Ab Toh Dard Bhi..!",
-        "Apna Sa Lagta Hai..!",
-        "Aur Khushiyaan..!",
-        "Ajnabi Si Lagti Hain..!",
-        "Dard Se Rishta Jud Gaya..!",
-        "Khushiyon Se Toot Gaya..!",
-        "Ye Kaisi Zindagi Hai..!",
-        "Jo Dard Ne Apna Li..!"
+        "Tumhari Ek Photo Hai Mere Paas..!",
+        "Jisme Tum Has Rahe Ho..!",
+        "Aur Main Har Roz Dekh Ke Ro Deta Hoon..!"
       ],
-      "theme": "tanhaai"
+      "theme": "yaadein"
     },
     {
       "id": 115,
       "lines": [
-        "Kaash Koi Aisa Hota..!",
-        "Jo Dil Ka Haal Samjhata..!",
-        "Bina Kuch Kahe..!",
-        "Meri Aankhon Ke Aansoo Padhta..!",
-        "Par Is Duniya Mein..!",
-        "Aisa Koi Nahi..!",
-        "Jo Bina Kahe Hi..!",
-        "Sab Samajh Jaaye..!"
+        "Kaash Koi Samajhta..!",
+        "Ki Chup Rehna..!",
+        "Hamesha Theek Rehna Nahi Hota..!"
       ],
       "theme": "tanhaai"
     },
     {
       "id": 116,
       "lines": [
-        "Har Roz Khud Se..!",
-        "Ek Vaada Karta Hoon..!",
-        "Aaj Tumhe Yaad..!",
-        "Nahi Karunga Main..!",
-        "Par Jaise Hi Raat Aati Hai..!",
-        "Haar Jaata Hoon..!",
-        "Phir Teri Yaadon Mein..!",
-        "Kho Jaata Hoon..!"
+        "Maa Ne Kaha — Roti Khale Beta..!",
+        "Main Bola — Bhookh Nahi Hai..!",
+        "Par Asal Mein Dil Itna Bhari Tha Ki Kuch Utarta Nahi..!"
       ],
-      "theme": "tanhaai"
+      "theme": "maa"
     },
     {
       "id": 117,
       "lines": [
-        "Dil Ka Tootna Bhi..!",
-        "Bohot Khamosh Hota Hai..!",
-        "Na Koi Awaaz Hoti Hai..!",
-        "Na Koi Dhamaka..!",
-        "Bas Andar Hi Andar..!",
-        "Sab Kuch Bikhar Jaata Hai..!",
-        "Aur Insaan Chalta Rehta Hai..!",
-        "Toota Hua Muskuraata Hua..!"
+        "Wo Log Jo Kal Tak..!",
+        "Marte The Tumhare Liye..!",
+        "Aaj Unhe Tumhara Naam Bhi Yaad Nahi..!"
       ],
-      "theme": "tanhaai"
+      "theme": "dhokha"
     },
     {
       "id": 118,
       "lines": [
-        "Khud Se Bhi Nafrat..!",
-        "Hone Lagi Hai Ab..!",
-        "Kyunki Ye Dil Aaj Bhi..!",
-        "Sirf Tumhe Chahta Hai..!",
-        "Jaanta Hoon Tum Nahi Aaoge..!",
-        "Phir Bhi Chahta Hoon..!",
-        "Is Bewakoof Dil Ko..!",
-        "Kaise Samjhaaoon Main..!"
+        "Thak Gaya Hoon..!",
+        "Sabko Khush Karte Karte..!",
+        "Ab Mujhe Bhi Koi Khush Kar De..!"
       ],
       "theme": "tanhaai"
     },
     {
       "id": 119,
       "lines": [
-        "Sab Kehte Hain Waqt..!",
-        "Har Zakhm Bhar Deta Hai..!",
-        "Par Kuch Zakhm Itne..!",
-        "Gehre Hote Hain..!",
-        "Ki Waqt Bhi Haar..!",
-        "Maan Leta Hai..!",
-        "Kuch Dard Aise Hote Hain..!",
-        "Jo Saans Tak Rehte Hain..!"
+        "Tumse Bichhad Ke Seekha..!",
+        "Ki Kuch Toote Hue Rishte..!",
+        "Judne Ke Liye Nahi Hote..!"
       ],
-      "theme": "tanhaai"
+      "theme": "judaai"
     },
     {
       "id": 120,
       "lines": [
-        "Ab Bas Sukoon Ki..!",
-        "Talaash Hai Humein..!",
-        "Chahe Wo Zindagi Mein..!",
-        "Mile Ya Uske Baad..!",
-        "Thak Gaye Hain Hum..!",
-        "Dard Sehte Sehte..!",
-        "Ab Bas Ek Sukoon..!",
-        "Chahiye Humein..!"
+        "Aakhri Baar Gale Lagaa Lo..!",
+        "Phir Chahe Chale Jaana..!",
+        "Par Jaate Waqt Peeche Mudke Mat Dekhna..!"
       ],
-      "theme": "tanhaai"
+      "theme": "pyaar"
     }
   ],
   "used_ids": []
