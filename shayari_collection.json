@@ -21,7 +21,7 @@
     {
       "id": 3,
       "lines": [
-        "Maa Ka Phone Uthane Se Darta Hoon..!",
+        "Maa Ki Awaaz Sunte Hi Darta Hoon..!",
         "Kyunki Wo Poochti Hai — Khush Ho Na..?",
         "Aur Jhooth Bolte Bolte Thak Gaya Hoon..!"
       ],
@@ -48,8 +48,8 @@
     {
       "id": 6,
       "lines": [
-        "Tumhari Aakhri Message Aaj Bhi..!",
-        "Phone Mein Save Hai..!",
+        "Tumhara Aakhri Paigam Aaj Bhi..!",
+        "Dil Mein Mehfooz Hai..!",
         "Roz Padhta Hoon — Roz Tootta Hoon..!"
       ],
       "theme": "yaadein"
@@ -57,7 +57,7 @@
     {
       "id": 7,
       "lines": [
-        "Sab Kehte Hain — Strong Raho..!",
+        "Sab Kehte Hain — Mazboot Raho..!",
         "Par Koi Nahi Poochta..!",
         "Kitna Dard Seh Rahe Ho..!"
       ],
@@ -67,7 +67,7 @@
       "id": 8,
       "lines": [
         "Tumne Toh Naya Safar Shuru Kar Diya..!",
-        "Hum Aaj Bhi Usi Station Par..!",
+        "Hum Aaj Bhi Usi Chaurahe Par..!",
         "Tumhara Intezaar Kar Rahe Hain..!"
       ],
       "theme": "intezaar"
@@ -174,7 +174,7 @@
     {
       "id": 20,
       "lines": [
-        "Tumhari Photo Dekh Ke..!",
+        "Tumhari Tasveer Dekh Ke..!",
         "Muskuraata Hoon Pehle..!",
         "Phir Yaad Aata Hai — Ab Mere Nahi Ho Tum..!"
       ],
@@ -219,7 +219,7 @@
     {
       "id": 25,
       "lines": [
-        "Kaash Koi Reset Button Hota..!",
+        "Kaash Yaadein Mitaana Mumkin Hota..!",
         "Dil Ke Liye..!",
         "Toh Tujhe Kabhi Yaad Hi Na Karta..!"
       ],
@@ -309,7 +309,7 @@
     {
       "id": 35,
       "lines": [
-        "Meri Diary Ke Har Page Par..!",
+        "Meri Kitaab Ke Har Panne Par..!",
         "Sirf Tera Naam Hai..!",
         "Aur Aansuon Ke Nishaan..!"
       ],
@@ -318,7 +318,7 @@
     {
       "id": 36,
       "lines": [
-        "Tum Kehte Ho — Move On Karo..!",
+        "Tum Kehte Ho — Aage Badho..!",
         "Par Batao..!",
         "Dil Se Kaise Nikaloon Tumhe..!"
       ],
@@ -446,7 +446,7 @@
       "lines": [
         "Mere Liye Tum Sab Kuch The..!",
         "Tumhare Liye Main..!",
-        "Bas Ek Aur Option Tha..!"
+        "Bas Ek Aur Raasta Tha..!"
       ],
       "theme": "dhokha"
     },
@@ -490,7 +490,7 @@
       "id": 55,
       "lines": [
         "Tumhari Tasveer Dekhta Hoon..!",
-        "Aur Phone Lock Kar Deta Hoon..!",
+        "Aur Palat Ke Rakh Deta Hoon..!",
         "Kyunki Zyada Dekhoon Toh Toot Jaaonga..!"
       ],
       "theme": "yaadein"
@@ -543,9 +543,9 @@
     {
       "id": 61,
       "lines": [
-        "Wo Last Seen Dekh Ke..!",
+        "Wo Tumhari Ek Jhalak Dekh Ke..!",
         "Dil Dhadakta Tha Kabhi..!",
-        "Ab Last Seen Dekh Ke — Dil Tootta Hai..!"
+        "Ab Wo Jhalak Bhi Naseeb Nahi..!"
       ],
       "theme": "pyaar"
     },
@@ -579,7 +579,7 @@
     {
       "id": 65,
       "lines": [
-        "Apni Hi Shaadi Ka Card Dekhkar..!",
+        "Apni Hi Beti Ki Vidaai Mein..!",
         "Maa Ro Padi..!",
         "Kyunki Uski Beti Ab Paraayi Ho Jaayegi..!"
       ],
@@ -608,7 +608,7 @@
       "lines": [
         "Tumse Baat Karne Ko..!",
         "Dil Tadapta Hai Roz..!",
-        "Par Number Dial Karne Ki Himmat Nahi Hoti..!"
+        "Par Awaaz Dene Ki Himmat Nahi Hoti..!"
       ],
       "theme": "pyaar"
     },
@@ -669,9 +669,9 @@
     {
       "id": 75,
       "lines": [
-        "Wo Kehta Tha — Tum Special Ho..!",
+        "Wo Kehta Tha — Tum Khaas Ho..!",
         "Baad Mein Pata Chala..!",
-        "Ye Line Sabko Bolta Tha..!"
+        "Ye Baat Sabko Kehta Tha..!"
       ],
       "theme": "dhokha"
     },
@@ -770,7 +770,7 @@
       "lines": [
         "Dost Kehte Hain — Bhool Ja Usse..!",
         "Par Wo Nahi Samjhte..!",
-        "Ki Dil Ko Command Nahi De Sakte..!"
+        "Ki Dil Ko Hukm Nahi De Sakte..!"
       ],
       "theme": "pyaar"
     },
@@ -786,18 +786,18 @@
     {
       "id": 88,
       "lines": [
-        "Phone Ki Screen Par..!",
-        "Typing Dikhta Hai Tumhara..!",
-        "Phir Gayab — Jaise Tum Zindagi Se Gaye..!"
+        "Tumhara Paigam Likhte Likhte..!",
+        "Ruk Jaata Hoon..!",
+        "Kyunki Ab Kehne Ko Kuch Bacha Hi Nahi..!"
       ],
       "theme": "pyaar"
     },
     {
       "id": 89,
       "lines": [
-        "Tumne Kaha — Time Chahiye..!",
+        "Tumne Kaha — Waqt Chahiye..!",
         "Main Ruka..!",
-        "Par Tumne Time Kisi Aur Ko De Diya..!"
+        "Par Tumne Waqt Kisi Aur Ko De Diya..!"
       ],
       "theme": "dhokha"
     },
@@ -849,9 +849,9 @@
     {
       "id": 95,
       "lines": [
-        "Tumhari Ek Call Ka..!",
+        "Tumhari Ek Awaaz Ka..!",
         "Intezaar Tha..!",
-        "Par Tumne Wo Number Hi Block Kar Diya..!"
+        "Par Tumne Wo Raasta Hi Band Kar Diya..!"
       ],
       "theme": "dhokha"
     },
@@ -885,7 +885,7 @@
     {
       "id": 99,
       "lines": [
-        "Tumhari Puraani Chat Padh Ke..!",
+        "Tumhari Puraani Baatein Padh Ke..!",
         "Roya Tha Aaj..!",
         "Kitne Khoobsurat The Wo Din..!"
       ],
@@ -912,7 +912,7 @@
     {
       "id": 102,
       "lines": [
-        "Tumne Kaha — Friends Rahenge..!",
+        "Tumne Kaha — Dost Rahenge..!",
         "Par Dosti Mein Bhi..!",
         "Wo Pyaar Waali Baat Kahan..!"
       ],
@@ -957,9 +957,9 @@
     {
       "id": 107,
       "lines": [
-        "Tumhari Last Seen Dekh Ke..!",
+        "Tumhe Dur Se Dekhta Hoon..!",
         "Dil Mein Dard Hota Hai..!",
-        "Ki Online Ho — Par Mere Liye Nahi..!"
+        "Ki Saamne Ho — Par Mere Liye Nahi..!"
       ],
       "theme": "pyaar"
     },
@@ -1020,7 +1020,7 @@
     {
       "id": 114,
       "lines": [
-        "Tumhari Ek Photo Hai Mere Paas..!",
+        "Tumhari Ek Tasveer Hai Mere Paas..!",
         "Jisme Tum Has Rahe Ho..!",
         "Aur Main Har Roz Dekh Ke Ro Deta Hoon..!"
       ],
