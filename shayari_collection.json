@@ -6,7 +6,7 @@
         "Jo kabhi bin bole sab samajh jaate the,",
         "Aaj unhe apni baat samjhana bhi ek bojh lagta hai."
       ],
-      "theme": "rishte (relationships)"
+      "theme": "rishte"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
         "Log badalte hain toh dard utna nahi hota,",
         "Jitna unke badalne ka tareeka tod deta hai."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 3,
@@ -22,15 +22,15 @@
         "Pehle roz ki aadat the hum unki,",
         "Aaj ek mulaqaat ke liye bhi waqt nahi hai unke paas."
       ],
-      "theme": "badlav (change)"
+      "theme": "badlav"
     },
     {
       "id": 4,
       "lines": [
         "Kisi ko toot kar chahne se behtar tha,",
-        "Khud se thoda sa selfish ho jaate toh bach jaate."
+        "Khud se thoda sa khudgarz ho jaate toh bach jaate."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 5,
@@ -38,23 +38,23 @@
         "Jinhe apna maana tha wahi gair nikle,",
         "Ab kisi aur se wafa ki ummeed kya hi karein."
       ],
-      "theme": "bharosa (trust)"
+      "theme": "bharosa"
     },
     {
       "id": 6,
       "lines": [
         "Narazgi toh apno se hoti hai,",
-        "Par jab apne hi strangers ban jaayein toh khamoshi hi sahi."
+        "Par jab apne hi ajnabi ban jaayein toh khamoshi hi sahi."
       ],
-      "theme": "narazgi (resentment)"
+      "theme": "narazgi"
     },
     {
       "id": 7,
       "lines": [
         "Rishte badal jaate hain bina kisi aahat ke,",
-        "Aur hum wahin khade purani yaadein count karte reh jaate hain."
+        "Aur hum wahin khade purani yaadein gin-te reh jaate hain."
       ],
-      "theme": "yaadein (memories)"
+      "theme": "yaadein"
     },
     {
       "id": 8,
@@ -62,23 +62,23 @@
         "Sabse bada dhokha tab milta hai,",
         "Jab fark padna band ho jaaye usko jiske bina tumhara guzara nahi tha."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 9,
       "lines": [
-        "Loyalty ki baatein sab karte hain,",
+        "Wafadaari ki baatein sab karte hain,",
         "Par nibhane ki baari aaye toh pehle wahi peeche hat-te hain."
       ],
-      "theme": "wafa (loyalty)"
+      "theme": "wafa"
     },
     {
       "id": 10,
       "lines": [
-        "Kal tak jo har baat share karte the,",
+        "Kal tak jo har baat baantte the humse,",
         "Aaj unke baare mein dusron se pata chalta hai."
       ],
-      "theme": "rishte (relationships)"
+      "theme": "rishte"
     },
     {
       "id": 11,
@@ -86,47 +86,47 @@
         "Kuch log paas hokar bhi itne door ho jaate hain,",
         "Ki unki awaaz bhi ab parayi lagti hai."
       ],
-      "theme": "doori (distance)"
+      "theme": "doori"
     },
     {
       "id": 12,
       "lines": [
         "Badal gaye hain wo jinke badalne ka kabhi khayal bhi nahi tha,",
-        "Zindagi ne har ek misunderstanding clear kar di."
+        "Zindagi ne har ek galatfahmi door kar di."
       ],
-      "theme": "badlav (change)"
+      "theme": "badlav"
     },
     {
       "id": 13,
       "lines": [
         "Ab toh unka badla hua roop dekh kar darr lagta hai,",
-        "Kya yeh wahi hain jin par blindly trust kiya tha?"
+        "Kya yeh wahi hain jin par aankh moond kar yakeen kiya tha?"
       ],
-      "theme": "bharosa (trust)"
+      "theme": "bharosa"
     },
     {
       "id": 14,
       "lines": [
         "Apno se mile zakhm bohot gehre hote hain,",
-        "Heal toh ho jaate hain par scars kabhi nahi jaate."
+        "Bhar toh jaate hain par nishaaniyaan kabhi nahi jaati."
       ],
-      "theme": "dard (pain)"
+      "theme": "dard"
     },
     {
       "id": 15,
       "lines": [
         "Rishta tootne par itna dard nahi hota,",
-        "Jitna rishte mein reh kar akelepan ka feel hota hai."
+        "Jitna rishte mein reh kar akelepan ka ehsaas hota hai."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 16,
       "lines": [
-        "Humne toh sirf loyalty di thi unse,",
-        "Par unhone humari simplicity ko bewakoofi samajh liya."
+        "Humne toh sirf wafadaari di thi unse,",
+        "Par unhone humari seedhi tabiyet ko bewakoofi samajh liya."
       ],
-      "theme": "wafa (loyalty)"
+      "theme": "wafa"
     },
     {
       "id": 17,
@@ -134,23 +134,23 @@
         "Pehle wo hume khone se darte the,",
         "Ab humare hone na hone se koi fark nahi padta unhe."
       ],
-      "theme": "udaasi (sadness)"
+      "theme": "udaasi"
     },
     {
       "id": 18,
       "lines": [
         "Zaroorat thi jab sabse zyada unki,",
-        "Tab hi unhone apna real face dikhaya."
+        "Tab hi unhone apna asli chehra dikhaya."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 19,
       "lines": [
-        "Baatein wahi hain par wo feeling nahi rahi,",
-        "Apne toh hain par wo purani vibe nahi rahi."
+        "Baatein wahi hain par wo jazbaat nahi rahe,",
+        "Apne toh hain par wo puraani mithaas nahi rahi."
       ],
-      "theme": "yaadein (memories)"
+      "theme": "yaadein"
     },
     {
       "id": 20,
@@ -158,55 +158,55 @@
         "Wajah toh bohot thi unke paas rukh badalne ki,",
         "Par hum toh bas unke ek ishare par tike rehte the."
       ],
-      "theme": "intezaar (waiting)"
+      "theme": "intezaar"
     },
     {
       "id": 21,
       "lines": [
         "Mohabbat thi isliye jaane diya,",
-        "Agar ego hoti toh baahon mein hoti."
+        "Agar ghamand hota toh baahon mein hoti."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 22,
       "lines": [
         "Dil bhi tumhara tha, mohabbat bhi tumhari thi,",
-        "Bas akelapan mera ho gaya permanently."
+        "Bas akelapan mera ho gaya hamesha ke liye."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 23,
       "lines": [
         "Hume kahan maloom tha ki ishq hota kya hai,",
-        "Bas tum mile aur zindagi pehle love ban gayi... phir dard."
+        "Bas tum mile aur zindagi pehle mohabbat ban gayi... phir dard."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 24,
       "lines": [
-        "Tumne toh sirf timepass ke liye naam liya tha,",
+        "Tumne toh sirf waqt guzaarne ke liye naam liya tha,",
         "Hum khaamkhaah khud ko tumhari poori duniya samajh baithe."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 25,
       "lines": [
-        "Badi ajeeb si love story thi tumhari,",
-        "Pehle apna banaya, phir paraya, phir stranger."
+        "Badi ajeeb si mohabbat ki kahani thi tumhari,",
+        "Pehle apna banaya, phir paraya, phir ajnabi."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 26,
       "lines": [
-        "Hum bhi muskuraate the kabhi bina reason,",
-        "Ab toh reason dhundhni padti hai smile karne ke liye."
+        "Hum bhi muskuraate the kabhi bina wajah,",
+        "Ab toh wajah dhundhni padti hai muskurane ke liye."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 27,
@@ -214,7 +214,7 @@
         "Koi mila hi nahi jis par dil lagaate,",
         "Har ek ne dhokha diya, kis kis ko yaad rakhein."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 28,
@@ -222,7 +222,7 @@
         "Kaash tum samajh paate mere dil ka dard,",
         "Toh yun bewajah hume tanha na chodte."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 29,
@@ -230,79 +230,79 @@
         "Tum muskuraate hue ache lagte the,",
         "Isliye humne rote hue bhi tumhe alvida keh diya."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 30,
       "lines": [
         "Tere bina ye dil ab dhadakta toh hai,",
-        "Par sirf survive karne ke liye, khushi ke liye nahi."
+        "Par sirf saans lene ke liye, khushi ke liye nahi."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 31,
       "lines": [
-        "Kitna bhi care karo kisi ko, kam lagta hai,",
-        "Jab apna hi koi change ho jaaye, toh sab toot jaata hai."
+        "Kitna bhi khayal rakho kisi ka, kam lagta hai,",
+        "Jab apna hi koi badal jaaye, toh sab toot jaata hai."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 32,
       "lines": [
-        "One-sided love bhi kitna ajeeb hota hai na,",
+        "Ek tarfa mohabbat bhi kitni ajeeb hoti hai na,",
         "Takleef apni hoti hai aur galti bhi kisi ki nahi."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 33,
       "lines": [
         "Naam tera hi rahega meri har saans mein,",
-        "Chahe tu mujhe yaad rakhe ya forget kar de."
+        "Chahe tu mujhe yaad rakhe ya bhula de."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 34,
       "lines": [
         "Tumhari khushi ke liye door hue the tumse,",
-        "Warna humari love mein koi kami nahi thi."
+        "Warna humari mohabbat mein koi kami nahi thi."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 35,
       "lines": [
         "Chaha tha tumhe jaan se bhi zyada,",
-        "Par tum toh sirf ek dream bankar reh gaye."
+        "Par tum toh sirf ek sapna bankar reh gaye."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 36,
       "lines": [
-        "Kabhi free ho toh sochna zaroor,",
-        "Ek so-called beparwah tumhari itni parwah kyun karta tha."
+        "Kabhi fursat ho toh sochna zaroor,",
+        "Ek tathakathit beparwah tumhari itni parwah kyun karta tha."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 37,
       "lines": [
-        "Love mein haarna bura nahi lagta,",
-        "Bura tab lagta hai jab apna hi koi defeat kar de."
+        "Mohabbat mein haarna bura nahi lagta,",
+        "Bura tab lagta hai jab apna hi koi hara de."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 38,
       "lines": [
-        "Hum toh unke liye ek normal insaan the,",
+        "Hum toh unke liye ek mamuli insaan the,",
         "Aur wo humare liye poori duniya."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 39,
@@ -310,31 +310,31 @@
         "Wo chale gaye hume akela choddkar,",
         "Par unki yaadein aaj bhi yahin rehti hain."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 40,
       "lines": [
         "Kitni ajeeb baat hai na, tum ab mere nahi ho,",
-        "Phir bhi ye dil tumhe hi miss karta hai."
+        "Phir bhi ye dil tumhe hi yaad karta hai."
       ],
-      "theme": "pyaar (love)"
+      "theme": "pyaar"
     },
     {
       "id": 41,
       "lines": [
         "Bohot chhupaya maine is duniya se,",
-        "Par meri aankhon ne sab reveal kar diya."
+        "Par meri aankhon ne sab bayan kar diya."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 42,
       "lines": [
-        "Ab koi hope nahi bachi tere aane ki,",
-        "Phir bhi ye nazrein door pe hi tik jaati hain."
+        "Ab koi ummeed nahi bachi tere aane ki,",
+        "Phir bhi ye nazrein door par hi tik jaati hain."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 43,
@@ -342,7 +342,7 @@
         "Faasle aise bhi honge kabhi socha na tha,",
         "Saamne baitha tha wo aur wo mera nahi tha."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 44,
@@ -350,39 +350,39 @@
         "Chupchap guzar jaate hain wo raaston se,",
         "Jo kabhi meri aahat par bhi ruk jaaya karte the."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 45,
       "lines": [
         "Dooriyon se hi pata chalta hai,",
-        "Kaun kitna close hai actually."
+        "Kaun kitna qareeb hai sachchi mein."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 46,
       "lines": [
         "Jab apna hi koi chhod jaata hai,",
-        "Toh poori duniya par se trust uth jaata hai."
+        "Toh poori duniya par se bharosa uth jaata hai."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 47,
       "lines": [
         "Bichhad kar tumse bas itna hi seekha hai,",
-        "Ki mohabbat jitni deep hogi, wound utna hi bada hoga."
+        "Ki mohabbat jitni gehri hogi, zakhm utna hi bada hoga."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 48,
       "lines": [
-        "Ab koi complaint nahi hai tumse,",
-        "Kyunki galti tumhari nahi, meri expectations ki thi."
+        "Ab koi shikayat nahi hai tumse,",
+        "Kyunki galti tumhari nahi, meri umeedein galat thin."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 49,
@@ -390,7 +390,7 @@
         "Tumse door jaana meri marzi nahi thi,",
         "Bas tumhare liye hi tumhe chhodna pada."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 50,
@@ -398,39 +398,39 @@
         "Na jaane kaisi dushmani thi kismat ki humse,",
         "Jisse bhi dil lagaya, wahi door ho gaya."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 51,
       "lines": [
         "Raaste alag ho gaye toh kya hua,",
-        "Destination toh meri aaj bhi tum hi ho."
+        "Manzil toh meri aaj bhi tum hi ho."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 52,
       "lines": [
-        "Silence bohot kuch kehti hai,",
+        "Khamoshi bohot kuch kehti hai,",
         "Kaan lagakar nahi, dil lagakar suno."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 53,
       "lines": [
-        "Ab toh har khushi mein bhi ek sadness chhupa hota hai,",
+        "Ab toh har khushi mein bhi ek udaasi chhupa hoti hai,",
         "Jab se tum door gaye ho, ye dil rota hai."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 54,
       "lines": [
-        "Alvida kehte waqt wo smile kar diye,",
+        "Alvida kehte waqt wo muskura diye,",
         "Aur hum unki khushi ke liye ro bhi na sake."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 55,
@@ -438,23 +438,23 @@
         "Tum chale gaye par tumhari khushboo aaj bhi baaki hai,",
         "Is veeraan dil mein teri yaad hi kaafi hai."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 56,
       "lines": [
-        "Faasle toh sirf physical hain,",
+        "Faasle toh sirf jismani hain,",
         "Warna ye dil toh aaj bhi tumhare paas hi hai."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 57,
       "lines": [
         "Bohot dard hota hai jab koi apna,",
-        "Suddenly stranger ban jaata hai."
+        "Achanak ajnabi ban jaata hai."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 58,
@@ -462,39 +462,39 @@
         "Ab toh raaton ki neend bhi chheen li tumhari yaadon ne,",
         "Aur tum kehte ho ki hum tumhe yaad nahi karte."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 59,
       "lines": [
-        "Kaash wo time wahin ruk jaata,",
-        "Jab tum mere paas the aur sab kuch perfect tha."
+        "Kaash wo waqt wahin tham jaata,",
+        "Jab tum mere paas the aur sab kuch behtar tha."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 60,
       "lines": [
-        "Tere jaane ke baad ye city bhi veeraan lagti hai,",
-        "Har koi stranger, har chehra unknown lagta hai."
+        "Tere jaane ke baad ye shehar bhi veeraan lagta hai,",
+        "Har koi ajnabi, har chehra anjaana lagta hai."
       ],
-      "theme": "judaai (distance)"
+      "theme": "judaai"
     },
     {
       "id": 61,
       "lines": [
-        "Zakhm itne diye tumne ki ab dard feel nahi hota,",
+        "Zakhm itne diye tumne ki ab dard mehsoos nahi hota,",
         "Dil aisa toota ki ab koi apna nahi lagta."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 62,
       "lines": [
-        "Jhoothe promises aur kasme di thi tumne,",
-        "Aur hum bewakoof sab blindly believe kar baithe."
+        "Jhoothe waade aur kasmein di thi tumne,",
+        "Aur hum bewakoof aankh moondkar maan baithe."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 63,
@@ -502,143 +502,143 @@
         "Jis par sabse zyada bharosa tha,",
         "Usi ne sabse bada dhokha diya."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 64,
       "lines": [
-        "Love mein bewafai ka zehar ghol diya tumne,",
+        "Mohabbat mein bewafai ka zehar ghol diya tumne,",
         "Ek hasta hua dil tadapkar tod diya tumne."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 65,
       "lines": [
-        "Kabhi socha na tha ki ek din tum bhi change ho jaoge,",
+        "Kabhi socha na tha ki ek din tum bhi badal jaoge,",
         "Duniya ki tarah tum bhi mujhse muh mod loge."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 66,
       "lines": [
-        "Game acha khela tumne mere dil ke saath,",
+        "Khel acha khela tumne mere dil ke saath,",
         "Jeet tumhari hui aur haar meri mohabbat ki."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 67,
       "lines": [
-        "Faces badal gaye, insaan badal gaye,",
-        "Time ke saath unke intentions badal gaye."
+        "Chehre badal gaye, insaan badal gaye,",
+        "Waqt ke saath unke iraade badal gaye."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 68,
       "lines": [
-        "Kitna easy tha tumhare liye bye bolna,",
+        "Kitna aasaan tha tumhare liye alvida kehna,",
         "Aur kitna mushkil hai mere liye akele rehna."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 69,
       "lines": [
-        "Ab kisi par trust nahi hota,",
+        "Ab kisi par bharosa nahi hota,",
         "Kyunki sachcha pyaar ab baar baar nahi milta."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 70,
       "lines": [
-        "Glass ka dil tha mera, tumne patthar maarkar tod diya,",
+        "Sheeshe ka dil tha mera, tumne patthar maarkar tod diya,",
         "Beech raah mein laakar akele hi chhod diya."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 71,
       "lines": [
-        "Tumhari baaton mein jo sweetness thi,",
-        "Wo actually ek meetha poison tha."
+        "Tumhari baaton mein jo mithaas thi,",
+        "Wo darasal ek meetha zehar tha."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 72,
       "lines": [
-        "Change ho jaate hain wo log time ki tarah,",
+        "Badal jaate hain wo log waqt ki tarah,",
         "Jinhe had se zyada pyaar diya jaata hai."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 73,
       "lines": [
-        "Dil todne ke liye thanks tumhe,",
-        "Kam se kam ab hum kisi par depend toh nahi karenge."
+        "Dil todne ke liye shukriya tumhe,",
+        "Kam se kam ab hum kisi par nirbhar toh nahi karenge."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 74,
       "lines": [
-        "Bewafai ki bhi limit hoti hai,",
-        "Tumne toh meri loyalty ka mazaak bana diya."
+        "Bewafai ki bhi hadd hoti hai,",
+        "Tumne toh meri wafadaari ka mazaak bana diya."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 75,
       "lines": [
-        "Trust ek baar toot jaaye toh phir kabhi jud nahi paata,",
-        "Chahe insaan kitna bhi sorry bole."
+        "Bharosa ek baar toot jaaye toh phir kabhi jud nahi paata,",
+        "Chahe insaan kitna bhi maafi maange."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 76,
       "lines": [
-        "Tum toh badal gaye apni convenience ke hisaab se,",
+        "Tum toh badal gaye apni suvidha ke hisaab se,",
         "Par hum aaj bhi wahin khade hain tumhari yaad mein."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 77,
       "lines": [
         "Dard is baat ka nahi ki tum kisi aur ke ho gaye,",
-        "Dard is baat ka hai ki tumne mujhe false hopes diye."
+        "Dard is baat ka hai ki tumne mujhe jhoothi umeedein diye."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 78,
       "lines": [
         "Sach hi kaha hai kisine,",
-        "Need khatam toh rishte bhi khatam."
+        "Zaroorat khatam toh rishte bhi khatam."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 79,
       "lines": [
         "Ab tumhe fark nahi padta mere rone ya hasne se,",
-        "Kyunki tum toh move on kar chuke ho naye logon ke saath."
+        "Kyunki tum toh aage badh chuke ho naye logon ke saath."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 80,
       "lines": [
-        "Humari loyalty ko tumne meri majboori samjha,",
-        "Aur khud ko innocent prove kar diya."
+        "Humari wafadaari ko tumne meri majboori samjha,",
+        "Aur khud ko begunah sabit kar diya."
       ],
-      "theme": "dhokha (betrayal)"
+      "theme": "dhokha"
     },
     {
       "id": 81,
@@ -646,15 +646,15 @@
         "Ye raatein bohot lambi lagti hain,",
         "Jab teri yaadein dil par dastak deti hain."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 82,
       "lines": [
         "Sab so jaate hain apni apni khushiyon ke saath,",
-        "Aur hum apni purani memories ko seene se lagakar rote hain."
+        "Aur hum apni purani yaadein seene se lagakar rote hain."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 83,
@@ -662,39 +662,39 @@
         "Aaj phir teri yaad ne rula diya,",
         "Sote hue dil ko phir se jaga diya."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 84,
       "lines": [
-        "Raaton ka silence bohot kuch keh jaata hai,",
+        "Raaton ki khamoshi bohot kuch keh jaati hai,",
         "Jab koi apna bas yaadon mein reh jaata hai."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 85,
       "lines": [
-        "Tumhari purani chats padh kar smile aa jaata hai,",
-        "Aur phir apni helplessness par aansu baha leta hoon."
+        "Tumhari puraani baatein padh kar muskaan aa jaati hai,",
+        "Aur phir apni bebasi par aansu baha leta hoon."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 86,
       "lines": [
         "Andhera hi acha hai is ujaale se,",
-        "Kam se kam mere tears kisi ko dikhte toh nahi."
+        "Kam se kam mere aansu kisi ko dikhte toh nahi."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 87,
       "lines": [
         "Kitni raatein guzaari hain jaag jaag kar,",
-        "Sirf ek tumhare message ke wait mein."
+        "Sirf ek tumhare sandesh ke intezaar mein."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 88,
@@ -702,7 +702,7 @@
         "Tumhari yaadein bhi bilkul tumhari tarah hain,",
         "Bina bataaye aa jaati hain aur rulakar chali jaati hain."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 89,
@@ -710,15 +710,15 @@
         "Ye chand bhi aaj akela lagta hai,",
         "Bilkul meri tarah is aasmaan mein."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 90,
       "lines": [
-        "Dreams mein hi sahi, tum aaj bhi mere paas aate ho,",
-        "Par subah aankh khulte hi phir se lonely chhod jaate ho."
+        "Sapno mein hi sahi, tum aaj bhi mere paas aate ho,",
+        "Par subah aankh khulte hi phir se tanha chhod jaate ho."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 91,
@@ -726,143 +726,143 @@
         "Neend ab aankhon mein aati hi nahi,",
         "Tumhari yaadein dil se jaati hi nahi."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 92,
       "lines": [
-        "Silent raat, sad dil aur teri yaad,",
-        "Bas yahi bacha hai ab meri life mein tumhare baad."
+        "Khamosh raat, udaas dil aur teri yaad,",
+        "Bas yahi bacha hai ab meri zindagi mein tumhare baad."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 93,
       "lines": [
-        "Pillow ko bhigokar sona ab habit ban gayi hai,",
-        "Tere bina ye zindagi ek punishment ban gayi hai."
+        "Takiye ko bhigokar sona ab aadat ban gayi hai,",
+        "Tere bina ye zindagi ek sazaa ban gayi hai."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 94,
       "lines": [
-        "Beeta hua time bohot yaad aata hai,",
-        "Jab tum mere close the aur sab kuch right tha."
+        "Guzra hua waqt bohot yaad aata hai,",
+        "Jab tum mere qareeb the aur sab kuch theek tha."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 95,
       "lines": [
-        "Har raat ek hi sawaal aata hai mind mein,",
+        "Har raat ek hi sawaal aata hai zehan mein,",
         "Kya tumhe bhi kabhi meri yaad aati hai?"
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 96,
       "lines": [
-        "Wo photos aaj bhi saved hain mere phone mein,",
-        "Jinme tum mera haath thaam kar smile kar rahe the."
+        "Wo tasveerein aaj bhi mehfooz hain mere paas,",
+        "Jinme tum mera haath thaam kar muskura rahe the."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 97,
       "lines": [
-        "Yaadon ka ocean umad aata hai raat hote hi,",
-        "Aur hum doob jaate hain tere thoughts mein."
+        "Yaadon ka saagar umad aata hai raat hote hi,",
+        "Aur hum doob jaate hain tere khayalon mein."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 98,
       "lines": [
-        "Kitna easy hota na agar yaadon ko bhi delete kiya ja sakta,",
-        "Toh kaash main is pain se aaj free hota."
+        "Kitna aasaan hota na agar yaadon ko bhi mitaya ja sakta,",
+        "Toh kaash main is takleef se aaj azaad hota."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 99,
       "lines": [
         "Raaton ko uth uthkar rona koi humse pooche,",
-        "Mohabbat ka real pain koi humse pooche."
+        "Mohabbat ka sachcha dard koi humse pooche."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 100,
       "lines": [
-        "Silence bolta hai aur hum sunte hain,",
+        "Khamoshi bolti hai aur hum sunte hain,",
         "Andhere mein baithkar teri hi yaadein chunte hain."
       ],
-      "theme": "late night thoughts"
+      "theme": "raat ke khayal"
     },
     {
       "id": 101,
       "lines": [
-        "Bheed mein bhi akela feel karta hoon,",
+        "Bheed mein bhi akela mehsoos karta hoon,",
         "Jab se tumse baat hona band hui hai."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 102,
       "lines": [
-        "Hasna toh chhod diya hai humne logo ke liye,",
-        "Bas fake smile de dete hain dard chhupane ke liye."
+        "Hasna toh chhod diya hai humne logon ke liye,",
+        "Bas jhoothi muskaan de dete hain dard chhupane ke liye."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 103,
       "lines": [
-        "Life toh chal rahi hai apni speed se,",
+        "Zindagi toh chal rahi hai apni raftaar se,",
         "Par dil wahin ruk gaya hai jahan tumne chhoda tha."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 104,
       "lines": [
         "Ab kisi naye insaan se milne ka dil nahi karta,",
-        "Dar lagta hai ki wo bhi tumhari tarah leave na kar jaaye."
+        "Dar lagta hai ki wo bhi tumhari tarah chhod na jaaye."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 105,
       "lines": [
         "Tootkar bikhra hoon is qadar,",
-        "Ki ab khud ko fix karna impossible lagta hai."
+        "Ki ab khud ko jodna naamumkin lagta hai."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 106,
       "lines": [
         "Dard chhupana seekh liya hai maine,",
-        "Ab face par fake smile sajana seekh liya hai maine."
+        "Ab chehre par jhoothi muskaan sajana seekh liya hai maine."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 107,
       "lines": [
-        "Log poochte hain itne quiet kyun rehte ho,",
-        "Ab unhe kya batayein ki andar kitna noise hai."
+        "Log poochte hain itne chup kyun rehte ho,",
+        "Ab unhe kya batayein ki andar kitna toofaan hai."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 108,
       "lines": [
-        "Zindagi mein kuch turns aise bhi aate hain,",
-        "Jahan chahkar bhi insaan smile nahi kar paata."
+        "Zindagi mein kuch mod aise bhi aate hain,",
+        "Jahan chahkar bhi insaan muskura nahi paata."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 109,
@@ -870,31 +870,31 @@
         "Akele chalna seekh liya hai maine,",
         "Kyunki saath chalne waale aksar raah badal lete hain."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 110,
       "lines": [
-        "Ab kisi se koi expectations nahi rakhta,",
-        "Kyunki expectations hi dard ki reason banti hain."
+        "Ab kisi se koi ummeed nahi rakhta,",
+        "Kyunki ummeedein hi dard ki wajah banti hain."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 111,
       "lines": [
-        "Ye dil ab empty empty sa lagta hai,",
-        "Jaise ismein ab koi dream hi na bacha ho."
+        "Ye dil ab khaali khaali sa lagta hai,",
+        "Jaise ismein ab koi armaan hi na bacha ho."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 112,
       "lines": [
         "Rone se dard kam nahi hota,",
-        "Par dil ka weight thoda halka ho jaata hai."
+        "Par dil ka bojh thoda halka ho jaata hai."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 113,
@@ -902,39 +902,39 @@
         "Zindagi ne bohot kuch sikhaya,",
         "Par tumhare bina jeena nahi sikhaya."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 114,
       "lines": [
         "Ab toh dard bhi apna sa lagta hai,",
-        "Aur khushiyan stranger si lagti hain."
+        "Aur khushiyan ajnabi si lagti hain."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 115,
       "lines": [
         "Kaash koi aisa hota jo dil ka haal samajh paata,",
-        "Bina kuch kahe meri aankhon ke tears padh paata."
+        "Bina kuch kahe meri aankhon ke aansoo padh paata."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 116,
       "lines": [
-        "Har roz khud se ek hi promise karta hoon,",
-        "Ki aaj tumhe miss nahi karunga... aur phir haar jaata hoon."
+        "Har roz khud se ek hi vaada karta hoon,",
+        "Ki aaj tumhe yaad nahi karunga... aur phir haar jaata hoon."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 117,
       "lines": [
-        "Dil ka tootna bhi bohot silent hota hai,",
-        "Na koi sound hota hai na koi blast... bas sab khatam ho jaata hai."
+        "Dil ka tootna bhi bohot khamosh hota hai,",
+        "Na koi awaaz hoti hai na koi dhamaka... bas sab khatam ho jaata hai."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 118,
@@ -942,23 +942,23 @@
         "Ab toh khud se bhi nafrat hone lagi hai,",
         "Kyunki ye dil aaj bhi sirf tumhe hi chahta hai."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 119,
       "lines": [
-        "Sab kehte hain time har wound heal kar deta hai,",
-        "Par kuch wounds itne deep hote hain ki time bhi haar jaata hai."
+        "Sab kehte hain waqt har zakhm bhar deta hai,",
+        "Par kuch zakhm itne gehre hote hain ki waqt bhi haar jaata hai."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     },
     {
       "id": 120,
       "lines": [
         "Ab bas sukoon ki talaash hai,",
-        "Chahe wo life mein mile ya uske baad."
+        "Chahe wo zindagi mein mile ya uske baad."
       ],
-      "theme": "tanhaai (loneliness)"
+      "theme": "tanhaai"
     }
   ],
   "used_ids": []
