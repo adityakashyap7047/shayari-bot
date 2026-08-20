@@ -111,7 +111,7 @@ Examples:
     |   Shayari Reel Automation                         |
     |   ------------------------                        |
     |   Channel: @shyariofficial-k2q                    |
-    |   Schedule: Uploading every 3 hours               |
+    |   Schedule: Uploading every 12 hours (2/day)      |
     |   Engine: AI-powered Hindi shayari                |
     |                                                   |
     |   Press Ctrl+C to stop                            |

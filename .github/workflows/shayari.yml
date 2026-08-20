@@ -1,8 +1,8 @@
 name: Shayari Reel Automation
 on:
   schedule:
-    # Har 3 ghante run hoga automatically
-    - cron: '0 */3 * * *'
+    # Din mein 2 baar run hoga (har 12 ghante)
+    - cron: '0 */12 * * *'
   workflow_dispatch:
     # Manual bhi trigger kar sakte ho GitHub se
 

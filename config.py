@@ -85,4 +85,4 @@ BG_MUSIC_VOLUME_WITH_VO = 0.15              # Background music volume when voice
 # ============================================================
 #  SCHEDULER
 # ============================================================
-SCHEDULE_INTERVAL_HOURS = 3   # upload every N hours
+SCHEDULE_INTERVAL_HOURS = 12  # upload every 12 hours (2 reels per day)
