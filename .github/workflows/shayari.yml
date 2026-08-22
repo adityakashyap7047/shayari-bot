@@ -1,10 +1,15 @@
-name: Shayari Reel Automation
+name: Shayari Reel Automation (Multi-Channel)
 on:
   schedule:
-    # Din mein 2 baar run hoga (har 12 ghante)
-    - cron: '0 */12 * * *'
+    # Din mein 4 baar run hoga (har 3 ghante) — 4 reels/channel/day
+    - cron: '0 */3 * * *'
   workflow_dispatch:
     # Manual bhi trigger kar sakte ho GitHub se
+    inputs:
+      channel:
+        description: 'Specific channel ID (leave empty for all channels)'
+        required: false
+        default: ''
 
 jobs:
   generate-and-upload:
@@ -24,22 +29,72 @@ jobs:
 
       - name: Setup credentials
         env:
-          CLIENT_SECRETS: ${{ secrets.CLIENT_SECRETS }}
-          YOUTUBE_TOKEN: ${{ secrets.YOUTUBE_TOKEN }}
+          # ── Shared API keys ────────────────────────────────
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+
+          # ── Channel: shayari_official ───────────────────────
+          CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS: ${{ secrets.CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS }}
+          CHANNEL_SHAYARI_OFFICIAL_TOKEN: ${{ secrets.CHANNEL_SHAYARI_OFFICIAL_TOKEN }}
+
+          # ── Channel: dard_diary ─────────────────────────────
+          CHANNEL_DARD_DIARY_CLIENT_SECRETS: ${{ secrets.CHANNEL_DARD_DIARY_CLIENT_SECRETS }}
+          CHANNEL_DARD_DIARY_TOKEN: ${{ secrets.CHANNEL_DARD_DIARY_TOKEN }}
+
+          # ── Channel: ishq_shayari ───────────────────────────
+          CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS: ${{ secrets.CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS }}
+          CHANNEL_ISHQ_SHAYARI_TOKEN: ${{ secrets.CHANNEL_ISHQ_SHAYARI_TOKEN }}
+
+          # ── Channel: rishte_kahani ──────────────────────────
+          CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS: ${{ secrets.CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS }}
+          CHANNEL_RISHTE_KAHANI_TOKEN: ${{ secrets.CHANNEL_RISHTE_KAHANI_TOKEN }}
+
+          # ── Channel: zindagi_vibes ──────────────────────────
+          CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS: ${{ secrets.CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS }}
+          CHANNEL_ZINDAGI_VIBES_TOKEN: ${{ secrets.CHANNEL_ZINDAGI_VIBES_TOKEN }}
         run: |
-          printenv CLIENT_SECRETS > client_secrets.json
-          printenv YOUTUBE_TOKEN > token.json
-          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
-          echo "ELEVENLABS_API_KEY=${{ secrets.ELEVENLABS_API_KEY }}" >> .env
+          # Create .env with API keys
+          echo "GEMINI_API_KEY=${GEMINI_API_KEY}" > .env
+          echo "ELEVENLABS_API_KEY=${ELEVENLABS_API_KEY}" >> .env
+
+          # Setup channel directories and credentials
+          # -- shayari_official --
+          mkdir -p channels/shayari_official
+          printenv CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS > channels/shayari_official/client_secrets.json
+          printenv CHANNEL_SHAYARI_OFFICIAL_TOKEN > channels/shayari_official/token.json
+
+          # -- dard_diary --
+          mkdir -p channels/dard_diary
+          printenv CHANNEL_DARD_DIARY_CLIENT_SECRETS > channels/dard_diary/client_secrets.json
+          printenv CHANNEL_DARD_DIARY_TOKEN > channels/dard_diary/token.json
+
+          # -- ishq_shayari --
+          mkdir -p channels/ishq_shayari
+          printenv CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS > channels/ishq_shayari/client_secrets.json
+          printenv CHANNEL_ISHQ_SHAYARI_TOKEN > channels/ishq_shayari/token.json
+
+          # -- rishte_kahani --
+          mkdir -p channels/rishte_kahani
+          printenv CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS > channels/rishte_kahani/client_secrets.json
+          printenv CHANNEL_RISHTE_KAHANI_TOKEN > channels/rishte_kahani/token.json
+
+          # -- zindagi_vibes --
+          mkdir -p channels/zindagi_vibes
+          printenv CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS > channels/zindagi_vibes/client_secrets.json
+          printenv CHANNEL_ZINDAGI_VIBES_TOKEN > channels/zindagi_vibes/token.json
 
       - name: Copy background music
         run: |
           mkdir -p bg_music
           # bg_music files should be committed to the repo
-          # or you can download from a URL here
 
-      - name: Generate and Upload Reel
-        run: python main.py --once
+      - name: Generate and Upload Reels
+        run: |
+          if [ -n "${{ github.event.inputs.channel }}" ]; then
+            python main.py --once --channel "${{ github.event.inputs.channel }}"
+          else
+            python main.py --once
+          fi
 
       - name: Save logs
         if: always()
