@@ -21,7 +21,7 @@ for d in [BG_MUSIC_DIR, BG_IMAGES_DIR, OUTPUT_DIR, FONTS_DIR, CHANNELS_DIR]:
 VIDEO_WIDTH = 1080
 VIDEO_HEIGHT = 1920
 VIDEO_FPS = 30
-VIDEO_DURATION = 25          # seconds per reel
+VIDEO_DURATION = 20          # seconds per reel
 FADE_DURATION = 0.8          # seconds for text fade-in
 LINE_DISPLAY_TIME = 4.0      # seconds each shayari line stays visible
 MUSIC_FADE_IN = 1.5          # seconds
@@ -31,7 +31,7 @@ MUSIC_FADE_OUT = 2.0         # seconds
 #  TEXT & WATERMARK
 # ============================================================
 WATERMARK_TEXT = "@shyariofficial-k2q"
-SHAYARI_FONT_SIZE = 62       # main shayari text
+SHAYARI_FONT_SIZE = 54       # main shayari text
 WATERMARK_FONT_SIZE = 32
 TEXT_COLOR = "white"
 BG_COLOR = (0, 0, 0)         # pure black (fallback if no background image)

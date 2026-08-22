@@ -150,6 +150,14 @@ def create_reel(
     font = _get_font(config.SHAYARI_FONT)
     text_clips = []
 
+    # Calculate line spacing based on number of lines
+    line_spacing = 130  # pixels between each line
+    block_height = (num_lines - 1) * line_spacing
+    # Position text in the upper portion of the frame (above character/image)
+    # This keeps text in the black/empty area at the top
+    y_top_area = int(config.VIDEO_HEIGHT * 0.12)  # start at ~12% from top
+    y_start = y_top_area
+
     for i, line in enumerate(shayari_lines):
         txt = TextClip(
             text=line,
@@ -157,14 +165,11 @@ def create_reel(
             font_size=config.SHAYARI_FONT_SIZE,
             color=config.TEXT_COLOR,
             text_align="center",
-            size=(config.VIDEO_WIDTH - 120, None),  # wrap within margins
+            size=(config.VIDEO_WIDTH - 160, None),  # wider margins to prevent wrapping
             method="caption",
         )
 
-        # Position: stack lines vertically, shifted UP from center
-        block_height = num_lines * 120  # approximate height per line
-        y_start = (config.VIDEO_HEIGHT - block_height) // 2 - 250  # shifted 250px UP
-        y_pos = y_start + (i * 120)
+        y_pos = y_start + (i * line_spacing)
 
         txt = txt.with_position(("center", y_pos))
         txt = txt.with_duration(total_duration)
