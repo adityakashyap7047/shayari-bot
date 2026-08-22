@@ -31,7 +31,7 @@ MUSIC_FADE_OUT = 2.0         # seconds
 #  TEXT & WATERMARK
 # ============================================================
 WATERMARK_TEXT = "@shyariofficial-k2q"
-SHAYARI_FONT_SIZE = 54       # main shayari text
+SHAYARI_FONT_SIZE = 48       # main shayari text
 WATERMARK_FONT_SIZE = 32
 TEXT_COLOR = "white"
 BG_COLOR = (0, 0, 0)         # pure black (fallback if no background image)

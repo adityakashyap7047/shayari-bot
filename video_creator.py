@@ -112,8 +112,7 @@ def create_reel(
         total_duration = voiceover_clip.duration + 3.0
         print(f"  🎙 Voiceover duration: {voiceover_clip.duration:.1f}s")
     else:
-        num_lines = len(shayari_lines)
-        total_duration = config.LINE_DISPLAY_TIME * num_lines + 4
+        total_duration = config.VIDEO_DURATION  # always use configured duration (20s)
 
     total_duration = min(total_duration, 58)  # keep under 60s for Shorts
 
@@ -165,7 +164,7 @@ def create_reel(
             font_size=config.SHAYARI_FONT_SIZE,
             color=config.TEXT_COLOR,
             text_align="center",
-            size=(config.VIDEO_WIDTH - 160, None),  # wider margins to prevent wrapping
+            size=(config.VIDEO_WIDTH - 200, None),  # wide margins to prevent any wrapping
             method="caption",
         )
 
