@@ -1,6 +1,9 @@
 """
 Shayari Generator — picks from a curated collection of shayaris.
 Uses Gemini AI only for generating YouTube titles.
+
+Supports multi-channel: each channel can have its own shayari collection
+and theme filter.
 """
 
 from __future__ import annotations
@@ -17,7 +20,7 @@ import config
 
 load_dotenv()
 
-# Path to the shayari collection file
+# Legacy path for backward compatibility (single-channel mode)
 COLLECTION_FILE = os.path.join(config.BASE_DIR, "shayari_collection.json")
 
 
@@ -32,36 +35,63 @@ def _get_client() -> genai.Client:
     return genai.Client(api_key=api_key)
 
 
-def _load_collection() -> dict:
-    """Load the shayari collection from JSON file."""
-    if not os.path.exists(COLLECTION_FILE):
+def _load_collection(collection_path: str | None = None) -> dict:
+    """Load the shayari collection from JSON file.
+
+    Parameters
+    ----------
+    collection_path : str, optional
+        Path to a channel-specific collection. Defaults to root COLLECTION_FILE.
+    """
+    path = collection_path or COLLECTION_FILE
+    if not os.path.exists(path):
         raise FileNotFoundError(
-            f"Shayari collection not found: {COLLECTION_FILE}\n"
+            f"Shayari collection not found: {path}\n"
             "Please create shayari_collection.json with your shayaris."
         )
-    with open(COLLECTION_FILE, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def _save_collection(data: dict) -> None:
+def _save_collection(data: dict, collection_path: str | None = None) -> None:
     """Save updated collection (with used_ids tracking)."""
-    with open(COLLECTION_FILE, "w", encoding="utf-8") as f:
+    path = collection_path or COLLECTION_FILE
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def _pick_shayari(data: dict) -> dict | None:
+def _pick_shayari(data: dict, themes: list[str] | None = None) -> dict | None:
     """Pick a random unused shayari from the collection.
-    
+
+    Parameters
+    ----------
+    data : dict
+        The loaded shayari collection data.
+    themes : list[str], optional
+        If provided, only pick shayaris whose theme is in this list.
+        If empty or None, all shayaris are eligible.
+
     If all have been used, reset the used list and start over.
     """
-    all_ids = [s["id"] for s in data["shayaris"]]
+    # Filter by themes if specified
+    if themes:
+        eligible = [s for s in data["shayaris"] if s.get("theme", "") in themes]
+    else:
+        eligible = data["shayaris"]
+
+    if not eligible:
+        print(f"  ⚠ No shayaris found for themes: {themes} — using all shayaris")
+        eligible = data["shayaris"]
+
+    all_ids = [s["id"] for s in eligible]
     used_ids = set(data.get("used_ids", []))
 
     available_ids = [sid for sid in all_ids if sid not in used_ids]
 
     # All used up — reset and start fresh
     if not available_ids:
-        print("  🔄 All 20 shayaris used! Resetting collection…")
+        total = len(eligible)
+        print(f"  🔄 All {total} shayaris used! Resetting collection…")
         data["used_ids"] = []
         available_ids = all_ids
 
@@ -69,18 +99,30 @@ def _pick_shayari(data: dict) -> dict | None:
 
     # Mark as used
     data["used_ids"].append(chosen_id)
-    _save_collection(data)
 
     # Find and return the shayari
-    for s in data["shayaris"]:
+    for s in eligible:
         if s["id"] == chosen_id:
             return s
     return None
 
 
-def generate_shayari(theme: str | None = None, max_retries: int = 3) -> dict:
+def generate_shayari(
+    theme: str | None = None,
+    channel=None,
+    max_retries: int = 3,
+) -> dict:
     """
     Pick a shayari from the curated collection and generate a title.
+
+    Parameters
+    ----------
+    theme : str, optional
+        Override theme (for CLI --theme flag).
+    channel : Channel, optional
+        Channel object with themes and collection path.
+    max_retries : int
+        Number of retries for title generation.
 
     Returns
     -------
@@ -90,9 +132,19 @@ def generate_shayari(theme: str | None = None, max_retries: int = 3) -> dict:
         - "title"  : str        — a short YouTube-friendly title
         - "full"   : str        — the full shayari as one string
     """
+    # Determine collection path and themes from channel
+    collection_path = None
+    channel_themes = None
+
+    if channel is not None:
+        collection_path = channel.shayari_collection_path
+        if channel.themes:
+            channel_themes = channel.themes
+        print(f"  📺 Channel: {channel.name} ({channel.handle})")
+
     # Load collection and pick a random unused shayari
-    data = _load_collection()
-    shayari = _pick_shayari(data)
+    data = _load_collection(collection_path)
+    shayari = _pick_shayari(data, themes=channel_themes)
 
     if shayari is None:
         raise RuntimeError("Could not pick a shayari from the collection.")
@@ -100,6 +152,9 @@ def generate_shayari(theme: str | None = None, max_retries: int = 3) -> dict:
     lines = shayari["lines"]
     shayari_theme = shayari.get("theme", theme or "zindagi")
     full_text = "\n".join(lines)
+
+    # Save updated used_ids
+    _save_collection(data, collection_path)
 
     remaining = len(data["shayaris"]) - len(data.get("used_ids", []))
     print(f"  📜 Picked shayari #{shayari['id']} — theme: {shayari_theme}")

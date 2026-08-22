@@ -30,16 +30,31 @@ RETRIABLE_EXCEPTIONS = (httplib2.HttpLib2Error, IOError, http.client.NotConnecte
                          http.client.ResponseNotReady, http.client.BadStatusLine)
 
 
-def _authenticate() -> object:
+def _authenticate(
+    client_secrets_path: str | None = None,
+    token_path: str | None = None,
+) -> object:
     """
     Authenticate with YouTube using OAuth 2.0.
     First run opens browser for login; subsequent runs use saved token.
+
+    Parameters
+    ----------
+    client_secrets_path : str, optional
+        Path to the channel's client_secrets.json. Defaults to config.CLIENT_SECRETS_FILE.
+    token_path : str, optional
+        Path to the channel's token.json. Defaults to config.TOKEN_FILE.
     """
+    if client_secrets_path is None:
+        client_secrets_path = config.CLIENT_SECRETS_FILE
+    if token_path is None:
+        token_path = config.TOKEN_FILE
+
     creds = None
 
     # Load saved token
-    if os.path.exists(config.TOKEN_FILE):
-        creds = Credentials.from_authorized_user_file(config.TOKEN_FILE, config.YOUTUBE_SCOPES)
+    if os.path.exists(token_path):
+        creds = Credentials.from_authorized_user_file(token_path, config.YOUTUBE_SCOPES)
 
     # If no valid creds, do the OAuth flow
     if not creds or not creds.valid:
@@ -47,19 +62,19 @@ def _authenticate() -> object:
             print("  🔄 Refreshing YouTube token…")
             creds.refresh(Request())
         else:
-            if not os.path.exists(config.CLIENT_SECRETS_FILE):
+            if not os.path.exists(client_secrets_path):
                 raise FileNotFoundError(
-                    f"YouTube OAuth file not found: {config.CLIENT_SECRETS_FILE}\n"
+                    f"YouTube OAuth file not found: {client_secrets_path}\n"
                     "Download it from Google Cloud Console → APIs & Services → Credentials"
                 )
             print("  🌐 Opening browser for YouTube authentication…")
             flow = InstalledAppFlow.from_client_secrets_file(
-                config.CLIENT_SECRETS_FILE, config.YOUTUBE_SCOPES
+                client_secrets_path, config.YOUTUBE_SCOPES
             )
             creds = flow.run_local_server(port=0)
 
         # Save token for future runs
-        with open(config.TOKEN_FILE, "w") as f:
+        with open(token_path, "w") as f:
             f.write(creds.to_json())
         print("  ✅ YouTube authentication successful!")
 
@@ -72,6 +87,9 @@ def upload_video(
     description: str,
     tags: list[str] | None = None,
     privacy: str = "public",
+    category_id: str | None = None,
+    client_secrets_path: str | None = None,
+    token_path: str | None = None,
 ) -> str | None:
     """
     Upload a video to YouTube as a Short.
@@ -88,6 +106,12 @@ def upload_video(
         Video tags. Defaults to config.YOUTUBE_DEFAULT_TAGS.
     privacy : str
         "public", "unlisted", or "private".
+    category_id : str, optional
+        YouTube category ID. Defaults to config.YOUTUBE_CATEGORY_ID.
+    client_secrets_path : str, optional
+        Path to channel-specific client_secrets.json.
+    token_path : str, optional
+        Path to channel-specific token.json.
 
     Returns
     -------
@@ -97,7 +121,10 @@ def upload_video(
         print(f"  ❌ Video file not found: {video_path}")
         return None
 
-    youtube = _authenticate()
+    youtube = _authenticate(
+        client_secrets_path=client_secrets_path,
+        token_path=token_path,
+    )
 
     # Ensure #Shorts is in the title
     if "#Shorts" not in title:
@@ -105,6 +132,8 @@ def upload_video(
 
     if tags is None:
         tags = config.YOUTUBE_DEFAULT_TAGS.copy()
+    if category_id is None:
+        category_id = config.YOUTUBE_CATEGORY_ID
 
     # Build the request body
     body = {
@@ -112,7 +141,7 @@ def upload_video(
             "title": title[:100],  # YouTube max title length
             "description": description[:5000],
             "tags": tags[:500],
-            "categoryId": config.YOUTUBE_CATEGORY_ID,
+            "categoryId": category_id,
         },
         "status": {
             "privacyStatus": privacy,
@@ -182,7 +211,11 @@ def _resumable_upload(request) -> str | None:
 
 # ── Quick test ───────────────────────────────────────────────
 if __name__ == "__main__":
-    # Test authentication only
+    import sys
+    # Test authentication — optionally pass channel credentials
     print("Testing YouTube authentication…")
-    yt = _authenticate()
+    if len(sys.argv) >= 3:
+        yt = _authenticate(client_secrets_path=sys.argv[1], token_path=sys.argv[2])
+    else:
+        yt = _authenticate()
     print("✅ Authentication works! Ready to upload.")

@@ -1,0 +1,365 @@
+{
+  "shayaris": [
+    {
+      "id": 1,
+      "lines": [
+        "Rishte Nibhaana Aasaan Nahi..!",
+        "Par Todna Bhi..!",
+        "Itna Aasaan Nahi Hona Chahiye..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 2,
+      "lines": [
+        "Kuch Rishte Dil Se Bante Hain..!",
+        "Kuch Majboori Se..!",
+        "Par Sacche Rishte Waqt Batata Hai..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 3,
+      "lines": [
+        "Maa Ki Dua Mein Wo Taaqqat Hai..!",
+        "Jo Hazaar Mushkilon Ko..!",
+        "Ek Pal Mein Hara De..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 4,
+      "lines": [
+        "Papa Ne Kabhi Pyaar Nahi Jataaya..!",
+        "Par Unki Aankhon Mein..!",
+        "Meri Poori Duniya Hai..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 5,
+      "lines": [
+        "Dosti Wo Rishta Hai..!",
+        "Jo Khoon Se Nahi..!",
+        "Dil Se Banta Hai..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 6,
+      "lines": [
+        "Maa Ki Mamta Se Bada..!",
+        "Koi Pyaar Nahi Hota..!",
+        "Woh Bina Maange Sab De Deti Hai..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 7,
+      "lines": [
+        "Rishton Ka Dard Alag Hota Hai..!",
+        "Kyunki Apne Hi..!",
+        "Sabse Zyada Todte Hain..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 8,
+      "lines": [
+        "Papa Ki Daant Mein Bhi..!",
+        "Pyaar Chhupa Hota Hai..!",
+        "Samajhne Mein Waqt Lagta Hai..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 9,
+      "lines": [
+        "Sachcha Dost Wo Hai..!",
+        "Jo Bure Waqt Mein..!",
+        "Saath Khada Rahe..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 10,
+      "lines": [
+        "Maa Ki Aankhon Mein..!",
+        "Mere Sapne Dikhte Hain..!",
+        "Woh Mere Liye Jeeti Hai..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 11,
+      "lines": [
+        "Rishton Mein Agar Ehsaas Na Ho..!",
+        "Toh Woh Rishte..!",
+        "Bas Naam Ke Reh Jaate Hain..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 12,
+      "lines": [
+        "Papa Ka Haath Sar Pe Ho..!",
+        "Toh Duniya Ki..!",
+        "Koi Taaqqat Rok Nahi Sakti..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 13,
+      "lines": [
+        "Dosti Mein Jhagda Ho..!",
+        "Toh Baat Khatam Nahi Hoti..!",
+        "Bas Thodi Der Ka Break Hota Hai..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 14,
+      "lines": [
+        "Maa Se Door Rehke..!",
+        "Samajh Aata Hai..!",
+        "Uski Kami Kitni Badi Hai..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 15,
+      "lines": [
+        "Kuch Rishte Tod Do..!",
+        "Toh Bhi Dard Hota Hai..!",
+        "Aur Jod Ke Rakho Toh Bhi..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 16,
+      "lines": [
+        "Papa Ke Kandhe Pe Baithe The..!",
+        "Tab Duniya Sabse Oonchi Thi..!",
+        "Aaj Bhi Wahi Ehsaas Chahiye..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 17,
+      "lines": [
+        "Sachche Dost Wo Nahi..!",
+        "Jo Khushi Mein Saath Hon..!",
+        "Sacche Woh Hain Jo Dard Mein Bhi Hon..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 18,
+      "lines": [
+        "Maa Ka Ghar Wo Jagah Hai..!",
+        "Jahan Dil Ko..!",
+        "Hamesha Sukoon Milta Hai..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 19,
+      "lines": [
+        "Rishton Ki Buniyaad..!",
+        "Vishwaas Hai..!",
+        "Toot Jaaye Toh Sab Khatam..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 20,
+      "lines": [
+        "Papa Thake Hue Aate Hain..!",
+        "Par Muskura Ke..!",
+        "Humse Milte Hain — Yahi Pyaar Hai..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 21,
+      "lines": [
+        "Dosti Ka Rishta..!",
+        "Sabse Khaas Hai..!",
+        "Na Koi Sharat Na Koi Umeed..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 22,
+      "lines": [
+        "Maa Ke Haath Ka Khana..!",
+        "Duniya Ka Sabse..!",
+        "Mazedaar Khana Hai..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 23,
+      "lines": [
+        "Rishte Wahi Tikto Hain..!",
+        "Jinme Dono Taraf Se..!",
+        "Mehnat Hoti Hai..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 24,
+      "lines": [
+        "Papa Ne Sapne Apne Chhode..!",
+        "Taaki Mere Sapne..!",
+        "Poore Ho Sake..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 25,
+      "lines": [
+        "Ek Sachcha Dost..!",
+        "Hazaar Rishtedaaron Se..!",
+        "Behtar Hota Hai..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 26,
+      "lines": [
+        "Maa Rote Hue Bhi..!",
+        "Humse Kehti Hai — Sab Theek Hai..!",
+        "Yahi Uski Mohabbat Hai..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 27,
+      "lines": [
+        "Toote Rishton Ko..!",
+        "Phir Se Jodna..!",
+        "Sabse Mushkil Kaam Hai..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 28,
+      "lines": [
+        "Papa Ka Pyaar Chhupta Hai..!",
+        "Gusse Ke Peeche..!",
+        "Par Dikhta Zaroor Hai..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 29,
+      "lines": [
+        "Dosti Mein Distance Aaye..!",
+        "Toh Dil Tootta Hai..!",
+        "Kyunki Dost Apne Hote Hain..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 30,
+      "lines": [
+        "Maa Se Badi Koi..!",
+        "Ibadat Nahi Hoti..!",
+        "Uska Pyaar Hi Sabse Saccha Hai..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 31,
+      "lines": [
+        "Rishte Khoon Ke Nahi..!",
+        "Dil Ke Hone Chahiye..!",
+        "Wahi Rishte Sacche Hote Hain..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 32,
+      "lines": [
+        "Papa Kehte The — Padho Beta..!",
+        "Aaj Samajh Aaya..!",
+        "Unki Har Baat Sahi Thi..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 33,
+      "lines": [
+        "Dosti Ka Matlab Hai..!",
+        "Bina Bole Samajh Lena..!",
+        "Aur Bina Maange De Dena..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 34,
+      "lines": [
+        "Maa Ki Roti Mein..!",
+        "Jitna Pyaar Hai..!",
+        "Utna Kisi Dawat Mein Nahi..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 35,
+      "lines": [
+        "Rishte Nibhaana Ek Kala Hai..!",
+        "Har Kisi Ko..!",
+        "Yeh Naseeb Nahi Hota..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 36,
+      "lines": [
+        "Papa Ki Ek Daant..!",
+        "Hazaar Galtiyon Se..!",
+        "Bachaa Leti Hai..!"
+      ],
+      "theme": "papa"
+    },
+    {
+      "id": 37,
+      "lines": [
+        "Purana Dost Mil Jaaye..!",
+        "Toh Sab Kuch..!",
+        "Pehle Jaisa Ho Jaata Hai..!"
+      ],
+      "theme": "dosti"
+    },
+    {
+      "id": 38,
+      "lines": [
+        "Maa Ki Dua Leke Chalo..!",
+        "Har Raasta..!",
+        "Aasaan Ho Jaayega..!"
+      ],
+      "theme": "maa"
+    },
+    {
+      "id": 39,
+      "lines": [
+        "Rishte Wo Nahi..!",
+        "Jo Duniya Ke Liye Nibhaao..!",
+        "Rishte Wo Hain Jo Dil Se Nibhaao..!"
+      ],
+      "theme": "rishte"
+    },
+    {
+      "id": 40,
+      "lines": [
+        "Papa Aur Maa — Do Haath..!",
+        "Jinke Sahare..!",
+        "Poori Zindagi Guzar Jaati Hai..!"
+      ],
+      "theme": "family"
+    }
+  ],
+  "used_ids": []
+}

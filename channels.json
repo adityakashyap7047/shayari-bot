@@ -1,0 +1,94 @@
+{
+  "channels": [
+    {
+      "id": "shayari_official",
+      "name": "Shayari Official",
+      "handle": "@shyariofficial-k2q",
+      "enabled": true,
+      "watermark": "@shyariofficial-k2q",
+      "themes": [],
+      "tags": [
+        "shayari", "hindi shayari", "shayari status",
+        "hindi poetry", "urdu shayari", "love shayari",
+        "motivation", "quotes", "reels", "shorts",
+        "shayari reels", "whatsapp status"
+      ],
+      "youtube_category_id": "24",
+      "client_secrets": "channels/shayari_official/client_secrets.json",
+      "token_file": "channels/shayari_official/token.json",
+      "shayari_collection": "channels/shayari_official/shayari_collection.json"
+    },
+    {
+      "id": "dard_diary",
+      "name": "Dard Diary",
+      "handle": "@darddiary-v2v",
+      "enabled": true,
+      "watermark": "@darddiary-v2v",
+      "themes": ["dard", "tanhaai", "judaai", "bewafai", "udaasi"],
+      "tags": [
+        "dard shayari", "sad shayari", "bewafai shayari",
+        "tanhaai shayari", "judaai shayari", "dard status",
+        "sad status", "hindi sad shayari", "heartbreak shayari",
+        "dard diary", "reels", "shorts", "whatsapp status"
+      ],
+      "youtube_category_id": "24",
+      "client_secrets": "channels/dard_diary/client_secrets.json",
+      "token_file": "channels/dard_diary/token.json",
+      "shayari_collection": "channels/dard_diary/shayari_collection.json"
+    },
+    {
+      "id": "ishq_shayari",
+      "name": "Ishq Shayari",
+      "handle": "@ishqshayari-w5h",
+      "enabled": true,
+      "watermark": "@ishqshayari-w5h",
+      "themes": ["ishq", "mohabbat", "pyaar", "intezaar"],
+      "tags": [
+        "ishq shayari", "love shayari", "romantic shayari",
+        "mohabbat shayari", "pyaar shayari", "love status",
+        "romantic status", "couple status", "hindi love quotes",
+        "ishq", "reels", "shorts", "whatsapp status"
+      ],
+      "youtube_category_id": "24",
+      "client_secrets": "channels/ishq_shayari/client_secrets.json",
+      "token_file": "channels/ishq_shayari/token.json",
+      "shayari_collection": "channels/ishq_shayari/shayari_collection.json"
+    },
+    {
+      "id": "rishte_kahani",
+      "name": "Rishte Kahani",
+      "handle": "@rishtekahani",
+      "enabled": true,
+      "watermark": "@rishtekahani",
+      "themes": ["rishte", "maa", "papa", "dosti", "family"],
+      "tags": [
+        "rishte shayari", "maa shayari", "papa shayari",
+        "dosti shayari", "family shayari", "relationship status",
+        "maa papa status", "emotional shayari", "hindi quotes",
+        "rishte", "reels", "shorts", "whatsapp status"
+      ],
+      "youtube_category_id": "24",
+      "client_secrets": "channels/rishte_kahani/client_secrets.json",
+      "token_file": "channels/rishte_kahani/token.json",
+      "shayari_collection": "channels/rishte_kahani/shayari_collection.json"
+    },
+    {
+      "id": "zindagi_vibes",
+      "name": "Zindagi Vibes",
+      "handle": "@zindagivibes-p1e",
+      "enabled": true,
+      "watermark": "@zindagivibes-p1e",
+      "themes": ["zindagi", "motivation", "sapne", "waqt"],
+      "tags": [
+        "zindagi shayari", "motivational shayari", "life quotes",
+        "sapne shayari", "waqt shayari", "motivation status",
+        "life status", "inspirational shayari", "hindi motivation",
+        "zindagi", "reels", "shorts", "whatsapp status"
+      ],
+      "youtube_category_id": "24",
+      "client_secrets": "channels/zindagi_vibes/client_secrets.json",
+      "token_file": "channels/zindagi_vibes/token.json",
+      "shayari_collection": "channels/zindagi_vibes/shayari_collection.json"
+    }
+  ]
+}

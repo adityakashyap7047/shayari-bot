@@ -74,6 +74,7 @@ def create_reel(
     shayari_lines: list[str],
     voiceover_path: str | None = None,
     output_filename: str | None = None,
+    watermark_text: str | None = None,
 ) -> str:
     """
     Create a shayari reel video.
@@ -87,11 +88,15 @@ def create_reel(
         matches the voiceover and bg music volume is reduced.
     output_filename : str, optional
         Custom filename. If None, auto-generates with timestamp.
+    watermark_text : str, optional
+        Channel watermark text. Defaults to config.WATERMARK_TEXT.
 
     Returns
     -------
     str : path to the generated .mp4 file
     """
+    if watermark_text is None:
+        watermark_text = config.WATERMARK_TEXT
     if output_filename is None:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         output_filename = f"shayari_reel_{timestamp}.mp4"
@@ -169,7 +174,7 @@ def create_reel(
     # ── 3. Watermark ─────────────────────────────────────────
     watermark_font = _get_font(config.WATERMARK_FONT, fallback="Arial")
     watermark = TextClip(
-        text=config.WATERMARK_TEXT,
+        text=watermark_text,
         font=watermark_font,
         font_size=config.WATERMARK_FONT_SIZE,
         color="#888888",

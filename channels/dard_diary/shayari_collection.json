@@ -1,0 +1,365 @@
+{
+  "shayaris": [
+    {
+      "id": 1,
+      "lines": [
+        "Dard Itna Gehta Hai Ki..!",
+        "Aankhon Se Nahi..!",
+        "Rooh Se Aansu Aate Hain..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 2,
+      "lines": [
+        "Toot Ke Bikhar Gaye Hum..!",
+        "Ab Koi Jod Nahi Sakta..!",
+        "Woh Rishta Hi Aisa Tha..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 3,
+      "lines": [
+        "Tanhaai Mein Baithe Hain..!",
+        "Apne Aap Se Baat Karte Hain..!",
+        "Kyunki Ab Koi Sunne Wala Nahi..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 4,
+      "lines": [
+        "Raat Bhar Jaage Rehte Hain..!",
+        "Neend Toh Aati Hai..!",
+        "Par Sapne Jalaa Diye Hain..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 5,
+      "lines": [
+        "Judaai Ka Dard Samajhna Ho..!",
+        "Toh Kisi Se Pyaar Kar Ke Dekho..!",
+        "Phir Kho Ke Dekho Usse..!"
+      ],
+      "theme": "judaai"
+    },
+    {
+      "id": 6,
+      "lines": [
+        "Woh Chale Gaye..!",
+        "Magar Unki Yaadein..!",
+        "Aaj Bhi Mere Saath Hain..!"
+      ],
+      "theme": "judaai"
+    },
+    {
+      "id": 7,
+      "lines": [
+        "Bewafai Ka Dard Alag Hota Hai..!",
+        "Jise Apna Samjho..!",
+        "Wahi Sabse Zyada Todta Hai..!"
+      ],
+      "theme": "bewafai"
+    },
+    {
+      "id": 8,
+      "lines": [
+        "Usne Kaha — Main Hamesha Rahunga..!",
+        "Aur Phir Ek Din..!",
+        "Woh Bhi Sabki Tarah Chala Gaya..!"
+      ],
+      "theme": "bewafai"
+    },
+    {
+      "id": 9,
+      "lines": [
+        "Udaasi Itni Gehri Hai..!",
+        "Ki Muskurahat Bhi..!",
+        "Dard Chhupane Ka Zariya Ban Gayi..!"
+      ],
+      "theme": "udaasi"
+    },
+    {
+      "id": 10,
+      "lines": [
+        "Log Poochte Hain — Kya Hua..?",
+        "Kuch Nahi Kehta Main..!",
+        "Kyunki Dard Bataane Se Badh Jaata Hai..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 11,
+      "lines": [
+        "Khamoshi Se Zyada..!",
+        "Koi Cheekh Nahi Hoti..!",
+        "Jo Andar Se Tod De..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 12,
+      "lines": [
+        "Akele Rehna Seekh Liya..!",
+        "Par Akele Hona..!",
+        "Aaj Bhi Nahi Seekh Paaya..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 13,
+      "lines": [
+        "Roz Ek Naya Zakham Milta Hai..!",
+        "Aur Main Muskura Ke..!",
+        "Purane Zakham Chhupa Leta Hoon..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 14,
+      "lines": [
+        "Woh Mera Tha — Yahi Sochta Raha..!",
+        "Par Woh Toh..!",
+        "Kabhi Kisi Ka Nahi Tha..!"
+      ],
+      "theme": "bewafai"
+    },
+    {
+      "id": 15,
+      "lines": [
+        "Bichhad Gaye Toh Kya Hua..!",
+        "Dil Toh Aaj Bhi..!",
+        "Usi Mod Pe Khada Hai..!"
+      ],
+      "theme": "judaai"
+    },
+    {
+      "id": 16,
+      "lines": [
+        "Aankhein Band Karta Hoon..!",
+        "Toh Tera Chehra Dikhta Hai..!",
+        "Kholte Hi Sab Khaali Hai..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 17,
+      "lines": [
+        "Dard Ne Sikha Diya..!",
+        "Ab Kisi Pe Bharosa..!",
+        "Karna Mushkil Hai..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 18,
+      "lines": [
+        "Wo Kehte Hain — Move On Karo..!",
+        "Par Dil Ko..!",
+        "Kaun Samjhaaye..!"
+      ],
+      "theme": "judaai"
+    },
+    {
+      "id": 19,
+      "lines": [
+        "Bewafai Ke Baad..!",
+        "Pyaar Ka Matlab Hi..!",
+        "Badal Gaya Mere Liye..!"
+      ],
+      "theme": "bewafai"
+    },
+    {
+      "id": 20,
+      "lines": [
+        "Udaas Hoon Par Rota Nahi..!",
+        "Kyunki Aansu Ab..!",
+        "Thak Gaye Hain Girte Girte..!"
+      ],
+      "theme": "udaasi"
+    },
+    {
+      "id": 21,
+      "lines": [
+        "Kuch Log Todne Ke Liye..!",
+        "Milte Hain Zindagi Mein..!",
+        "Aur Hum Unhe Apna Samajhte Hain..!"
+      ],
+      "theme": "bewafai"
+    },
+    {
+      "id": 22,
+      "lines": [
+        "Sab Kehte Hain — Time Heal Karega..!",
+        "Par Waqt Toh..!",
+        "Bas Zakham Purane Kar Deta Hai..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 23,
+      "lines": [
+        "Tanhaai Mein Ek Baat Samajh Aayi..!",
+        "Log Hamesha Nahi Rehte..!",
+        "Bas Yaadein Reh Jaati Hain..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 24,
+      "lines": [
+        "Judaai Ne Itna Majboot Banaya..!",
+        "Ki Ab Koi Aaye Ya Jaaye..!",
+        "Fark Nahi Padta..!"
+      ],
+      "theme": "judaai"
+    },
+    {
+      "id": 25,
+      "lines": [
+        "Dil Mein Dard Hai..!",
+        "Chehre Pe Muskaan Hai..!",
+        "Yahi Toh Meri Pehchaan Hai..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 26,
+      "lines": [
+        "Woh Jo Roz Milta Tha..!",
+        "Aaj Kal Yaad Bhi Nahi Karta..!",
+        "Yahi Hai Bewafai Ki Nishaani..!"
+      ],
+      "theme": "bewafai"
+    },
+    {
+      "id": 27,
+      "lines": [
+        "Raat Ko Neend Nahi Aati..!",
+        "Din Mein Chain Nahi Milta..!",
+        "Tere Bina Zindagi Adhuri Hai..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 28,
+      "lines": [
+        "Kitna Mushkil Hai Na..!",
+        "Uss Insaan Ko Bhoolna..!",
+        "Jo Kabhi Apna Hua Karta Tha..!"
+      ],
+      "theme": "judaai"
+    },
+    {
+      "id": 29,
+      "lines": [
+        "Udaasi Mein Bhi Khoobsurati Hai..!",
+        "Jab Aansu Girte Hain..!",
+        "Toh Dil Halka Ho Jaata Hai..!"
+      ],
+      "theme": "udaasi"
+    },
+    {
+      "id": 30,
+      "lines": [
+        "Dard Se Dosti Ho Gayi..!",
+        "Ab Khushi Bhi Aaye..!",
+        "Toh Yaqeen Nahi Hota..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 31,
+      "lines": [
+        "Aansu Peene Ki Aadat..!",
+        "Usne Daal Di Thi..!",
+        "Jab Usne Rote Hue Chhoda..!"
+      ],
+      "theme": "judaai"
+    },
+    {
+      "id": 32,
+      "lines": [
+        "Akele Mein Khud Se Poochta Hoon..!",
+        "Kya Galti Thi Meri..?",
+        "Jawab Koi Nahi Deta..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 33,
+      "lines": [
+        "Bewafa Ne Ek Kaam Accha Kiya..!",
+        "Mujhe Majboot Bana Diya..!",
+        "Ab Kisi Ki Zaroorat Nahi..!"
+      ],
+      "theme": "bewafai"
+    },
+    {
+      "id": 34,
+      "lines": [
+        "Zakhmi Dil Leke Jeete Hain..!",
+        "Log Samajhte Hain — Sab Theek Hai..!",
+        "Par Andar Toh Toofaan Hai..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 35,
+      "lines": [
+        "Udaasi Ka Rang..!",
+        "Sabse Gehre Hote Hain..!",
+        "Jo Dikhte Nahi Kisi Ko..!"
+      ],
+      "theme": "udaasi"
+    },
+    {
+      "id": 36,
+      "lines": [
+        "Kash Dard Bhi..!",
+        "Purani Cheezon Ki Tarah..!",
+        "Fek Diya Jaata..!"
+      ],
+      "theme": "dard"
+    },
+    {
+      "id": 37,
+      "lines": [
+        "Tanhai Mein Bas Ek Hi..!",
+        "Saathi Hai — Meri Parchaai..!",
+        "Woh Bhi Dhoop Mein Hi Dikhti Hai..!"
+      ],
+      "theme": "tanhaai"
+    },
+    {
+      "id": 38,
+      "lines": [
+        "Woh Muskura Ke Chala Gaya..!",
+        "Jaise Kuch Hua Hi Na Ho..!",
+        "Aur Main Toot Gaya..!"
+      ],
+      "theme": "bewafai"
+    },
+    {
+      "id": 39,
+      "lines": [
+        "Judaai Se Zyada Dard..!",
+        "Yeh Hai Ki Woh Ab..!",
+        "Kisi Aur Ka Hai..!"
+      ],
+      "theme": "judaai"
+    },
+    {
+      "id": 40,
+      "lines": [
+        "Udas Hoon — Par Batata Nahi..!",
+        "Kyunki Jo Apne The..!",
+        "Unhone Hi Toh Udaas Kiya Hai..!"
+      ],
+      "theme": "udaasi"
+    }
+  ],
+  "used_ids": []
+}

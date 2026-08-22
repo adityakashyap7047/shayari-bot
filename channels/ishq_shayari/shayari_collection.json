@@ -1,0 +1,365 @@
+{
+  "shayaris": [
+    {
+      "id": 1,
+      "lines": [
+        "Ishq Mein Girna..!",
+        "Itna Khoobsurat Hota Hai..!",
+        "Ki Uthne Ka Mann Hi Nahi Karta..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 2,
+      "lines": [
+        "Tere Naam Se Dhadkan Badhti Hai..!",
+        "Tera Khayal Aate Hi..!",
+        "Sab Kuch Thehar Jaata Hai..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 3,
+      "lines": [
+        "Mohabbat Wo Cheez Hai..!",
+        "Jo Samajh Nahi Aati..!",
+        "Bas Mehsoos Hoti Hai..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 4,
+      "lines": [
+        "Tera Chehra Dekh Ke..!",
+        "Duniya Bhool Jaata Hoon..!",
+        "Tu Hi Meri Duniya Hai..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 5,
+      "lines": [
+        "Pyaar Mein Pagal Hona..!",
+        "Koi Buraai Nahi..!",
+        "Buraai Toh Tab Hai Jab Pyaar Na Ho..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 6,
+      "lines": [
+        "Tere Bina Sab Adhura Hai..!",
+        "Tu Mil Jaaye Toh..!",
+        "Poori Kaayinaat Mil Jaaye..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 7,
+      "lines": [
+        "Uski Ek Nazar Kaafi Hai..!",
+        "Mere Poore Din Ko..!",
+        "Khoobsurat Bana Dene Ke Liye..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 8,
+      "lines": [
+        "Ishq Wo Aag Hai..!",
+        "Jo Jalaati Bhi Hai..!",
+        "Aur Roshnai Bhi Deti Hai..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 9,
+      "lines": [
+        "Jab Se Tu Mila Hai..!",
+        "Zindagi Mein Rang Aa Gaye..!",
+        "Warna Sab Siyah Tha..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 10,
+      "lines": [
+        "Mohabbat Ka Pehla Ehsaas..!",
+        "Uss Lamhe Jaise Hai..!",
+        "Jab Baarish Ki Pehli Boond Girte Hai..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 11,
+      "lines": [
+        "Tujhe Dekhta Hoon Toh..!",
+        "Waqt Thehar Jaata Hai..!",
+        "Yeh Kaisi Jaadugari Hai Teri..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 12,
+      "lines": [
+        "Pyaar Karna Gunah Nahi..!",
+        "Par Saccha Pyaar Milna..!",
+        "Kismat Ki Baat Hai..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 13,
+      "lines": [
+        "Teri Hansi Mein Wo Baat Hai..!",
+        "Jo Hazaar Dard..!",
+        "Ek Pal Mein Bhula De..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 14,
+      "lines": [
+        "Ishq Mein Haar Jao..!",
+        "Toh Bhi Jeet Hai..!",
+        "Kyunki Pyaar Kabhi Haar Nahi Hota..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 15,
+      "lines": [
+        "Tu Kareeb Aaye Toh..!",
+        "Dhadkan Tez Ho Jaati Hai..!",
+        "Yeh Dil Tere Naam Ka Hai..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 16,
+      "lines": [
+        "Mohabbat Mein Kho Jana..!",
+        "Sabse Khoobsurat Safar Hai..!",
+        "Manzil Chahe Jo Bhi Ho..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 17,
+      "lines": [
+        "Tere Saath Bitaaye Lamhe..!",
+        "Zindagi Ki Sabse..!",
+        "Khoobsurat Yaadein Hain..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 18,
+      "lines": [
+        "Ishq Wo Nasha Hai..!",
+        "Jo Chadh Jaaye Toh..!",
+        "Utarta Nahi Kabhi..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 19,
+      "lines": [
+        "Tujhse Milne Ka Intezaar..!",
+        "Har Pal Hota Hai..!",
+        "Tu Hi Meri Subah Tu Hi Meri Shaam..!"
+      ],
+      "theme": "intezaar"
+    },
+    {
+      "id": 20,
+      "lines": [
+        "Pyaar Ka Dard Bhi..!",
+        "Kitna Meetha Hota Hai..!",
+        "Jab Sachcha Ho Toh..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 21,
+      "lines": [
+        "Teri Baahon Mein..!",
+        "Poori Duniya Bhool Jaata Hoon..!",
+        "Tu Hi Mera Ghar Hai..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 22,
+      "lines": [
+        "Mohabbat Wo Raasta Hai..!",
+        "Jahan Akele Chalna Padta Hai..!",
+        "Par Manzil Par Tum Milte Ho..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 23,
+      "lines": [
+        "Tere Intezaar Mein..!",
+        "Raatein Kaat Raha Hoon..!",
+        "Tu Aa Jaa — Subah Ho Jaaye..!"
+      ],
+      "theme": "intezaar"
+    },
+    {
+      "id": 24,
+      "lines": [
+        "Pyaar Ka Matlab..!",
+        "Tab Samajh Aata Hai..!",
+        "Jab Koi Tumhare Liye Roke..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 25,
+      "lines": [
+        "Ishq Ne Mujhe Wo Diya..!",
+        "Jo Duniya Nahi De Sakti..!",
+        "Tera Saath..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 26,
+      "lines": [
+        "Ek Nazar Mein Pyaar Hua..!",
+        "Doosri Nazar Mein Diwana..!",
+        "Teesri Mein Bas Tera Ho Gaya..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 27,
+      "lines": [
+        "Mohabbat Ka Rang..!",
+        "Sabse Gehre Hote Hain..!",
+        "Jo Dil Pe Chadhta Hai Utarta Nahi..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 28,
+      "lines": [
+        "Tere Intezaar Mein..!",
+        "Waqt Bhi Ruk Gaya..!",
+        "Bas Tu Aa Jaa Ab..!"
+      ],
+      "theme": "intezaar"
+    },
+    {
+      "id": 29,
+      "lines": [
+        "Ishq Mein Wo Dard Hai..!",
+        "Jo Sukoon Deta Hai..!",
+        "Samjho Toh Zindagi Hai..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 30,
+      "lines": [
+        "Tera Saath Ho Toh..!",
+        "Mushkilein Bhi Aasaan Lagti Hain..!",
+        "Tu Hi Meri Taaqqat Hai..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 31,
+      "lines": [
+        "Mohabbat Wo Dua Hai..!",
+        "Jo Dil Se Nikalti Hai..!",
+        "Aur Seedha Dil Tak Jaati Hai..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 32,
+      "lines": [
+        "Tujhse Judaa Hoke Bhi..!",
+        "Tere Saath Hoon..!",
+        "Yahi Ishq Ka Kamaal Hai..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 33,
+      "lines": [
+        "Pyaar Ki Ek Khaasiyat Hai..!",
+        "Jitna Baanto Utna Badhta Hai..!",
+        "Yeh Kabhi Kam Nahi Hota..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 34,
+      "lines": [
+        "Teri Yaad Aati Hai..!",
+        "Toh Dil Muskura Deta Hai..!",
+        "Tu Nahi Hai Par Tera Ehsaas Hai..!"
+      ],
+      "theme": "intezaar"
+    },
+    {
+      "id": 35,
+      "lines": [
+        "Mohabbat Ka Safar..!",
+        "Kathin Zaroor Hai..!",
+        "Par Tera Haath Ho Toh Aasaan Hai..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 36,
+      "lines": [
+        "Ishq Wo Toofaan Hai..!",
+        "Jo Sab Ujaad De..!",
+        "Par Dil Ko Aabaad Kar De..!"
+      ],
+      "theme": "ishq"
+    },
+    {
+      "id": 37,
+      "lines": [
+        "Tere Bina Kuch Bhi..!",
+        "Achha Nahi Lagta..!",
+        "Tu Hi Mera Sab Kuch Hai..!"
+      ],
+      "theme": "pyaar"
+    },
+    {
+      "id": 38,
+      "lines": [
+        "Mohabbat Ne Sikhaaya..!",
+        "Kisi Ke Liye Jeena..!",
+        "Kitna Khoobsurat Hai..!"
+      ],
+      "theme": "mohabbat"
+    },
+    {
+      "id": 39,
+      "lines": [
+        "Intezaar Ki Har Raat..!",
+        "Teri Yaad Laati Hai..!",
+        "Aur Main Phir Kho Jaata Hoon..!"
+      ],
+      "theme": "intezaar"
+    },
+    {
+      "id": 40,
+      "lines": [
+        "Ishq Mein Sab Kuch..!",
+        "Luta Diya Maine..!",
+        "Par Tujhe Paa Liya — Yahi Kaafi Hai..!"
+      ],
+      "theme": "ishq"
+    }
+  ],
+  "used_ids": []
+}

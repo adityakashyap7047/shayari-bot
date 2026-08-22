@@ -8,9 +8,11 @@ BG_MUSIC_DIR = os.path.join(BASE_DIR, "bg_music")
 BG_IMAGES_DIR = os.path.join(BASE_DIR, "backgrounds")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 FONTS_DIR = os.path.join(BASE_DIR, "fonts")
+CHANNELS_DIR = os.path.join(BASE_DIR, "channels")
+CHANNELS_FILE = os.path.join(BASE_DIR, "channels.json")
 
 # Create directories if they don't exist
-for d in [BG_MUSIC_DIR, BG_IMAGES_DIR, OUTPUT_DIR, FONTS_DIR]:
+for d in [BG_MUSIC_DIR, BG_IMAGES_DIR, OUTPUT_DIR, FONTS_DIR, CHANNELS_DIR]:
     os.makedirs(d, exist_ok=True)
 
 # ============================================================
@@ -85,4 +87,5 @@ BG_MUSIC_VOLUME_WITH_VO = 0.15              # Background music volume when voice
 # ============================================================
 #  SCHEDULER
 # ============================================================
-SCHEDULE_INTERVAL_HOURS = 12  # upload every 12 hours (2 reels per day)
+SCHEDULE_INTERVAL_HOURS = 3   # upload every 3 hours
+MAX_UPLOADS_PER_DAY = 4       # max 4 reels per channel per day

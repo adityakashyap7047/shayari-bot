@@ -1,0 +1,365 @@
+{
+  "shayaris": [
+    {
+      "id": 1,
+      "lines": [
+        "Zindagi Ek Safar Hai..!",
+        "Jisme Manzil Se Zyada..!",
+        "Raasta Khoobsurat Hai..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 2,
+      "lines": [
+        "Mushkilein Aayengi Zaroor..!",
+        "Par Haar Manna..!",
+        "Meri Fitrat Nahi..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 3,
+      "lines": [
+        "Waqt Badlega..!",
+        "Bus Himmat Mat Haarna..!",
+        "Acche Din Zaroor Aayenge..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 4,
+      "lines": [
+        "Zindagi Mein Kuch Pana Ho..!",
+        "Toh Pehle Khud Pe..!",
+        "Bharosa Karo..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 5,
+      "lines": [
+        "Sapne Wo Nahi Jo Neend Mein Aayein..!",
+        "Sapne Wo Hain..!",
+        "Jo Neend Na Aane Dein..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 6,
+      "lines": [
+        "Girna Bhi Zaroori Hai..!",
+        "Kyunki Gire Bina..!",
+        "Uthna Nahi Seekh Sakte..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 7,
+      "lines": [
+        "Zindagi Ke Har Mod Pe..!",
+        "Kuch Na Kuch Seekhne Ko Milta Hai..!",
+        "Bas Aankhein Khuli Rakhni Chahiye..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 8,
+      "lines": [
+        "Waqt Ka Koi Bharosa Nahi..!",
+        "Aaj Bura Hai..!",
+        "Kal Accha Hoga..!"
+      ],
+      "theme": "waqt"
+    },
+    {
+      "id": 9,
+      "lines": [
+        "Sapno Ko Poora Karna Hai..!",
+        "Toh Raat Bhar Jaagana Padega..!",
+        "Aaram Se Kuch Nahi Milta..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 10,
+      "lines": [
+        "Mehnat Rang Laati Hai..!",
+        "Bus Sabr Ka Saath Chahiye..!",
+        "Aur Himmat Ka Haath..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 11,
+      "lines": [
+        "Zindagi Mein Woh Log Jeetay Hain..!",
+        "Jo Haar Ke Baad Bhi..!",
+        "Khade Ho Jaate Hain..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 12,
+      "lines": [
+        "Waqt Sabka Aata Hai..!",
+        "Bas Intezaar..!",
+        "Karna Aana Chahiye..!"
+      ],
+      "theme": "waqt"
+    },
+    {
+      "id": 13,
+      "lines": [
+        "Sapne Bade Dekho..!",
+        "Kyunki Chhote Sapne..!",
+        "Badi Zindagi Nahi De Sakte..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 14,
+      "lines": [
+        "Himmat Wo Taaqqat Hai..!",
+        "Jo Toofaan Mein Bhi..!",
+        "Khada Rakhti Hai..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 15,
+      "lines": [
+        "Zindagi Ka Har Lamha..!",
+        "Anmol Hai..!",
+        "Isse Zaya Mat Karo..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 16,
+      "lines": [
+        "Waqt Ki Qadar Karo..!",
+        "Kyunki Jo Guzar Gaya..!",
+        "Woh Laut Ke Nahi Aata..!"
+      ],
+      "theme": "waqt"
+    },
+    {
+      "id": 17,
+      "lines": [
+        "Duniya Kuch Bhi Kahe..!",
+        "Apne Sapne Mat Chhodna..!",
+        "Tu Kaamyaab Hoga..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 18,
+      "lines": [
+        "Akele Ladna Seekho..!",
+        "Kyunki Bure Waqt Mein..!",
+        "Sab Chale Jaate Hain..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 19,
+      "lines": [
+        "Zindagi Mein Badalna Zaroori Hai..!",
+        "Kyunki Rukne Wala Paani..!",
+        "Sad Jaata Hai..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 20,
+      "lines": [
+        "Waqt Sabse Bada Ustaad Hai..!",
+        "Jo Bina Bole..!",
+        "Sab Sikha Deta Hai..!"
+      ],
+      "theme": "waqt"
+    },
+    {
+      "id": 21,
+      "lines": [
+        "Sapne Dekhne Se..!",
+        "Nahi Poore Hote..!",
+        "Mehnat Se Poore Hote Hain..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 22,
+      "lines": [
+        "Haar Wo Nahi..!",
+        "Jo Ladke Honi..!",
+        "Haar Wo Hai Jo Bina Lade Ho..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 23,
+      "lines": [
+        "Zindagi Mein Sabr Rakho..!",
+        "Har Andheri Raat Ke Baad..!",
+        "Savera Zaroor Aata Hai..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 24,
+      "lines": [
+        "Waqt Ke Saath Sab Badalta Hai..!",
+        "Log Bhi Aur..!",
+        "Haalaat Bhi..!"
+      ],
+      "theme": "waqt"
+    },
+    {
+      "id": 25,
+      "lines": [
+        "Apne Sapno Ka Peecha Karo..!",
+        "Duniya Ke Peeche Mat Bhaago..!",
+        "Kamyaabi Khud Aayegi..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 26,
+      "lines": [
+        "Toofaan Se Mat Daro..!",
+        "Kyunki Toofaan Ke Baad Hi..!",
+        "Indradhanush Dikhta Hai..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 27,
+      "lines": [
+        "Zindagi Ek Imtehaan Hai..!",
+        "Jisme Haar Bhi..!",
+        "Seekh Deti Hai..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 28,
+      "lines": [
+        "Waqt Ka Intezaar Karo..!",
+        "Par Haath Pe Haath..!",
+        "Rakh Ke Mat Baitho..!"
+      ],
+      "theme": "waqt"
+    },
+    {
+      "id": 29,
+      "lines": [
+        "Bade Sapne Dekhna..!",
+        "Himmat Ki Nishaani Hai..!",
+        "Unhe Poora Karna — Insaniyat Ki..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 30,
+      "lines": [
+        "Jeetna Hai Toh..!",
+        "Pehle Haarna Seekho..!",
+        "Haar Se Hi Jeet Ka Raasta Milta Hai..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 31,
+      "lines": [
+        "Zindagi Chhoti Hai..!",
+        "Par Khwaahishein..!",
+        "Bahut Badi Hain..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 32,
+      "lines": [
+        "Waqt Ne Sikhaaya..!",
+        "Kisi Pe Zyada..!",
+        "Bharosa Mat Karo..!"
+      ],
+      "theme": "waqt"
+    },
+    {
+      "id": 33,
+      "lines": [
+        "Sapne Poore Honge..!",
+        "Bas Mehnat Jaari Rakho..!",
+        "Nateeja Zaroor Milega..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 34,
+      "lines": [
+        "Aaj Ki Mehnat..!",
+        "Kal Ka Sukoon Hai..!",
+        "Aaj Ka Aaram Kal Ka Dard..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 35,
+      "lines": [
+        "Zindagi Ka Maza..!",
+        "Mushkilon Mein Hai..!",
+        "Aaraam Mein Toh Sab Jeete Hain..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 36,
+      "lines": [
+        "Waqt Guzarta Hai..!",
+        "Dard Kam Hota Hai..!",
+        "Par Seekh Hamesha Rehti Hai..!"
+      ],
+      "theme": "waqt"
+    },
+    {
+      "id": 37,
+      "lines": [
+        "Sapno Ko Pankh Do..!",
+        "Udne Do Aasmaan Mein..!",
+        "Zameen Pe Reh Ke Kya Milega..!"
+      ],
+      "theme": "sapne"
+    },
+    {
+      "id": 38,
+      "lines": [
+        "Koshish Karne Walon Ki..!",
+        "Kabhi Haar Nahi Hoti..!",
+        "Bus Thoda Sabr Chahiye..!"
+      ],
+      "theme": "motivation"
+    },
+    {
+      "id": 39,
+      "lines": [
+        "Zindagi Jeene Ka..!",
+        "Apna Andaaz Hona Chahiye..!",
+        "Duniya Ki Nakal Mat Karo..!"
+      ],
+      "theme": "zindagi"
+    },
+    {
+      "id": 40,
+      "lines": [
+        "Waqt Wo Dost Hai..!",
+        "Jo Dard Bhi Deta Hai..!",
+        "Aur Dawa Bhi..!"
+      ],
+      "theme": "waqt"
+    }
+  ],
+  "used_ids": []
+}
