@@ -15,13 +15,14 @@ on:
 jobs:
   generate-and-upload:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
 
       - name: Setup Python 3.12
         uses: actions/setup-python@v5
@@ -29,32 +30,41 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      - name: Install system dependencies (ImageMagick + FFmpeg)
+      - name: Install system deps + font + Python packages (parallel)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick ffmpeg
+          # Start apt install in background
+          sudo apt-get update -qq &
+          APT_PID=$!
+
+          # Meanwhile, install Python deps (uses cached wheels)
+          pip install -q -r requirements.txt &
+          PIP_PID=$!
+
+          # Wait for apt update to finish, then install packages
+          wait $APT_PID
+          sudo apt-get install -y --no-install-recommends imagemagick ffmpeg &
+          APT_INSTALL_PID=$!
+
+          # Wait for both to finish
+          wait $PIP_PID
+          wait $APT_INSTALL_PID
 
           # Fix ImageMagick policy — default Ubuntu policy blocks text rendering
-          # This is required for MoviePy's TextClip to work
           if [ -f /etc/ImageMagick-6/policy.xml ]; then
             sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@*"/' /etc/ImageMagick-6/policy.xml
             sudo sed -i '/<policy domain="path" rights="none" pattern="@\*"/d' /etc/ImageMagick-6/policy.xml
             echo "✅ ImageMagick policy fixed"
           fi
 
-      - name: Download Noto Sans Devanagari font
-        run: |
+          # Download font if missing
           mkdir -p fonts
           if [ ! -f fonts/NotoSansDevanagari.ttf ]; then
-            curl -L -o fonts/NotoSansDevanagari.ttf \
+            curl -sL -o fonts/NotoSansDevanagari.ttf \
               "https://github.com/google/fonts/raw/main/ofl/notosansdevanagari/NotoSansDevanagari%5Bwdth%2Cwght%5D.ttf"
             echo "✅ Font downloaded"
-          else
-            echo "⏭ Font already exists"
           fi
 
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
+          echo "✅ All dependencies ready"
 
       - name: Setup credentials for all channels
         env:
@@ -86,83 +96,34 @@ jobs:
           echo "GEMINI_API_KEY=${GEMINI_API_KEY}" > .env
           echo "ELEVENLABS_API_KEY=${ELEVENLABS_API_KEY}" >> .env
 
-          # Setup channel directories and credentials
-          # Using printf '%s' to avoid trailing newline that corrupts JSON
+          # Setup all channel credentials in one shot
+          for channel_info in \
+            "shayari_official:CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS:CHANNEL_SHAYARI_OFFICIAL_TOKEN" \
+            "dard_diary:CHANNEL_DARD_DIARY_CLIENT_SECRETS:CHANNEL_DARD_DIARY_TOKEN" \
+            "ishq_shayari:CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS:CHANNEL_ISHQ_SHAYARI_TOKEN" \
+            "rishte_kahani:CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS:CHANNEL_RISHTE_KAHANI_TOKEN" \
+            "zindagi_vibes:CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS:CHANNEL_ZINDAGI_VIBES_TOKEN"
+          do
+            IFS=':' read -r ch_id cs_var tk_var <<< "$channel_info"
+            mkdir -p "channels/${ch_id}"
 
-          # -- shayari_official --
-          mkdir -p channels/shayari_official
-          if [ -n "$CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS" ]; then
-            printf '%s' "$CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS" > channels/shayari_official/client_secrets.json
-            echo "✅ shayari_official client_secrets written"
-          else
-            echo "⚠ CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS is empty!"
-          fi
-          if [ -n "$CHANNEL_SHAYARI_OFFICIAL_TOKEN" ]; then
-            printf '%s' "$CHANNEL_SHAYARI_OFFICIAL_TOKEN" > channels/shayari_official/token.json
-            echo "✅ shayari_official token written"
-          else
-            echo "⚠ CHANNEL_SHAYARI_OFFICIAL_TOKEN is empty!"
-          fi
+            cs_val="${!cs_var}"
+            tk_val="${!tk_var}"
 
-          # -- dard_diary --
-          mkdir -p channels/dard_diary
-          if [ -n "$CHANNEL_DARD_DIARY_CLIENT_SECRETS" ]; then
-            printf '%s' "$CHANNEL_DARD_DIARY_CLIENT_SECRETS" > channels/dard_diary/client_secrets.json
-            echo "✅ dard_diary client_secrets written"
-          else
-            echo "⚠ CHANNEL_DARD_DIARY_CLIENT_SECRETS is empty!"
-          fi
-          if [ -n "$CHANNEL_DARD_DIARY_TOKEN" ]; then
-            printf '%s' "$CHANNEL_DARD_DIARY_TOKEN" > channels/dard_diary/token.json
-            echo "✅ dard_diary token written"
-          else
-            echo "⚠ CHANNEL_DARD_DIARY_TOKEN is empty!"
-          fi
+            if [ -n "$cs_val" ]; then
+              printf '%s' "$cs_val" > "channels/${ch_id}/client_secrets.json"
+              echo "✅ ${ch_id} client_secrets written"
+            else
+              echo "⚠ ${cs_var} is empty!"
+            fi
 
-          # -- ishq_shayari --
-          mkdir -p channels/ishq_shayari
-          if [ -n "$CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS" ]; then
-            printf '%s' "$CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS" > channels/ishq_shayari/client_secrets.json
-            echo "✅ ishq_shayari client_secrets written"
-          else
-            echo "⚠ CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS is empty!"
-          fi
-          if [ -n "$CHANNEL_ISHQ_SHAYARI_TOKEN" ]; then
-            printf '%s' "$CHANNEL_ISHQ_SHAYARI_TOKEN" > channels/ishq_shayari/token.json
-            echo "✅ ishq_shayari token written"
-          else
-            echo "⚠ CHANNEL_ISHQ_SHAYARI_TOKEN is empty!"
-          fi
-
-          # -- rishte_kahani --
-          mkdir -p channels/rishte_kahani
-          if [ -n "$CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS" ]; then
-            printf '%s' "$CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS" > channels/rishte_kahani/client_secrets.json
-            echo "✅ rishte_kahani client_secrets written"
-          else
-            echo "⚠ CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS is empty!"
-          fi
-          if [ -n "$CHANNEL_RISHTE_KAHANI_TOKEN" ]; then
-            printf '%s' "$CHANNEL_RISHTE_KAHANI_TOKEN" > channels/rishte_kahani/token.json
-            echo "✅ rishte_kahani token written"
-          else
-            echo "⚠ CHANNEL_RISHTE_KAHANI_TOKEN is empty!"
-          fi
-
-          # -- zindagi_vibes --
-          mkdir -p channels/zindagi_vibes
-          if [ -n "$CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS" ]; then
-            printf '%s' "$CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS" > channels/zindagi_vibes/client_secrets.json
-            echo "✅ zindagi_vibes client_secrets written"
-          else
-            echo "⚠ CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS is empty!"
-          fi
-          if [ -n "$CHANNEL_ZINDAGI_VIBES_TOKEN" ]; then
-            printf '%s' "$CHANNEL_ZINDAGI_VIBES_TOKEN" > channels/zindagi_vibes/token.json
-            echo "✅ zindagi_vibes token written"
-          else
-            echo "⚠ CHANNEL_ZINDAGI_VIBES_TOKEN is empty!"
-          fi
+            if [ -n "$tk_val" ]; then
+              printf '%s' "$tk_val" > "channels/${ch_id}/token.json"
+              echo "✅ ${ch_id} token written"
+            else
+              echo "⚠ ${tk_var} is empty!"
+            fi
+          done
 
           echo ""
           echo "📋 Credentials setup complete!"

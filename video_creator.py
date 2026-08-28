@@ -244,8 +244,8 @@ def create_reel(
         fps=config.VIDEO_FPS,
         codec="libx264",
         audio_codec="aac",
-        preset="medium",
-        threads=4,
+        preset="ultrafast",
+        threads=2,
         logger="bar",
     )
 
