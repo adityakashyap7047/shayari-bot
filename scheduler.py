@@ -8,6 +8,7 @@ Daily limit: uploads at most MAX_UPLOADS_PER_DAY reels per channel per day.
 """
 
 import logging
+import time
 from datetime import datetime, date
 
 from apscheduler.schedulers.blocking import BlockingScheduler
@@ -215,8 +216,22 @@ def run_all_channels(upload: bool = True) -> list[dict]:
             })
             continue
 
-        result = run_pipeline(upload=upload, channel=channel)
-        results.append(result)
+        try:
+            result = run_pipeline(upload=upload, channel=channel)
+            results.append(result)
+        except Exception as e:
+            logger.error(f"   ❌ Channel {channel.name} crashed: {e}", exc_info=True)
+            results.append({
+                "channel": channel.name,
+                "status": "failed",
+                "error": str(e),
+            })
+
+        # Delay between channels to avoid YouTube API rate limits
+        if i < len(channels):
+            delay = 60
+            logger.info(f"   ⏳ Waiting {delay}s before next channel (rate limit protection)…")
+            time.sleep(delay)
 
     # Summary
     success = sum(1 for r in results if r.get("status") == "success")

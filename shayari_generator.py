@@ -73,6 +73,10 @@ def _pick_shayari(data: dict, themes: list[str] | None = None) -> dict | None:
 
     If all have been used, reset the used list and start over.
     """
+    # Ensure used_ids list exists
+    if "used_ids" not in data:
+        data["used_ids"] = []
+
     # Filter by themes if specified
     if themes:
         eligible = [s for s in data["shayaris"] if s.get("theme", "") in themes]
@@ -84,7 +88,7 @@ def _pick_shayari(data: dict, themes: list[str] | None = None) -> dict | None:
         eligible = data["shayaris"]
 
     all_ids = [s["id"] for s in eligible]
-    used_ids = set(data.get("used_ids", []))
+    used_ids = set(data["used_ids"])
 
     available_ids = [sid for sid in all_ids if sid not in used_ids]
 

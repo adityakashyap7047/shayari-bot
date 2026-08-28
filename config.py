@@ -31,7 +31,7 @@ MUSIC_FADE_OUT = 2.0         # seconds
 #  TEXT & WATERMARK
 # ============================================================
 WATERMARK_TEXT = "@shyariofficial-k2q"
-SHAYARI_FONT_SIZE = 48       # main shayari text
+SHAYARI_FONT_SIZE = 42       # main shayari text (fits long lines without wrapping)
 WATERMARK_FONT_SIZE = 32
 TEXT_COLOR = "white"
 BG_COLOR = (0, 0, 0)         # pure black (fallback if no background image)
@@ -87,5 +87,5 @@ BG_MUSIC_VOLUME_WITH_VO = 0.15              # Background music volume when voice
 # ============================================================
 #  SCHEDULER
 # ============================================================
-SCHEDULE_INTERVAL_HOURS = 3   # upload every 3 hours
-MAX_UPLOADS_PER_DAY = 4       # max 4 reels per channel per day
+SCHEDULE_INTERVAL_HOURS = 4   # upload every 4 hours (safe for 5 channels)
+MAX_UPLOADS_PER_DAY = 3       # max 3 reels per channel per day (5 channels × 3 = 15/day)

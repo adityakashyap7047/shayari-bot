@@ -3,6 +3,10 @@
 token.json
 client_secrets.json
 
+# Channel-specific secrets (multi-channel)
+channels/*/client_secrets.json
+channels/*/token.json
+
 # Output videos
 output/
 
@@ -16,9 +20,15 @@ venv/
 # Logs
 *.log
 
-# Shayari history
+# Shayari history (legacy)
 shayari_history.json
+
+# Temp MoviePy files
+*TEMP_MPY_*.mp4
 
 # IDE
 .vscode/
 .idea/
+
+# NOTE: backgrounds/ and bg_music/ are NOT ignored — they must be in the repo
+# for GitHub Actions to work. Commit your background images and music files.

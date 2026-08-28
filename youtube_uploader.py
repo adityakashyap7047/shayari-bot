@@ -30,13 +30,20 @@ RETRIABLE_EXCEPTIONS = (httplib2.HttpLib2Error, IOError, http.client.NotConnecte
                          http.client.ResponseNotReady, http.client.BadStatusLine)
 
 
+def _is_headless() -> bool:
+    """Check if running in a headless/CI environment (GitHub Actions, etc.)."""
+    return any(os.getenv(var) for var in ("CI", "GITHUB_ACTIONS", "HEADLESS"))
+
+
 def _authenticate(
     client_secrets_path: str | None = None,
     token_path: str | None = None,
 ) -> object:
     """
     Authenticate with YouTube using OAuth 2.0.
-    First run opens browser for login; subsequent runs use saved token.
+
+    - In CI/headless mode: only refreshes existing tokens (no browser).
+    - Locally: opens browser for initial login; subsequent runs use saved token.
 
     Parameters
     ----------
@@ -50,6 +57,7 @@ def _authenticate(
     if token_path is None:
         token_path = config.TOKEN_FILE
 
+    headless = _is_headless()
     creds = None
 
     # Load saved token
@@ -61,6 +69,15 @@ def _authenticate(
         if creds and creds.expired and creds.refresh_token:
             print("  🔄 Refreshing YouTube token…")
             creds.refresh(Request())
+        elif headless:
+            # In CI: cannot open browser — need a valid refresh token
+            raise RuntimeError(
+                f"❌ Cannot authenticate in headless/CI mode!\n"
+                f"   Token file: {token_path}\n"
+                f"   The token is missing or has no refresh_token.\n"
+                f"   Fix: Run 'python main.py --test-auth' locally first,\n"
+                f"   then update the GitHub secret with the new token.json content."
+            )
         else:
             if not os.path.exists(client_secrets_path):
                 raise FileNotFoundError(
@@ -73,7 +90,7 @@ def _authenticate(
             )
             creds = flow.run_local_server(port=0)
 
-        # Save token for future runs
+        # Save refreshed/new token for future runs (critical for CI commit-back)
         with open(token_path, "w") as f:
             f.write(creds.to_json())
         print("  ✅ YouTube authentication successful!")

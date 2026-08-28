@@ -1,8 +1,9 @@
 name: Shayari Reel Automation (Multi-Channel)
+
 on:
   schedule:
-    # Din mein 4 baar run hoga (har 3 ghante) — 4 reels/channel/day
-    - cron: '0 */3 * * *'
+    # Har 4 ghante run — 6 runs/day × 5 channels = 30 reels max (fits quota)
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     # Manual bhi trigger kar sakte ho GitHub se
     inputs:
@@ -14,20 +15,48 @@ on:
 jobs:
   generate-and-upload:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+    timeout-minutes: 30
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: 'pip'
 
-      - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install -y imagemagick ffmpeg
+      - name: Install system dependencies (ImageMagick + FFmpeg)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick ffmpeg
+
+          # Fix ImageMagick policy — default Ubuntu policy blocks text rendering
+          # This is required for MoviePy's TextClip to work
+          if [ -f /etc/ImageMagick-6/policy.xml ]; then
+            sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@*"/' /etc/ImageMagick-6/policy.xml
+            sudo sed -i '/<policy domain="path" rights="none" pattern="@\*"/d' /etc/ImageMagick-6/policy.xml
+            echo "✅ ImageMagick policy fixed"
+          fi
+
+      - name: Download Noto Sans Devanagari font
+        run: |
+          mkdir -p fonts
+          if [ ! -f fonts/NotoSansDevanagari.ttf ]; then
+            curl -L -o fonts/NotoSansDevanagari.ttf \
+              "https://github.com/google/fonts/raw/main/ofl/notosansdevanagari/NotoSansDevanagari%5Bwdth%2Cwght%5D.ttf"
+            echo "✅ Font downloaded"
+          else
+            echo "⏭ Font already exists"
+          fi
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Setup credentials
+      - name: Setup credentials for all channels
         env:
           # ── Shared API keys ────────────────────────────────
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -58,45 +87,117 @@ jobs:
           echo "ELEVENLABS_API_KEY=${ELEVENLABS_API_KEY}" >> .env
 
           # Setup channel directories and credentials
+          # Using printf '%s' to avoid trailing newline that corrupts JSON
+
           # -- shayari_official --
           mkdir -p channels/shayari_official
-          printenv CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS > channels/shayari_official/client_secrets.json
-          printenv CHANNEL_SHAYARI_OFFICIAL_TOKEN > channels/shayari_official/token.json
+          if [ -n "$CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS" ]; then
+            printf '%s' "$CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS" > channels/shayari_official/client_secrets.json
+            echo "✅ shayari_official client_secrets written"
+          else
+            echo "⚠ CHANNEL_SHAYARI_OFFICIAL_CLIENT_SECRETS is empty!"
+          fi
+          if [ -n "$CHANNEL_SHAYARI_OFFICIAL_TOKEN" ]; then
+            printf '%s' "$CHANNEL_SHAYARI_OFFICIAL_TOKEN" > channels/shayari_official/token.json
+            echo "✅ shayari_official token written"
+          else
+            echo "⚠ CHANNEL_SHAYARI_OFFICIAL_TOKEN is empty!"
+          fi
 
           # -- dard_diary --
           mkdir -p channels/dard_diary
-          printenv CHANNEL_DARD_DIARY_CLIENT_SECRETS > channels/dard_diary/client_secrets.json
-          printenv CHANNEL_DARD_DIARY_TOKEN > channels/dard_diary/token.json
+          if [ -n "$CHANNEL_DARD_DIARY_CLIENT_SECRETS" ]; then
+            printf '%s' "$CHANNEL_DARD_DIARY_CLIENT_SECRETS" > channels/dard_diary/client_secrets.json
+            echo "✅ dard_diary client_secrets written"
+          else
+            echo "⚠ CHANNEL_DARD_DIARY_CLIENT_SECRETS is empty!"
+          fi
+          if [ -n "$CHANNEL_DARD_DIARY_TOKEN" ]; then
+            printf '%s' "$CHANNEL_DARD_DIARY_TOKEN" > channels/dard_diary/token.json
+            echo "✅ dard_diary token written"
+          else
+            echo "⚠ CHANNEL_DARD_DIARY_TOKEN is empty!"
+          fi
 
           # -- ishq_shayari --
           mkdir -p channels/ishq_shayari
-          printenv CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS > channels/ishq_shayari/client_secrets.json
-          printenv CHANNEL_ISHQ_SHAYARI_TOKEN > channels/ishq_shayari/token.json
+          if [ -n "$CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS" ]; then
+            printf '%s' "$CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS" > channels/ishq_shayari/client_secrets.json
+            echo "✅ ishq_shayari client_secrets written"
+          else
+            echo "⚠ CHANNEL_ISHQ_SHAYARI_CLIENT_SECRETS is empty!"
+          fi
+          if [ -n "$CHANNEL_ISHQ_SHAYARI_TOKEN" ]; then
+            printf '%s' "$CHANNEL_ISHQ_SHAYARI_TOKEN" > channels/ishq_shayari/token.json
+            echo "✅ ishq_shayari token written"
+          else
+            echo "⚠ CHANNEL_ISHQ_SHAYARI_TOKEN is empty!"
+          fi
 
           # -- rishte_kahani --
           mkdir -p channels/rishte_kahani
-          printenv CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS > channels/rishte_kahani/client_secrets.json
-          printenv CHANNEL_RISHTE_KAHANI_TOKEN > channels/rishte_kahani/token.json
+          if [ -n "$CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS" ]; then
+            printf '%s' "$CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS" > channels/rishte_kahani/client_secrets.json
+            echo "✅ rishte_kahani client_secrets written"
+          else
+            echo "⚠ CHANNEL_RISHTE_KAHANI_CLIENT_SECRETS is empty!"
+          fi
+          if [ -n "$CHANNEL_RISHTE_KAHANI_TOKEN" ]; then
+            printf '%s' "$CHANNEL_RISHTE_KAHANI_TOKEN" > channels/rishte_kahani/token.json
+            echo "✅ rishte_kahani token written"
+          else
+            echo "⚠ CHANNEL_RISHTE_KAHANI_TOKEN is empty!"
+          fi
 
           # -- zindagi_vibes --
           mkdir -p channels/zindagi_vibes
-          printenv CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS > channels/zindagi_vibes/client_secrets.json
-          printenv CHANNEL_ZINDAGI_VIBES_TOKEN > channels/zindagi_vibes/token.json
+          if [ -n "$CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS" ]; then
+            printf '%s' "$CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS" > channels/zindagi_vibes/client_secrets.json
+            echo "✅ zindagi_vibes client_secrets written"
+          else
+            echo "⚠ CHANNEL_ZINDAGI_VIBES_CLIENT_SECRETS is empty!"
+          fi
+          if [ -n "$CHANNEL_ZINDAGI_VIBES_TOKEN" ]; then
+            printf '%s' "$CHANNEL_ZINDAGI_VIBES_TOKEN" > channels/zindagi_vibes/token.json
+            echo "✅ zindagi_vibes token written"
+          else
+            echo "⚠ CHANNEL_ZINDAGI_VIBES_TOKEN is empty!"
+          fi
 
-      - name: Copy background music
-        run: |
-          mkdir -p bg_music
-          # bg_music files should be committed to the repo
+          echo ""
+          echo "📋 Credentials setup complete!"
+
+      - name: Verify channel configuration
+        run: python main.py --list-channels
 
       - name: Generate and Upload Reels
         run: |
           if [ -n "${{ github.event.inputs.channel }}" ]; then
+            echo "🎯 Running for specific channel: ${{ github.event.inputs.channel }}"
             python main.py --once --channel "${{ github.event.inputs.channel }}"
           else
+            echo "🔄 Running for ALL enabled channels"
             python main.py --once
           fi
 
-      - name: Save logs
+      - name: Commit updated shayari collections (used_ids tracking)
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Add shayari collection changes (used_ids tracking)
+          git add channels/*/shayari_collection.json
+
+          if git diff --cached --quiet; then
+            echo "No shayari collection changes to commit"
+          else
+            git commit -m "🔄 Update used_ids in shayari collections [skip ci]"
+            git push
+            echo "✅ Shayari collections updated"
+          fi
+
+      - name: Save logs as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
