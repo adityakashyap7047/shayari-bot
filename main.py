@@ -189,9 +189,11 @@ Examples:
             results = run_all_channels(upload=True)
 
             success = sum(1 for r in results if r.get("status") == "success")
-            failed = len(results) - success
-            print(f"\n[DONE] {success} succeeded, {failed} failed\n")
-            if failed > 0:
+            skipped = sum(1 for r in results if r.get("status") == "daily_limit")
+            failed = len(results) - success - skipped
+            print(f"\n[DONE] {success} succeeded, {skipped} skipped, {failed} failed\n")
+            if success == 0 and failed > 0:
+                # Only exit with error if ALL channels failed (no uploads at all)
                 sys.exit(1)
         return
 

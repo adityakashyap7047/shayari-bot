@@ -62,13 +62,35 @@ def _authenticate(
 
     # Load saved token
     if os.path.exists(token_path):
-        creds = Credentials.from_authorized_user_file(token_path, config.YOUTUBE_SCOPES)
+        try:
+            creds = Credentials.from_authorized_user_file(token_path, config.YOUTUBE_SCOPES)
+        except Exception as e:
+            print(f"  ⚠ Failed to load token from {token_path}: {e}")
+            creds = None
 
     # If no valid creds, do the OAuth flow
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             print("  🔄 Refreshing YouTube token…")
-            creds.refresh(Request())
+            try:
+                creds.refresh(Request())
+            except Exception as e:
+                error_str = str(e).lower()
+                if "invalid_grant" in error_str or "token" in error_str:
+                    raise RuntimeError(
+                        f"❌ YouTube token EXPIRED for: {token_path}\n"
+                        f"   Error: {e}\n"
+                        f"   This happens when Google OAuth app is in 'Testing' mode\n"
+                        f"   (tokens expire every 7 days).\n"
+                        f"   \n"
+                        f"   FIX OPTIONS:\n"
+                        f"   1. Run 'python main.py --test-auth' locally to get a new token\n"
+                        f"   2. Update the GitHub secret with the new token.json content\n"
+                        f"   3. Move your Google Cloud app from 'Testing' to 'Production'\n"
+                        f"      in Google Cloud Console → OAuth consent screen\n"
+                        f"      (this makes refresh tokens last indefinitely)"
+                    )
+                raise
         elif headless:
             # In CI: cannot open browser — need a valid refresh token
             raise RuntimeError(
