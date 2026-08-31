@@ -1,1 +1,1 @@
-{name: Debug Logs, on: {workflow_dispatch: {}}, jobs: {debug: {runs-on: ubuntu-latest, steps: [{name: Run, run: "gh run download 33166333106 -n automation-logs-182 --dir logs --repo adityakashyap7047/shayari-bot && cat logs/automation.log", env: {GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"}}]}}}
+{"name": "Debug Logs", "on": {"workflow_dispatch": {}}, "jobs": {"debug": {"runs-on": "ubuntu-latest", "steps": [{"name": "Run", "run": "gh run download 33411421139 -n automation-logs-193 --dir logs --repo adityakashyap7047/shayari-bot && cat logs/automation.log"}]}}}
